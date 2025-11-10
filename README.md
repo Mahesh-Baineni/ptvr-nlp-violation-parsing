@@ -32,5 +32,31 @@ H. Open Index.html in the frontend folder and upload the test file and click on 
    An ouput with multi cases and with confidence score will be generated.
 
 
+TO run the project from GitHub Repository:
+
+Step 1 : Clone your Repo 
+run " cd Desktop " 
+git clone https://github.com/Mahesh-Baineni/ptvr-nlp-violation-parsing.git 
+cd ptvr-nlp-violation-parsing 
+
+Step 2: Create & activate a Python 3.11 venv
+run " python3.11 -m venv .venv " 
+run " source .venv/bin/activate " 
+run " python --version " 
+
+run " cd backend "
+run " pip install -r requirements.txt " 
+
+run export OPENAI_API_KEY="sk-...your-key..."
+
+run " uvicorn backend.main:app --reload --host 127.0.0.1 --port 8000 " 
+
+Step 3: Run the frontend  (In Terminal 2)
+
+run " cd ptvr-nlp-violation-parsing/frontend "
+
+python -m http.server 5500
+
+
 
 
