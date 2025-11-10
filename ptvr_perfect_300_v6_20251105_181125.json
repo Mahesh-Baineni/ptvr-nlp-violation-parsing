@@ -1,0 +1,1706 @@
+{
+  "reports": [
+    {
+      "methodOfSubmission": 4,
+      "guid": "7ABF3725-55BF-4EC2-A79D-AE2BDBFD0F67",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Taylor",
+        "phoneNumber": "713-456-5617",
+        "SubmitterAddress": {
+          "zip": "39501",
+          "city": "Gulfport",
+          "State": {
+            "id": "MS",
+            "name": "Mississippi"
+          },
+          "address1": "1303 Washington Ln",
+          "address2": "Suite 236"
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "susan.taylor@yahoo.com",
+        "fname": "Susan"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 11,
+          "dd": 19,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "I visited that store last week and noticed this: Circle K was using a vending machine to sell Camel cigarettes without age controls and offered them in reduced quantities, which didn't seem right. Heritage Logistics Inc. installed the vending machine for Camel cigarettes without proper safeguards. R.J. Reynolds Tobacco Company was the manufacturer of the Camel cigarettes involved.",
+        "tobaccoBrand": "Camel",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "MS",
+          "name": "Mississippi"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "5",
+          "6",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "39502",
+              "city": "Gulfport",
+              "State": {
+                "id": "MS",
+                "name": "Mississippi"
+              },
+              "address1": "3351 Oak St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Circle K"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "39502",
+              "city": "Gulfport",
+              "State": {
+                "id": "MS",
+                "name": "Mississippi"
+              },
+              "address1": "2805 Elm Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Heritage Logistics Inc."
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "39502",
+              "city": "Gulfport",
+              "State": {
+                "id": "MS",
+                "name": "Mississippi"
+              },
+              "address1": "4169 Elm St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "https://www.rjreynoldstobaccocompany.com",
+            "name": "R.J. Reynolds Tobacco Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "7DBD9BD2-D12D-4ECE-88A5-4C78D767D93D",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Miller",
+        "phoneNumber": "404-827-6842",
+        "SubmitterAddress": {
+          "zip": "73102",
+          "city": "Oklahoma City",
+          "State": {
+            "id": "OK",
+            "name": "Oklahoma"
+          },
+          "address1": "5817 Main St",
+          "address2": ""
+        },
+        "affiliation": "Healthcare Professional",
+        "phoneExt": "",
+        "email": "james.miller@yahoo.com",
+        "fname": "James"
+      },
+      "Violation": {
+        "producttype": "7-3",
+        "ViolationDate": {
+          "mm": 9,
+          "dd": 8,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I visited location and saw something concerning. CloudBurst Vapes operated an automated dispenser for NJoy King e-cigars without ID checks and something didn't look right with how they handled NJoy King e-cigars. UrbanPoint Distributors installed the vending machine for NJoy King e-cigars without proper safeguards.",
+        "tobaccoBrand": "NJoy King",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "OK",
+          "name": "Oklahoma"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "5",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "73103",
+              "city": "Oklahoma City",
+              "State": {
+                "id": "OK",
+                "name": "Oklahoma"
+              },
+              "address1": "2550 Oak Blvd",
+              "address2": "Suite 481"
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "CloudBurst Vapes"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "73103",
+              "city": "Oklahoma City",
+              "State": {
+                "id": "OK",
+                "name": "Oklahoma"
+              },
+              "address1": "2133 Park Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.urbanpointdistributors.com",
+            "name": "UrbanPoint Distributors"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "75F77AB7-6C6F-48DA-9F96-850BFC022579",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Davis",
+        "phoneNumber": "404-470-3468",
+        "SubmitterAddress": {
+          "zip": "55402",
+          "city": "Minneapolis",
+          "State": {
+            "id": "MN",
+            "name": "Minnesota"
+          },
+          "address1": "4547 Maple Dr",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "richard.davis@gmail.com",
+        "fname": "Richard"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 7,
+          "dd": 26,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was passing by and happened to see this: Shell was breaking apart Pall Mall cigarettes packages to sell smaller amounts. PureStream Trading supplied Pall Mall cigarettes with improper labels.",
+        "tobaccoBrand": "Pall Mall",
+        "violationMaterialIDs": [
+          "10"
+        ],
+        "State": {
+          "id": "MS",
+          "name": "Mississippi"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "3",
+          "6"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "39202",
+              "city": "Jackson",
+              "State": {
+                "id": "MS",
+                "name": "Mississippi"
+              },
+              "address1": "8012 Maple Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Shell"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "39502",
+              "city": "Gulfport",
+              "State": {
+                "id": "MS",
+                "name": "Mississippi"
+              },
+              "address1": "3748 Washington Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "PureStream Trading"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "E9E7BA1F-CA0C-418B-BB55-18FF0A1E3513",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Garcia",
+        "phoneNumber": "404-654-6677",
+        "SubmitterAddress": {
+          "zip": "60601",
+          "city": "Chicago",
+          "State": {
+            "id": "IL",
+            "name": "Illinois"
+          },
+          "address1": "1161 Elm Blvd",
+          "address2": ""
+        },
+        "affiliation": "Healthcare Professional",
+        "phoneExt": "",
+        "email": "david.garcia@yahoo.com",
+        "fname": "David"
+      },
+      "Violation": {
+        "producttype": "7-2",
+        "ViolationDate": {
+          "mm": 4,
+          "dd": 19,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "As I walked into shop, I noticed AeroVape Emporium was offering complimentary Starbuzz E-Hose e-hookah to customers. Additionally, I found out that GoldCrest Wholesale Partners supplied the Starbuzz E-Hose e-hookah with improper labels.",
+        "tobaccoBrand": "Starbuzz E-Hose",
+        "violationMaterialIDs": [
+          "2"
+        ],
+        "State": {
+          "id": "IL",
+          "name": "Illinois"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "3",
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "60602",
+              "city": "Chicago",
+              "State": {
+                "id": "IL",
+                "name": "Illinois"
+              },
+              "address1": "3073 Cedar Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.aerovapeemporium.com",
+            "name": "AeroVape Emporium"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "62702",
+              "city": "Springfield",
+              "State": {
+                "id": "IL",
+                "name": "Illinois"
+              },
+              "address1": "4895 Oak St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.goldcrestwholesalepartners.com",
+            "name": "GoldCrest Wholesale Partners"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "F0FDA499-2B91-4AE6-94CB-790A8DC2F002",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Garcia",
+        "phoneNumber": "713-946-4200",
+        "SubmitterAddress": {
+          "zip": "50309",
+          "city": "Des Moines",
+          "State": {
+            "id": "IA",
+            "name": "Iowa"
+          },
+          "address1": "1496 Maple Ln",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "jessica.garcia@yahoo.com",
+        "fname": "Jessica"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 9,
+          "dd": 5,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "During my last visit, I observed Cumberland Farms in Cedar Rapids, Iowa, distributing Winston cigarettes samples at no charge. Additionally, RedOak Supply Company was supplying Winston cigarettes with improper labels.",
+        "tobaccoBrand": "Winston",
+        "violationMaterialIDs": [
+          "11"
+        ],
+        "State": {
+          "id": "IA",
+          "name": "Iowa"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "3",
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "52402",
+              "city": "Cedar Rapids",
+              "State": {
+                "id": "IA",
+                "name": "Iowa"
+              },
+              "address1": "1693 Oak Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Cumberland Farms"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "50309",
+              "city": "Des Moines",
+              "State": {
+                "id": "IA",
+                "name": "Iowa"
+              },
+              "address1": "5873 Cedar Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "RedOak Supply Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "D736C6F2-1ABB-4559-AE50-840EE0736D5E",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "1",
+        "allowContact": 0,
+        "notify": "0",
+        "lname": "Anonymous",
+        "phoneNumber": "",
+        "SubmitterAddress": {
+          "zip": "99701",
+          "city": "Anonymous",
+          "State": {
+            "id": "AK",
+            "name": "Alaska"
+          },
+          "address1": "",
+          "address2": ""
+        },
+        "affiliation": "",
+        "phoneExt": "",
+        "email": "",
+        "fname": "Anonymous"
+      },
+      "Violation": {
+        "producttype": "7-2",
+        "ViolationDate": {
+          "mm": 8,
+          "dd": 13,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "During my last visit, I observed PureMist Vapor Lounge in Anchorage, Alaska distributing Fantasia E-Hookah e-hookah samples at no charge, and they had Fantasia E-Hookah e-hookah displayed in a concerning manner. Additionally, I noticed that RedOak Supply Company was involved in these activities related to Fantasia E-Hookah e-hookah.",
+        "tobaccoBrand": "Fantasia E-Hookah",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "AK",
+          "name": "Alaska"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "4",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "99501",
+              "city": "Anchorage",
+              "State": {
+                "id": "AK",
+                "name": "Alaska"
+              },
+              "address1": "659 Park Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.puremistvaporlounge.com",
+            "name": "PureMist Vapor Lounge"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "99501",
+              "city": "Anchorage",
+              "State": {
+                "id": "AK",
+                "name": "Alaska"
+              },
+              "address1": "6931 Main Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "RedOak Supply Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "2FDE0CCE-7A5B-4A82-9281-071C7C94530F",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Williams",
+        "phoneNumber": "312-716-9065",
+        "SubmitterAddress": {
+          "zip": "14201",
+          "city": "Buffalo",
+          "State": {
+            "id": "NY",
+            "name": "New York"
+          },
+          "address1": "6050 Oak St",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "patricia.williams@gmail.com",
+        "fname": "Patricia"
+      },
+      "Violation": {
+        "producttype": "2-0",
+        "ViolationDate": {
+          "mm": 12,
+          "dd": 8,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "I was passing by and happened to see this: ExxonMobil used a vending machine to sell Grizzly smokeless tobacco without age controls and had Grizzly smokeless tobacco products in open displays without staff supervision. Summit Wholesale Group installed the vending machine for Grizzly smokeless tobacco without proper safeguards.",
+        "tobaccoBrand": "Grizzly",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "productsubtype": "Wintergreen",
+        "violationTypeID": [
+          "5",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "10002",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "6177 Washington Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.exxonmobil.com",
+            "name": "ExxonMobil"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "12207",
+              "city": "Albany",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "1046 Washington Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.summitwholesalegroup.com",
+            "name": "Summit Wholesale Group"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "DD225097-D77C-48DF-9FC5-CEA3908A7260",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Smith",
+        "phoneNumber": "312-792-6176",
+        "SubmitterAddress": {
+          "zip": "99202",
+          "city": "Spokane",
+          "State": {
+            "id": "WA",
+            "name": "Washington"
+          },
+          "address1": "2490 Washington Ave",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "john.smith@yahoo.com",
+        "fname": "John"
+      },
+      "Violation": {
+        "producttype": "7-5",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 23,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I recently went in and discovered this issue: NextGen Vape Co. offered complimentary ePipe 629 electronic pipes to customers. RedOak Supply Company supplied ePipe 629 electronic pipes with improper labels.",
+        "tobaccoBrand": "ePipe 629",
+        "violationMaterialIDs": [
+          "6"
+        ],
+        "State": {
+          "id": "CO",
+          "name": "Colorado"
+        },
+        "productsubtype": "Classic",
+        "violationTypeID": [
+          "3",
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "80903",
+              "city": "Colorado Springs",
+              "State": {
+                "id": "CO",
+                "name": "Colorado"
+              },
+              "address1": "5449 Main St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "NextGen Vape Co."
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "80202",
+              "city": "Denver",
+              "State": {
+                "id": "CO",
+                "name": "Colorado"
+              },
+              "address1": "1052 Cedar St",
+              "address2": "Suite 342"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "RedOak Supply Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "0A84B7E9-EE2D-4191-995C-04E9BD80E47F",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "1",
+        "allowContact": 0,
+        "notify": "0",
+        "lname": "Anonymous",
+        "phoneNumber": "",
+        "SubmitterAddress": {
+          "zip": "58102",
+          "city": "Anonymous",
+          "State": {
+            "id": "ND",
+            "name": "North Dakota"
+          },
+          "address1": "",
+          "address2": ""
+        },
+        "affiliation": "",
+        "phoneExt": "",
+        "email": "",
+        "fname": "Anonymous"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 10,
+          "dd": 27,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I happened to be there and saw it firsthand at Casey's General Store in Fargo, North Dakota, where they sold Pall Mall cigarettes to a young customer without checking their ID and offered the Pall Mall cigarettes in reduced quantities. GoldCrest Wholesale Partners was involved by supplying these Pall Mall cigarettes without ensuring compliance with local regulations.",
+        "tobaccoBrand": "Pall Mall",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "ND",
+          "name": "North Dakota"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "1",
+          "6"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "58103",
+              "city": "Fargo",
+              "State": {
+                "id": "ND",
+                "name": "North Dakota"
+              },
+              "address1": "7041 Cedar Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Casey's General Store"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "58501",
+              "city": "Bismarck",
+              "State": {
+                "id": "ND",
+                "name": "North Dakota"
+              },
+              "address1": "9125 Main Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.goldcrestwholesalepartners.com",
+            "name": "GoldCrest Wholesale Partners"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "E269AE05-A71E-4502-BD9A-48D336FB5891",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Smith",
+        "phoneNumber": "703-555-9331",
+        "SubmitterAddress": {
+          "zip": "29201",
+          "city": "Columbia",
+          "State": {
+            "id": "SC",
+            "name": "South Carolina"
+          },
+          "address1": "1826 Washington Ave",
+          "address2": ""
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "david.smith@gmail.com",
+        "fname": "David"
+      },
+      "Violation": {
+        "producttype": "7-3",
+        "ViolationDate": {
+          "mm": 11,
+          "dd": 15,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "During my routine visit, I observed a violation at NovaVape Hub in Charleston, South Carolina where they had Mistic E-Cigar e-cigars in open displays without staff supervision. Mistic manufactured Mistic E-Cigar e-cigars without getting required approval. Additionally, BlueRidge Distribution Co. failed to ensure these products were properly regulated before distribution.",
+        "tobaccoBrand": "Mistic E-Cigar",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "SC",
+          "name": "South Carolina"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "7",
+          "8",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "29401",
+              "city": "Charleston",
+              "State": {
+                "id": "SC",
+                "name": "South Carolina"
+              },
+              "address1": "8541 Oak Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.novavapehub.com",
+            "name": "NovaVape Hub"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "29202",
+              "city": "Columbia",
+              "State": {
+                "id": "SC",
+                "name": "South Carolina"
+              },
+              "address1": "2871 Maple Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "BlueRidge Distribution Co."
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "29401",
+              "city": "Charleston",
+              "State": {
+                "id": "SC",
+                "name": "South Carolina"
+              },
+              "address1": "8043 Cedar Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "https://www.mistic.com",
+            "name": "Mistic"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "E9D73376-6FAA-4615-8CDE-467EFE9B522E",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Davis",
+        "phoneNumber": "310-684-1562",
+        "SubmitterAddress": {
+          "zip": "94102",
+          "city": "San Francisco",
+          "State": {
+            "id": "CA",
+            "name": "California"
+          },
+          "address1": "2552 Main Blvd",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "joseph.davis@gmail.com",
+        "fname": "Joseph"
+      },
+      "Violation": {
+        "producttype": "6-0",
+        "ViolationDate": {
+          "mm": 10,
+          "dd": 10,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While checking the aisles, I saw this happening: GoldenLeaf Tobacco was offering complimentary Prince Albert pipe tobacco to customers in Los Angeles, California.",
+        "tobaccoBrand": "Prince Albert",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "90001",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "1165 Elm Dr",
+              "address2": "Suite 186"
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.goldenleaftobacco.com",
+            "name": "GoldenLeaf Tobacco"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "C8830B5F-E348-4046-877E-16680F462A06",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Taylor",
+        "phoneNumber": "310-640-4453",
+        "SubmitterAddress": {
+          "zip": "70113",
+          "city": "New Orleans",
+          "State": {
+            "id": "LA",
+            "name": "Louisiana"
+          },
+          "address1": "651 Washington Ln",
+          "address2": ""
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "david.taylor@yahoo.com",
+        "fname": "David"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 11,
+          "dd": 26,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "While at the register, I saw this incident at Kwik Trip where they allowed someone who appeared under 18 to purchase Newport cigarettes, and there were some questionable practices involving Newport cigarettes. IronGate Wholesale seemed to be supplying Newport cigarettes without following proper regulations.",
+        "tobaccoBrand": "Newport",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "LA",
+          "name": "Louisiana"
+        },
+        "productsubtype": "Menthol",
+        "violationTypeID": [
+          "1",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "70113",
+              "city": "New Orleans",
+              "State": {
+                "id": "LA",
+                "name": "Louisiana"
+              },
+              "address1": "3512 Main Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Kwik Trip"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "70801",
+              "city": "Baton Rouge",
+              "State": {
+                "id": "LA",
+                "name": "Louisiana"
+              },
+              "address1": "96 Park Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.irongatewholesale.com",
+            "name": "IronGate Wholesale"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "A8C562AC-F946-41B1-8957-61326DE983FA",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Taylor",
+        "phoneNumber": "212-877-2172",
+        "SubmitterAddress": {
+          "zip": "55401",
+          "city": "Minneapolis",
+          "State": {
+            "id": "MN",
+            "name": "Minnesota"
+          },
+          "address1": "9620 Main Dr",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "james.taylor@yahoo.com",
+        "fname": "James"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 10,
+          "dd": 4,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I dropped by for a quick stop and saw this: Cumberland Farms allowed the purchase of Winston cigarettes by someone who looked under 18 and offered Winston cigarettes in reduced quantities. Crescent Valley Distributors was involved by supplying the cigarettes without ensuring compliance with age verification policies.",
+        "tobaccoBrand": "Winston",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "MN",
+          "name": "Minnesota"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "1",
+          "6"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "55101",
+              "city": "St. Paul",
+              "State": {
+                "id": "MN",
+                "name": "Minnesota"
+              },
+              "address1": "9445 Washington Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.cumberlandfarms.com",
+            "name": "Cumberland Farms"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "55101",
+              "city": "St. Paul",
+              "State": {
+                "id": "MN",
+                "name": "Minnesota"
+              },
+              "address1": "1223 Oak Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.crescentvalleydistributors.com",
+            "name": "Crescent Valley Distributors"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "DE423B20-82FF-4D33-845F-1D5B6DC762DD",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Brown",
+        "phoneNumber": "310-211-5665",
+        "SubmitterAddress": {
+          "zip": "59102",
+          "city": "Billings",
+          "State": {
+            "id": "MT",
+            "name": "Montana"
+          },
+          "address1": "4716 Cedar Ln",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "jessica.brown@yahoo.com",
+        "fname": "Jessica"
+      },
+      "Violation": {
+        "producttype": "7-5",
+        "ViolationDate": {
+          "mm": 1,
+          "dd": 25,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While walking by, I saw this incident occur at PureMist Vapor Lounge where they had a vending machine selling Kamry K1000 electronic pipes with no age verification. UrbanPoint Distributors installed vending machine for Kamry K1000 electronic pipes without proper safeguards. Kamry manufactured Kamry K1000 electronic pipes without getting required approval.",
+        "tobaccoBrand": "Kamry K1000",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "MT",
+          "name": "Montana"
+        },
+        "productsubtype": "Plus",
+        "violationTypeID": [
+          "5",
+          "7",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "59802",
+              "city": "Missoula",
+              "State": {
+                "id": "MT",
+                "name": "Montana"
+              },
+              "address1": "2872 Maple St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "PureMist Vapor Lounge"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "59101",
+              "city": "Billings",
+              "State": {
+                "id": "MT",
+                "name": "Montana"
+              },
+              "address1": "1029 Oak Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.urbanpointdistributors.com",
+            "name": "UrbanPoint Distributors"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "59801",
+              "city": "Missoula",
+              "State": {
+                "id": "MT",
+                "name": "Montana"
+              },
+              "address1": "5525 Park Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "Kamry"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "D8EEB726-1AB3-42E9-AD03-A23A9596D213",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Lopez",
+        "phoneNumber": "212-380-1864",
+        "SubmitterAddress": {
+          "zip": "19102",
+          "city": "Philadelphia",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "1334 Cedar Ln",
+          "address2": ""
+        },
+        "affiliation": "Healthcare Professional",
+        "phoneExt": "",
+        "email": "joseph.lopez@gmail.com",
+        "fname": "Joseph"
+      },
+      "Violation": {
+        "producttype": "7-4",
+        "ViolationDate": {
+          "mm": 8,
+          "dd": 14,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I visited the area and observed this situation in Pittsburgh, Pennsylvania. Sheetz operated an automated dispenser for Elf Bar vape pens without ID checks. Heritage Logistics Inc. supplied Elf Bar vape pens with improper labels and installed the vending machine for Elf Bar vape pens without proper safeguards.",
+        "tobaccoBrand": "Elf Bar",
+        "violationMaterialIDs": [
+          "4"
+        ],
+        "State": {
+          "id": "PA",
+          "name": "Pennsylvania"
+        },
+        "productsubtype": "BC5000",
+        "violationTypeID": [
+          "3",
+          "5"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "15201",
+              "city": "Pittsburgh",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "2853 Main Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Sheetz"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "17102",
+              "city": "Harrisburg",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "8659 Elm Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.heritagelogisticsinc.com",
+            "name": "Heritage Logistics Inc."
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "1BEEECAD-9CE3-4AEC-9772-56979C311227",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Thomas",
+        "phoneNumber": "310-504-4973",
+        "SubmitterAddress": {
+          "zip": "06510",
+          "city": "New Haven",
+          "State": {
+            "id": "CT",
+            "name": "Connecticut"
+          },
+          "address1": "7167 Cedar Ln",
+          "address2": ""
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "john.thomas@yahoo.com",
+        "fname": "John"
+      },
+      "Violation": {
+        "producttype": "7-1",
+        "ViolationDate": {
+          "mm": 6,
+          "dd": 25,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While running errands, I came across this Shell in Hartford, Connecticut, where they had Vuse e-cigarettes sitting out for customers to help themselves, which seemed off. I also noticed PureStream Trading was involved in this setup, allowing such questionable practices with Vuse e-cigarettes.",
+        "tobaccoBrand": "Vuse",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "CT",
+          "name": "Connecticut"
+        },
+        "productsubtype": "Alto",
+        "violationTypeID": [
+          "7",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "06104",
+              "city": "Hartford",
+              "State": {
+                "id": "CT",
+                "name": "Connecticut"
+              },
+              "address1": "991 Park Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Shell"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "06511",
+              "city": "New Haven",
+              "State": {
+                "id": "CT",
+                "name": "Connecticut"
+              },
+              "address1": "5538 Cedar Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.purestreamtrading.com",
+            "name": "PureStream Trading"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "2CCEFD27-0237-437C-AE67-E7B097D6C582",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Lopez",
+        "phoneNumber": "415-571-6695",
+        "SubmitterAddress": {
+          "zip": "04401",
+          "city": "Bangor",
+          "State": {
+            "id": "ME",
+            "name": "Maine"
+          },
+          "address1": "5759 Oak St",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "barbara.lopez@yahoo.com",
+        "fname": "Barbara"
+      },
+      "Violation": {
+        "producttype": "7-6",
+        "ViolationDate": {
+          "mm": 11,
+          "dd": 9,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "While walking by, I saw this incident occur where Infinity Vape Works sold Vaporesso advanced refillable vaporizers to a minor without asking for identification. Additionally, PureStream Trading was distributing Vaporesso advanced refillable vaporizers that aren't on the FDA's approved list.",
+        "tobaccoBrand": "Vaporesso",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "ME",
+          "name": "Maine"
+        },
+        "productsubtype": "Gen",
+        "violationTypeID": [
+          "1",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "04402",
+              "city": "Bangor",
+              "State": {
+                "id": "ME",
+                "name": "Maine"
+              },
+              "address1": "6308 Maple Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Infinity Vape Works"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "04402",
+              "city": "Bangor",
+              "State": {
+                "id": "ME",
+                "name": "Maine"
+              },
+              "address1": "1503 Main St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "PureStream Trading"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "CD4F5E1F-3DC2-4E39-BCC6-D8459170D84D",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Garcia",
+        "phoneNumber": "510-573-6760",
+        "SubmitterAddress": {
+          "zip": "64102",
+          "city": "Kansas City",
+          "State": {
+            "id": "MO",
+            "name": "Missouri"
+          },
+          "address1": "2944 Park St",
+          "address2": ""
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "richard.garcia@gmail.com",
+        "fname": "Richard"
+      },
+      "Violation": {
+        "producttype": "2-0",
+        "ViolationDate": {
+          "mm": 7,
+          "dd": 15,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I happened to be near the store and discovered Kwik Trip offered complimentary Red Man smokeless tobacco to customers and kept Red Man smokeless tobacco in a self-service display where anyone could grab them. Everline Supply Chain was involved in distributing the Red Man smokeless tobacco without ensuring proper handling procedures were followed.",
+        "tobaccoBrand": "Red Man",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "MO",
+          "name": "Missouri"
+        },
+        "productsubtype": "Original",
+        "violationTypeID": [
+          "4",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "64101",
+              "city": "Kansas City",
+              "State": {
+                "id": "MO",
+                "name": "Missouri"
+              },
+              "address1": "8151 Park St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.kwiktrip.com",
+            "name": "Kwik Trip"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "64101",
+              "city": "Kansas City",
+              "State": {
+                "id": "MO",
+                "name": "Missouri"
+              },
+              "address1": "49 Cedar Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Everline Supply Chain"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "EE68EBCF-909F-4A61-9266-778441D98B31",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Martinez",
+        "phoneNumber": "415-937-7916",
+        "SubmitterAddress": {
+          "zip": "94102",
+          "city": "San Francisco",
+          "State": {
+            "id": "CA",
+            "name": "California"
+          },
+          "address1": "8036 Cedar Blvd",
+          "address2": ""
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "linda.martinez@yahoo.com",
+        "fname": "Linda"
+      },
+      "Violation": {
+        "producttype": "7-4",
+        "ViolationDate": {
+          "mm": 7,
+          "dd": 20,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While refueling nearby, I stopped and observed this at Shell, where they were selling Breeze vape pens with improper labels. Heritage Logistics Inc. supplied the Breeze vape pens that aren't on the FDA's approved list.",
+        "tobaccoBrand": "Breeze",
+        "violationMaterialIDs": [
+          "9"
+        ],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Pro",
+        "violationTypeID": [
+          "3",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "92102",
+              "city": "San Diego",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "4673 Maple Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.shell.com",
+            "name": "Shell"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "92101",
+              "city": "San Diego",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "7386 Elm St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.heritagelogisticsinc.com",
+            "name": "Heritage Logistics Inc."
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "1AB3F85A-285F-4A35-840B-E9845BFFDE0E",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Anderson",
+        "phoneNumber": "713-626-9944",
+        "SubmitterAddress": {
+          "zip": "19902",
+          "city": "Dover",
+          "State": {
+            "id": "DE",
+            "name": "Delaware"
+          },
+          "address1": "7341 Maple Dr",
+          "address2": ""
+        },
+        "affiliation": "Healthcare Professional",
+        "phoneExt": "",
+        "email": "barbara.anderson@gmail.com",
+        "fname": "Barbara"
+      },
+      "Violation": {
+        "producttype": "7-3",
+        "ViolationDate": {
+          "mm": 9,
+          "dd": 6,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I recently went in and discovered this issue at FusionVapor, where they didn't verify age before selling Mistic E-Cigar e-cigars to a young customer and were giving away free Mistic E-Cigar e-cigar samples. Mistic made Mistic E-Cigar e-cigars without adequate warning labels. BlueRidge Distribution Co. distributed the Mistic E-Cigar e-cigars without ensuring compliance with local regulations.",
+        "tobaccoBrand": "Mistic E-Cigar",
+        "violationMaterialIDs": [
+          "2"
+        ],
+        "State": {
+          "id": "OR",
+          "name": "Oregon"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "1",
+          "3",
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "97402",
+              "city": "Eugene",
+              "State": {
+                "id": "OR",
+                "name": "Oregon"
+              },
+              "address1": "2232 Oak Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "FusionVapor"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "97201",
+              "city": "Portland",
+              "State": {
+                "id": "OR",
+                "name": "Oregon"
+              },
+              "address1": "7719 Main Dr",
+              "address2": "Apt 245"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.blueridgedistributionco.com",
+            "name": "BlueRidge Distribution Co."
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "97202",
+              "city": "Portland",
+              "State": {
+                "id": "OR",
+                "name": "Oregon"
+              },
+              "address1": "5580 Washington Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "Mistic"
+          }
+        ]
+      }
+    }
+  ]
+}

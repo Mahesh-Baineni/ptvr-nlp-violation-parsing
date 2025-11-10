@@ -1,0 +1,397 @@
+[
+  {
+    "methodOfSubmission": 4,
+    "guid": "C5F6E2F1-7C0E-4A21-8A8E-2E9C2A7C9B11",
+    "State": {
+      "id": "",
+      "name": "none"
+    },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Miller",
+      "phoneNumber": "402-555-8126",
+      "SubmitterAddress": {
+        "zip": "68106",
+        "city": "Omaha",
+        "State": {
+          "id": "NE",
+          "name": "Nebraska"
+        },
+        "address1": "8124 Maple St",
+        "address2": ""
+      },
+      "affiliation": "Concerned Citizen",
+      "phoneExt": "",
+      "email": "eric.miller@gmail.com",
+      "fname": "Eric"
+    },
+    "Violation": {
+      "producttype": "1-0",
+      "ViolationDate": {
+        "mm": 10,
+        "dd": 29,
+        "yyyy": 2025,
+        "nodate": 0
+      },
+      "description": "At QuickStop Market in Omaha, the cashier sold a pack of Apex Red cigarettes to a customer who appeared underage without requesting identification. The package also displayed reduced-risk style descriptors and lacked a required health warning panel consistent with current rules; Apex Tobacco Co. is the manufacturer of Apex Red cigarettes.",
+      "tobaccoBrand": "Apex Red",
+      "violationMaterialIDs": [
+        "6",
+        "7"
+      ],
+      "State": {
+        "id": "NE",
+        "name": "Nebraska"
+      },
+      "productsubtype": "Regular",
+      "violationTypeID": [
+        "1",
+        "3",
+        "6"
+      ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "68107",
+            "city": "Omaha",
+            "State": {
+              "id": "NE",
+              "name": "Nebraska"
+            },
+            "address1": "5203 Center St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "QuickStop Market"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "23230",
+            "city": "Richmond",
+            "State": {
+              "id": "VA",
+              "name": "Virginia"
+            },
+            "address1": "6601 Broad Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Apex Tobacco Co."
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "936B6B11-28F7-4E1E-9C4A-0C4A2B6F6A10",
+    "State": {
+      "id": "",
+      "name": "none"
+    },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "30233",
+        "city": "Anonymous",
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "11-1",
+      "ViolationDate": {
+        "mm": 11,
+        "dd": 3,
+        "yyyy": 2025,
+        "nodate": 0
+      },
+      "description": "Nimbus Labs manufactured and sold Nimbus Fruit Rush e-juices online that lack required health warnings and ingredient disclosures and do not appear to have required product authorization. The manufacturer also advertised a free-bottle promotion bundled with online orders.",
+      "tobaccoBrand": "Nimbus Fruit Rush",
+      "violationMaterialIDs": [
+        "10",
+        "9"
+      ],
+      "State": {
+        "id": "GA",
+        "name": "Georgia"
+      },
+      "productsubtype": "Mixed Berry",
+      "violationTypeID": [
+        "3",
+        "4",
+        "23"
+      ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "30312",
+            "city": "Atlanta",
+            "State": {
+              "id": "GA",
+              "name": "Georgia"
+            },
+            "address1": "1450 Peachtree Industrial Blvd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "https://www.nimbus-labs.example",
+          "name": "Nimbus Labs"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "0A2B6E77-7E0E-4BFA-8F7F-9E7A4B6C2C55",
+    "State": {
+      "id": "",
+      "name": "none"
+    },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Nguyen",
+      "phoneNumber": "214-555-9932",
+      "SubmitterAddress": {
+        "zip": "75201",
+        "city": "Dallas",
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "address1": "3948 Elmwood Dr",
+        "address2": ""
+      },
+      "affiliation": "Public Health Volunteer",
+      "phoneExt": "",
+      "email": "lana.nguyen@gmail.com",
+      "fname": "Lana"
+    },
+    "Violation": {
+      "producttype": "3-0",
+      "ViolationDate": {
+        "mm": 10,
+        "dd": 24,
+        "yyyy": 2025,
+        "nodate": 0
+      },
+      "description": "MetroLeaf Distribution delivered roll-your-own tobacco to small retailers that arrived without required health warning labels on outer packaging and appears not to have current authorization for those products. The distributor also placed a self-service rack at a client store, giving direct access to the tobacco.",
+      "tobaccoBrand": "MetroLeaf",
+      "violationMaterialIDs": [],
+      "State": {
+        "id": "TX",
+        "name": "Texas"
+      },
+      "productsubtype": "Regular",
+      "violationTypeID": [
+        "5",
+        "23",
+        "3"
+      ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "75204",
+            "city": "Dallas",
+            "State": {
+              "id": "TX",
+              "name": "Texas"
+            },
+            "address1": "8720 Pineview Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "MetroLeaf Distribution"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "F6C1B8C9-3C7C-44E7-9A0B-6C8E9D2E7F31",
+    "State": {
+      "id": "",
+      "name": "none"
+    },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "11530",
+        "city": "Anonymous",
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "7-1",
+      "ViolationDate": {
+        "mm": 11,
+        "dd": 1,
+        "yyyy": 2025,
+        "nodate": 0
+      },
+      "description": "ClearMist Labs manufactured e-cigarettes labeled as nicotine-free; product information online indicates they contain nicotine and lack required warnings and authorization. EastLine Distributors supplied these same products to retailers around Long Island without verifying authorization status.",
+      "tobaccoBrand": "ClearMist",
+      "violationMaterialIDs": [
+        "10"
+      ],
+      "State": {
+        "id": "NY",
+        "name": "New York"
+      },
+      "productsubtype": "Disposable",
+      "violationTypeID": [
+        "3",
+        "23"
+      ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "14202",
+            "city": "Buffalo",
+            "State": {
+              "id": "NY",
+              "name": "New York"
+            },
+            "address1": "941 Lake St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "ClearMist Labs"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "11530",
+            "city": "Garden City",
+            "State": {
+              "id": "NY",
+              "name": "New York"
+            },
+            "address1": "4525 Main Blvd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "EastLine Distributors"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "A71E5A1C-2C2B-4D35-B6AF-1F0B2D6C9F44",
+    "State": {
+      "id": "",
+      "name": "none"
+    },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Patel",
+      "phoneNumber": "503-555-2211",
+      "SubmitterAddress": {
+        "zip": "97205",
+        "city": "Portland",
+        "State": {
+          "id": "OR",
+          "name": "Oregon"
+        },
+        "address1": "2507 Alder St",
+        "address2": ""
+      },
+      "affiliation": "Local Health Inspector",
+      "phoneExt": "",
+      "email": "r.patel@healthdept.org",
+      "fname": "Raj"
+    },
+    "Violation": {
+      "producttype": "5-0",
+      "ViolationDate": {
+        "mm": 10,
+        "dd": 27,
+        "yyyy": 2025,
+        "nodate": 0
+      },
+      "description": "Summit Cigar Co. manufactured Summit Vanilla cigars with packaging that omits required health warnings and promoted bundles with a free cigar included. NorthWest Tobacco Distribution moved these cigars into multiple retailers in Oregon and Washington without confirming product authorization.",
+      "tobaccoBrand": "Summit Vanilla",
+      "violationMaterialIDs": [
+        "10",
+        "9"
+      ],
+      "State": {
+        "id": "OR",
+        "name": "Oregon"
+      },
+      "productsubtype": "Flavored",
+      "violationTypeID": [
+        "3",
+        "4",
+        "23"
+      ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "97209",
+            "city": "Portland",
+            "State": {
+              "id": "OR",
+              "name": "Oregon"
+            },
+            "address1": "1902 Front Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Summit Cigar Co."
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "98101",
+            "city": "Seattle",
+            "State": {
+              "id": "WA",
+              "name": "Washington"
+            },
+            "address1": "350 Pike St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "NorthWest Tobacco Distribution"
+        }
+      ]
+    }
+  }
+]
