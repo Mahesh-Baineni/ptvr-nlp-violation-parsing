@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTVR Violation Case Creator</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background-color: #f8f9fa; }
+    .container { max-width: 900px; margin: 0 auto; }
+    h1 { text-align: center; color: #333; }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background-color: #fff;
+      padding: 16px;
+      margin-top: 16px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #000;
+    }
+    .badge-review { background-color: #f8d7da; }
+    .badge-ok { background-color: #d4edda; }
+    .cases { margin-top: 12px; }
+    .case {
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+      margin-top: 10px;
+      background-color: #fafafa;
+      border-radius: 8px;
+    }
+    .label { font-weight: bold; }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover { background-color: #0056b3; }
+    input[type="file"] { margin-right: 8px; }
+    #status { margin-top: 15px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>PTVR Violation Case Creator</h1>
+    <p>Upload a JSON file with PTVR reports. The model will parse narratives, create multiple cases, and flag low-confidence ones for review.</p>
+
+    <form id="upload-form">
+      <input type="file" id="file-input" accept=".json" required />
+      <button type="submit">Upload & Process</button>
+    </form>
+
+    <div id="status"></div>
+    <div id="results"></div>
+  </div>
+
+  <script>
+    const API_BASE = "http://127.0.0.1:8000";
+
+    document.getElementById("upload-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const fileInput = document.getElementById("file-input");
+      if (!fileInput.files.length) return;
+
+      const file = fileInput.files[0];
+      const formData = new FormData();
+      formData.append("file", file);
+
+      const statusEl = document.getElementById("status");
+      const resultsEl = document.getElementById("results");
+      statusEl.textContent = "Processing...";
+      resultsEl.innerHTML = "";
+
+      try {
+        const res = await fetch(`${API_BASE}/predict_file`, {
+          method: "POST",
+          body: formData,
+        });
+
+        if (!res.ok) {
+          statusEl.textContent = "Error: " + res.statusText;
+          return;
+        }
+
+        const data = await res.json();
+        statusEl.textContent = "Done.";
+
+        (data.results || []).forEach((rep) => {
+          const card = document.createElement("div");
+          card.className = "card";
+
+          const badge = document.createElement("span");
+          badge.className = "badge " + (rep.flag_for_review ? "badge-review" : "badge-ok");
+          badge.textContent = rep.flag_for_review ? "Needs Human Review" : "Auto-Approved";
+
+          card.innerHTML = `
+            <div>
+              <strong>GUID:</strong> ${rep.guid}
+            </div>
+            <div>${badge.outerHTML}</div>
+            <div><span class="label">Max Confidence:</span> ${rep.max_confidence.toFixed(3)}</div>
+            <div>
+              <span class="label">Submitter Address:</span>
+              ${rep.submitter_address.address1 || ""} ${rep.submitter_address.address2 || ""}, 
+              ${rep.submitter_address.city || ""}, 
+              ${(rep.submitter_address.State && rep.submitter_address.State.name) || ""} 
+              ${rep.submitter_address.zip || ""}
+            </div>
+          `;
+
+          const casesDiv = document.createElement("div");
+          casesDiv.className = "cases";
+          casesDiv.innerHTML = "<h4>Cases</h4>";
+
+          (rep.cases || []).forEach((c) => {
+            const cDiv = document.createElement("div");
+            cDiv.className = "case";
+            cDiv.innerHTML = `
+              <div><span class="label">Case ID:</span> ${c.case_id}</div>
+              <div><span class="label">Violator Role:</span> ${c.violator_role}</div>
+              <div><span class="label">Violator Name:</span> ${c.violator_name}</div>
+              <div>
+                <span class="label">Violator Address:</span>
+                ${c.violator_address.address1 || ""} ${c.violator_address.address2 || ""}, 
+                ${c.violator_address.city || ""}, 
+                ${(c.violator_address.State && c.violator_address.State.name) || ""} 
+                ${c.violator_address.zip || ""}
+              </div>
+              <div><span class="label">Violation Description:</span> ${c.violation_description || "N/A"}</div>
+              <div><span class="label">Confidence:</span> ${c.confidence.toFixed(3)}</div>
+            `;
+            casesDiv.appendChild(cDiv);
+          });
+
+          card.appendChild(casesDiv);
+          resultsEl.appendChild(card);
+        });
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = "Error: " + err.message;
+      }
+    });
+  </script>
+</body>
+</html>
