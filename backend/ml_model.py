@@ -435,7 +435,7 @@ class ImprovedViolationMLModel:
             except Exception as e:
                 print(f"[WARNING] Could not create calibration plot for {role}: {e}")
 
-            # Optimal threshold for ~80% precision
+            
             try:
                 precisions, recalls, thresholds = precision_recall_curve(y_true, y_prob)
                 
