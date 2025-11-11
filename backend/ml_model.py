@@ -334,7 +334,7 @@ class ImprovedViolationMLModel:
         micro_f1 = f1_score(Y_test, Y_pred, average="micro", zero_division=0)
         macro_f1 = f1_score(Y_test, Y_pred, average="macro", zero_division=0)
 
-        print("OVERALL METRICS (80/20 split)")
+        print("OVERALL METRICS")
         print(f"Accuracy: {acc:.3f}")
         print(f"Micro F1: {micro_f1:.3f}")
         print(f"Macro F1: {macro_f1:.3f}")
