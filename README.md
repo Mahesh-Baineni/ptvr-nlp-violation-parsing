@@ -4,13 +4,14 @@
 ### Steps: Navigate and Testing
 
 a. Activate the .venv file in the backend folder .
-   source backend/.venv/bin/activate (To create a .venv run python3.11 -m venv .venv)
+   " source backend/.venv/bin/activate "  (To create a .venv run python3.11 -m venv .venv)
 
 b. Install the required libraries by running 
-   pip install -r requirements.txt
+  " pip install -r requirements.txt "
 
    For Installing scikit-learn, we should have Python version below 3.12 or use 3.11
    To use Python 3.11 in the venv run " brew install python@3.11" and verify using "python --version"
+   Then run " pip install scikit-learn "
 
 c.Run " python3 -m backend.test_system "
   Gives the result of ML model with Accuracy and other metrics.
