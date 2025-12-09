@@ -16,7 +16,7 @@ c.Run " python3 -m backend.test_system "
   Gives the result of ML model with Accuracy and other metrics.
 
 d. In the terminal include 
-"export OPEN_API_KEY="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" OR "OPEN_API_KEY" .
+"export OPEN_API_KEY= "OPEN_API_KEY" .
 
 e. Run " uvicorn backend.main:app --reload --host 127.0.0.1 --port 8000 "
  
