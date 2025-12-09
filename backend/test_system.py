@@ -21,7 +21,7 @@ import numpy
 
 
 
-# ----------------- TEST 2: data file -----------------
+# TEST 2: data file 
 print("\nTEST 2: Checking data file...")
 
 BASE_DIR = Path(__file__).resolve().parent

@@ -1,7 +1,7 @@
 import json
 import os
-from typing import Dict, Any, List, Optional
 import re
+from typing import Dict, Any, List, Optional
 
 from openai import OpenAI
 
@@ -16,7 +16,8 @@ class BaseAgent:
 
 
 
-# ParserAgent – uses OpenAI for violator parsing + descriptions
+# ParserAgent – LLM 
+
 class ParserAgent(BaseAgent):
     """
     Uses OpenAI to parse narrative into violators with roles, addresses,
@@ -31,7 +32,7 @@ class ParserAgent(BaseAgent):
         if api_key:
             self.client = OpenAI(api_key=api_key)
         else:
-            print(" OPENAI_API_KEY not set. ParserAgent will use JSON-only fallback.")
+            print("OPENAI_API_KEY not set. ParserAgent will use JSON-only fallback.")
 
     def _llm_parse(
         self,
@@ -46,8 +47,6 @@ class ParserAgent(BaseAgent):
           - violation_description (1–2 sentence summary)
           - confidence (0–1)
         """
-
-        # Build hints from existing JSON violators (name + role)
         violator_hints: List[Dict[str, str]] = []
         for v in raw_violators:
             name = v.get("name", "")
@@ -60,52 +59,20 @@ class ParserAgent(BaseAgent):
         prompt = f"""
 You are a structured information extraction agent for tobacco violation reports.
 
-Your goal is to extract violators from the following narrative and describe what each one did wrong.
-
-You will always return a valid JSON array, where each element contains:
+Return ONLY a valid JSON array. Each element:
 - "role": one of "retailer", "distributor", "manufacturer"
-- "name": the name of the violator (never empty)
-- "address": an object with keys "address1", "address2", "city", "state", "zip"
-- "violation_description": 1–2 sentences summarizing the specific violation for this violator
-- "confidence": a number between 0.0 and 1.0
+- "name": non-empty string
+- "address": object with "address1","address2","city","state","zip" (empty strings if unknown)
+- "violation_description": 1–2 sentences specific to this violator (no generic boilerplate)
+- "confidence": float 0.0–1.0
 
 Rules:
-1. If the narrative doesn’t explicitly state an address, leave address fields empty strings.
-2. Always include a concise "violation_description" based on the narrative.
-3. Use the violator hints below if helpful to identify names and roles.
-4. Output only JSON, with no explanation text.
+1) If address not in narrative, leave address fields empty strings.
+2) The "violation_description" must reference actions/evidence for THIS violator only.
+3) Use the hints when helpful.
+4) Output ONLY JSON. No extra text.
 
-Example Output:
-[
-  {{
-    "role": "retailer",
-    "name": "Love's Travel Stops",
-    "address": {{
-      "address1": "1565 Oak Ave",
-      "address2": "",
-      "city": "Des Moines",
-      "state": "Iowa",
-      "zip": "50310"
-    }},
-    "violation_description": "Sold tobacco to minors without verifying age.",
-    "confidence": 0.92
-  }},
-  {{
-    "role": "distributor",
-    "name": "Eby-Brown Company",
-    "address": {{
-      "address1": "6009 Oak St",
-      "address2": "",
-      "city": "Des Moines",
-      "state": "Iowa",
-      "zip": "50309"
-    }},
-    "violation_description": "Supplied cigarettes to a retailer that failed age-compliance checks.",
-    "confidence": 0.87
-  }}
-]
-
-Violator hints (may be empty):
+Hints (may be empty):
 {hints_text}
 
 Narrative:
@@ -115,54 +82,45 @@ Narrative:
         resp = self.client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "You output only valid JSON. No explanation."},
+                {"role": "system", "content": "Output only valid JSON. No commentary."},
                 {"role": "user", "content": prompt},
             ],
             temperature=0.1,
         )
 
-        content = resp.choices[0].message.content
+        content = resp.choices[0].message.content or ""
         try:
-            # be tolerant of fences or extra text
             start = content.find("[")
             end = content.rfind("]")
-            if start != -1 and end != -1:
-                content_json = content[start : end + 1]
-            else:
-                content_json = content
+            content_json = content[start: end + 1] if (start != -1 and end != -1) else content
             parsed = json.loads(content_json)
             if isinstance(parsed, dict):
                 parsed = [parsed]
-            if not isinstance(parsed, list):
-                return []
-            return parsed
+            return parsed if isinstance(parsed, list) else []
         except Exception as e:
-            print("⚠️ LLM parse failed, returning empty list:", e)
+            print("LLM parse failed, returning empty list:", e)
             return []
-    import re  
 
     def _extract_violation_snippet(
         self, narrative: str, violator_name: str, role: str
     ) -> str:
         """
-        Very simple heuristic: return only the sentences from the narrative
-        that mention this violator's name or role-related keywords.
-        If nothing matches, fall back to the full narrative.
+        Heuristic snippet:
+        - keep only sentences that mention the violator's name OR role-specific verbs
+        - cap to the first 2 matched sentences to avoid dumping the whole narrative
         """
         text = (narrative or "").strip()
         if not text:
             return ""
 
-        # split into sentences
         sentences = re.split(r"(?<=[.!?])\s+", text)
 
         role_keywords = {
-            "retailer": ["retailer", "store", "shop", "cashier", "sold", "sale"],
-            "distributor": ["distributor", "wholesaler", "supplied", "ship", "distribution"],
-            "manufacturer": ["manufacturer", "produces", "makes", "company", "brand"],
+            "retailer": ["retailer", "store", "shop", "cashier", "sold", "sale", "id check", "underage"],
+            "distributor": ["distributor", "wholesaler", "supplied", "supply", "shipment", "distribution"],
+            "manufacturer": ["manufacturer", "manufactured", "produced", "labeled", "packaging", "warning"],
         }
         keywords = [k.lower() for k in role_keywords.get(role, [])]
-
         name_lower = (violator_name or "").lower()
 
         selected: List[str] = []
@@ -170,14 +128,12 @@ Narrative:
             s_lower = s.lower()
             if name_lower and name_lower in s_lower:
                 selected.append(s)
-                continue
-            if any(k in s_lower for k in keywords):
+            elif any(k in s_lower for k in keywords):
                 selected.append(s)
+            if len(selected) >= 2:
+                break
 
-        if selected:
-            return " ".join(selected)
-        return text  
-
+        return " ".join(selected) if selected else sentences[0] if sentences else text
 
     def run(self, state: Dict[str, Any]) -> Dict[str, Any]:
         report = state["report"]
@@ -191,10 +147,10 @@ Narrative:
             try:
                 parsed = self._llm_parse(narrative, raw_violators)
             except Exception as e:
-                print("⚠️ Error calling OpenAI in ParserAgent:", e)
+                print(" Error calling OpenAI in ParserAgent:", e)
                 parsed = []
 
-        # 2) If LLM returned nothing, fall back to JSON violators
+        # 2) If LLM returned nothing, fall back to JSON violators with heuristic snippets
         if not parsed:
             for v in raw_violators:
                 vt = v.get("violatorTypeIDs")
@@ -232,21 +188,17 @@ Narrative:
                 role = rec.get("role")
                 name = rec.get("name", "")
                 addr = rec.get("address") or {}
-
                 if not isinstance(addr, dict):
                     addr = {}
 
-                # If address1 empty, try to match a JSON violator to fill address
                 if not addr.get("address1"):
                     match = None
-
-                    # a) match by exact name
+                    # (a) exact name
                     for v in raw_violators:
                         if name and v.get("name", "").lower() == name.lower():
                             match = v
                             break
-
-                    # b) match by role only
+                    # (b) by role
                     if not match:
                         for v in raw_violators:
                             vt = v.get("violatorTypeIDs")
@@ -264,7 +216,6 @@ Narrative:
                             "zip": m_addr.get("zip", "") or "",
                         }
 
-                # Ensure all keys exist
                 addr = {
                     "address1": addr.get("address1", "") or "",
                     "address2": addr.get("address2", "") or "",
@@ -274,21 +225,18 @@ Narrative:
                 }
                 rec["address"] = addr
 
-                # Ensure we always have a violation_description
                 if not rec.get("violation_description"):
-                    rec["violation_description"] = narrative
+                    rec["violation_description"] = self._extract_violation_snippet(
+                        narrative=narrative, violator_name=name, role=role or ""
+                    )
 
         state["parsed_violators"] = parsed
         return state
 
 
-
-# ClassifierAgent – uses ML model to predict roles present
+# ClassifierAgent – predict roles + probs
 
 class ClassifierAgent(BaseAgent):
-    """
-    Uses the trained ML model to classify which roles are present.
-    """
     name = "classifier"
 
     def __init__(self, model: ImprovedViolationMLModel):
@@ -305,12 +253,12 @@ class ClassifierAgent(BaseAgent):
 
 
 
-# ValidatorAgent – per-role thresholds + overall confidence
+# ValidatorAgent – report-level needs_review (by role thr)
+
 class ValidatorAgent(BaseAgent):
     """
-    Validates confidences and prepares a single confidence score.
-    Uses per-role thresholds if available; otherwise falls back to
-    a single global threshold (min_threshold).
+    Computes an overall confidence summary and whether the report needs review,
+    based on learned per-role thresholds (falls back to a global min_threshold).
     """
     name = "validator"
 
@@ -321,38 +269,35 @@ class ValidatorAgent(BaseAgent):
     def run(self, state: Dict[str, Any]) -> Dict[str, Any]:
         probs_by_role = state.get("probs_by_role", {})
         predicted_roles = state.get("predicted_roles", [])
+        role_thresholds = self.role_thresholds or state.get("role_thresholds", {})
 
         if not predicted_roles:
             state["overall_confidence"] = 0.0
             state["needs_review"] = True
             return state
 
-        # per-role thresholds from either ctor or state (model)
-        role_thresholds = self.role_thresholds or state.get("role_thresholds", {})
+        probs = [float(probs_by_role.get(r, 0.0)) for r in predicted_roles]
+        state["overall_confidence"] = float(min(probs)) if probs else 0.0
 
-        probs = [probs_by_role.get(r, 0.0) for r in predicted_roles]
-        overall_conf = float(min(probs)) if probs else 0.0
-        state["overall_confidence"] = overall_conf
-
+        # Needs review if any predicted role falls below its threshold
         if role_thresholds:
             needs_review = any(
-                probs_by_role.get(r, 0.0) < role_thresholds.get(r, self.min_threshold)
+                float(probs_by_role.get(r, 0.0)) < float(role_thresholds.get(r, self.min_threshold))
                 for r in predicted_roles
             )
         else:
-            # fallback: single global threshold
-            needs_review = overall_conf < self.min_threshold
+            needs_review = state["overall_confidence"] < self.min_threshold
 
-        state["needs_review"] = needs_review
+        state["needs_review"] = bool(needs_review)
         return state
 
 
-# CaseCreatorAgent – one case per *real* violator
+# CaseCreatorAgent – create cases per *real* violator
+
 class CaseCreatorAgent(BaseAgent):
     """
-    Creates one case per predicted role, but **only** when there is a
-    corresponding parsed violator. We no longer invent "Unknown Distributor"
-    (or other roles) when no such violator exists in the report.
+    Creates one case per predicted role, but only when there is a matching
+    parsed violator in the report. Adds per-case threshold and flag.
     """
     name = "case_creator"
 
@@ -375,14 +320,14 @@ class CaseCreatorAgent(BaseAgent):
         parsed_violators = state.get("parsed_violators", [])
         predicted_roles = state.get("predicted_roles", [])
         probs_by_role = state.get("probs_by_role", {})
+        role_thresholds = state.get("role_thresholds", {}) or {}
+
         cases: List[Dict[str, Any]] = []
 
         for role in predicted_roles:
             match = next((v for v in parsed_violators if v.get("role") == role), None)
-
-            # If there is no violator for this role, skip creating a case
             if not match:
-                continue
+                continue  # don't invent violators
 
             addr = match.get("address", {}) or {}
             violator_address = {
@@ -397,7 +342,9 @@ class CaseCreatorAgent(BaseAgent):
             violation_desc = match.get("violation_description") or narrative
 
             conf = float(probs_by_role.get(role, 0.0))
-            # Use len(cases)+1 so indices remain sequential even if we skip roles
+            thr = float(role_thresholds.get(role, 0.8))
+            case_needs_review = conf < thr
+
             case_id = f"{guid}-{role}-{len(cases) + 1}"
 
             cases.append(
@@ -409,35 +356,46 @@ class CaseCreatorAgent(BaseAgent):
                     "violator_address": violator_address,
                     "submitter_address": submitter_address,
                     "confidence": conf,
+                    "threshold": thr,
+                    "case_needs_review": case_needs_review,
                     "violation_description": violation_desc,
                 }
             )
+
+        # Report-level confidence summary from cases
+        confs = [c["confidence"] for c in cases] if cases else []
+        state["report_min_conf"] = float(min(confs)) if confs else None
+        state["report_avg_conf"] = float(sum(confs) / len(confs)) if confs else None
+        state["report_max_conf"] = float(max(confs)) if confs else None
 
         state["cases"] = cases
         return state
 
 
 
-# ReviewAgent – turns needs_review into flag_for_review
+# ReviewAgent – combine case-level flags
+
 class ReviewAgent(BaseAgent):
-    """
-    Flags for human review based on confidence.
-    """
     name = "review"
 
     def run(self, state: Dict[str, Any]) -> Dict[str, Any]:
-        needs_review = state.get("needs_review", False)
-        state["flag_for_review"] = bool(needs_review)
+        """
+        Report should be flagged for review *only* if at least one case has
+        confidence < threshold (case_needs_review = True).
+        We ignore the validator's report-level needs_review flag.
+        """
+        any_case_review = any(
+            c.get("case_needs_review", False)
+            for c in (state.get("cases") or [])
+        )
+        state["flag_for_review"] = bool(any_case_review)
         return state
 
 
 
-# RecordAgent – tracks total cases created
+# RecordAgent – simple counter
+
 class RecordAgent(BaseAgent):
-    """
-    Updates counters, logging, metrics etc.
-    For now, just increments a simple count in memory.
-    """
     name = "record"
 
     def __init__(self):

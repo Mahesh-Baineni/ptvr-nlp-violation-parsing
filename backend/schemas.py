@@ -2,7 +2,7 @@ from typing import List, Optional, Dict, Any
 from pydantic import BaseModel
 
 
-# --- Nested models for addresses and entities --- #
+# Nested models for addresses and entities 
 
 class StateModel(BaseModel):
     id: Optional[str] = ""
@@ -32,7 +32,7 @@ class SubmitterModel(BaseModel):
 
 class ViolatorModel(BaseModel):
     ViolatorAddress: Optional[AddressModel] = None
-    violatorTypeIDs: Optional[int] = None  # 1=retailer,2=distributor,3=manufacturer
+    violatorTypeIDs: Optional[int] = None  # 1=retailer, 2=distributor, 3=manufacturer
     websiteURL: Optional[str] = ""
     name: Optional[str] = ""
 
@@ -60,7 +60,7 @@ class ReportsFile(BaseModel):
     reports: List[ReportModel]
 
 
-# --- Pipeline output schemas --- #
+# Pipeline output schemas 
 
 class CaseOutput(BaseModel):
     case_id: str
@@ -69,17 +69,21 @@ class CaseOutput(BaseModel):
     violator_name: str
     violator_address: AddressModel
     submitter_address: AddressModel
-    confidence: float
-    # 👇 this is what the frontend needs
-    violation_description: str
+    confidence: float                 # model probability for this role
+    threshold: float                  # learned per-role threshold used
+    case_needs_review: bool           # True if confidence < threshold
+    violation_description: str        # concise, role-specific snippet
 
 
 class ReportResult(BaseModel):
     guid: str
     submitter_address: AddressModel
     cases: List[CaseOutput]
-    flag_for_review: bool
-    max_confidence: float
+    flag_for_review: bool             # True if any case_needs_review or validator flagged
+    max_confidence: float             # same as before (kept for backward-compat)
+    # New report-level summaries derived from cases:
+    min_confidence: Optional[float] = None
+    avg_confidence: Optional[float] = None
 
 
 class PredictFileResponse(BaseModel):

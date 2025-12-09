@@ -20043,6 +20043,2523 @@
           }
         ]
       }
+    },
+      {
+    "methodOfSubmission": 4,
+    "guid": "C5F6E2F1-7C0E-4A21-8A8E-2E9C2A7C9B11",
+    "State": {
+      "id": "",
+      "name": "none"
+    },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Miller",
+      "phoneNumber": "402-555-8126",
+      "SubmitterAddress": {
+        "zip": "68106",
+        "city": "Omaha",
+        "State": {
+          "id": "NE",
+          "name": "Nebraska"
+        },
+        "address1": "8124 Maple St",
+        "address2": ""
+      },
+      "affiliation": "Concerned Citizen",
+      "phoneExt": "",
+      "email": "eric.miller@gmail.com",
+      "fname": "Eric"
+    },
+    "Violation": {
+      "producttype": "1-0",
+      "ViolationDate": {
+        "mm": 10,
+        "dd": 29,
+        "yyyy": 2025,
+        "nodate": 0
+      },
+      "description": "At QuickStop Market in Omaha, the cashier sold a pack of Apex Red cigarettes to a customer who appeared underage without requesting identification. The package also displayed reduced-risk style descriptors and lacked a required health warning panel consistent with current rules; Apex Tobacco Co. is the manufacturer of Apex Red cigarettes.",
+      "tobaccoBrand": "Apex Red",
+      "violationMaterialIDs": [
+        "6",
+        "7"
+      ],
+      "State": {
+        "id": "NE",
+        "name": "Nebraska"
+      },
+      "productsubtype": "Regular",
+      "violationTypeID": [
+        "1",
+        "3",
+        "6"
+      ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "68107",
+            "city": "Omaha",
+            "State": {
+              "id": "NE",
+              "name": "Nebraska"
+            },
+            "address1": "5203 Center St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "QuickStop Market"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "23230",
+            "city": "Richmond",
+            "State": {
+              "id": "VA",
+              "name": "Virginia"
+            },
+            "address1": "6601 Broad Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Apex Tobacco Co."
+        }
+      ]
     }
-  ]
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "936B6B11-28F7-4E1E-9C4A-0C4A2B6F6A10",
+    "State": {
+      "id": "",
+      "name": "none"
+    },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "30233",
+        "city": "Anonymous",
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "11-1",
+      "ViolationDate": {
+        "mm": 11,
+        "dd": 3,
+        "yyyy": 2025,
+        "nodate": 0
+      },
+      "description": "Nimbus Labs manufactured and sold Nimbus Fruit Rush e-juices online that lack required health warnings and ingredient disclosures and do not appear to have required product authorization. The manufacturer also advertised a free-bottle promotion bundled with online orders.",
+      "tobaccoBrand": "Nimbus Fruit Rush",
+      "violationMaterialIDs": [
+        "10",
+        "9"
+      ],
+      "State": {
+        "id": "GA",
+        "name": "Georgia"
+      },
+      "productsubtype": "Mixed Berry",
+      "violationTypeID": [
+        "3",
+        "4",
+        "23"
+      ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "30312",
+            "city": "Atlanta",
+            "State": {
+              "id": "GA",
+              "name": "Georgia"
+            },
+            "address1": "1450 Peachtree Industrial Blvd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "https://www.nimbus-labs.example",
+          "name": "Nimbus Labs"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "0A2B6E77-7E0E-4BFA-8F7F-9E7A4B6C2C55",
+    "State": {
+      "id": "",
+      "name": "none"
+    },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Nguyen",
+      "phoneNumber": "214-555-9932",
+      "SubmitterAddress": {
+        "zip": "75201",
+        "city": "Dallas",
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "address1": "3948 Elmwood Dr",
+        "address2": ""
+      },
+      "affiliation": "Public Health Volunteer",
+      "phoneExt": "",
+      "email": "lana.nguyen@gmail.com",
+      "fname": "Lana"
+    },
+    "Violation": {
+      "producttype": "3-0",
+      "ViolationDate": {
+        "mm": 10,
+        "dd": 24,
+        "yyyy": 2025,
+        "nodate": 0
+      },
+      "description": "MetroLeaf Distribution delivered roll-your-own tobacco to small retailers that arrived without required health warning labels on outer packaging and appears not to have current authorization for those products. The distributor also placed a self-service rack at a client store, giving direct access to the tobacco.",
+      "tobaccoBrand": "MetroLeaf",
+      "violationMaterialIDs": [],
+      "State": {
+        "id": "TX",
+        "name": "Texas"
+      },
+      "productsubtype": "Regular",
+      "violationTypeID": [
+        "5",
+        "23",
+        "3"
+      ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "75204",
+            "city": "Dallas",
+            "State": {
+              "id": "TX",
+              "name": "Texas"
+            },
+            "address1": "8720 Pineview Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "MetroLeaf Distribution"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "F6C1B8C9-3C7C-44E7-9A0B-6C8E9D2E7F31",
+    "State": {
+      "id": "",
+      "name": "none"
+    },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "11530",
+        "city": "Anonymous",
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "7-1",
+      "ViolationDate": {
+        "mm": 11,
+        "dd": 1,
+        "yyyy": 2025,
+        "nodate": 0
+      },
+      "description": "ClearMist Labs manufactured e-cigarettes labeled as nicotine-free; product information online indicates they contain nicotine and lack required warnings and authorization. EastLine Distributors supplied these same products to retailers around Long Island without verifying authorization status.",
+      "tobaccoBrand": "ClearMist",
+      "violationMaterialIDs": [
+        "10"
+      ],
+      "State": {
+        "id": "NY",
+        "name": "New York"
+      },
+      "productsubtype": "Disposable",
+      "violationTypeID": [
+        "3",
+        "23"
+      ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "14202",
+            "city": "Buffalo",
+            "State": {
+              "id": "NY",
+              "name": "New York"
+            },
+            "address1": "941 Lake St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "ClearMist Labs"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "11530",
+            "city": "Garden City",
+            "State": {
+              "id": "NY",
+              "name": "New York"
+            },
+            "address1": "4525 Main Blvd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "EastLine Distributors"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "A71E5A1C-2C2B-4D35-B6AF-1F0B2D6C9F44",
+    "State": {
+      "id": "",
+      "name": "none"
+    },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Patel",
+      "phoneNumber": "503-555-2211",
+      "SubmitterAddress": {
+        "zip": "97205",
+        "city": "Portland",
+        "State": {
+          "id": "OR",
+          "name": "Oregon"
+        },
+        "address1": "2507 Alder St",
+        "address2": ""
+      },
+      "affiliation": "Local Health Inspector",
+      "phoneExt": "",
+      "email": "r.patel@healthdept.org",
+      "fname": "Raj"
+    },
+    "Violation": {
+      "producttype": "5-0",
+      "ViolationDate": {
+        "mm": 10,
+        "dd": 27,
+        "yyyy": 2025,
+        "nodate": 0
+      },
+      "description": "Summit Cigar Co. manufactured Summit Vanilla cigars with packaging that omits required health warnings and promoted bundles with a free cigar included. NorthWest Tobacco Distribution moved these cigars into multiple retailers in Oregon and Washington without confirming product authorization.",
+      "tobaccoBrand": "Summit Vanilla",
+      "violationMaterialIDs": [
+        "10",
+        "9"
+      ],
+      "State": {
+        "id": "OR",
+        "name": "Oregon"
+      },
+      "productsubtype": "Flavored",
+      "violationTypeID": [
+        "3",
+        "4",
+        "23"
+      ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "97209",
+            "city": "Portland",
+            "State": {
+              "id": "OR",
+              "name": "Oregon"
+            },
+            "address1": "1902 Front Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Summit Cigar Co."
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "98101",
+            "city": "Seattle",
+            "State": {
+              "id": "WA",
+              "name": "Washington"
+            },
+            "address1": "350 Pike St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "NorthWest Tobacco Distribution"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0001-MIX-RET-DIST",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Jenkins",
+      "phoneNumber": "305-555-1182",
+      "SubmitterAddress": {
+        "zip": "33132",
+        "city": "Miami",
+        "State": { "id": "FL", "name": "Florida" },
+        "address1": "220 Bayshore Dr",
+        "address2": ""
+      },
+      "affiliation": "Neighborhood Resident",
+      "phoneExt": "",
+      "email": "lisa.jenkins@example.com",
+      "fname": "Lisa"
+    },
+    "Violation": {
+      "producttype": "1-0",
+      "ViolationDate": { "mm": 8, "dd": 12, "yyyy": 2025, "nodate": 0 },
+      "description": "At a small corner store called Atlantic Corner on Biscayne Blvd, I saw Marlco cigarettes in several flavors on the counter and a delivery van with the same logo dropping off cases. Staff did not check IDs for two customers who looked underage.",
+      "tobaccoBrand": "Marlco",
+      "violationMaterialIDs": [ "6", "7" ],
+      "State": { "id": "FL", "name": "Florida" },
+      "productsubtype": "Regular",
+      "violationTypeID": [ "1", "2", "3" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "33132",
+            "city": "Miami",
+            "State": { "id": "FL", "name": "Florida" },
+            "address1": "1250 Biscayne Blvd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Atlantic Corner"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "33142",
+            "city": "Miami",
+            "State": { "id": "FL", "name": "Florida" },
+            "address1": "4100 NW 25th St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Atlantic Logistics Group"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0002-MIX-RET-MFR",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Lopez",
+      "phoneNumber": "512-555-4401",
+      "SubmitterAddress": {
+        "zip": "78701",
+        "city": "Austin",
+        "State": { "id": "TX", "name": "Texas" },
+        "address1": "279 Maple St",
+        "address2": ""
+      },
+      "affiliation": "Public Health Volunteer",
+      "phoneExt": "",
+      "email": "c.lopez@example.org",
+      "fname": "Carla"
+    },
+    "Violation": {
+      "producttype": "5-0",
+      "ViolationDate": { "mm": 9, "dd": 3, "yyyy": 2025, "nodate": 0 },
+      "description": "At Smoker Friendly in Austin, I saw Captain Black style pipe cigars from a brand called Summit Pipehouse on display in flavored varieties. The packaging lacked the full health warning and mentioned a free-cigar bundle advertised by the manufacturer.",
+      "tobaccoBrand": "Summit Pipehouse",
+      "violationMaterialIDs": [ "6", "9" ],
+      "State": { "id": "TX", "name": "Texas" },
+      "productsubtype": "Flavored",
+      "violationTypeID": [ "3", "4", "23" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "78702",
+            "city": "Austin",
+            "State": { "id": "TX", "name": "Texas" },
+            "address1": "4576 Cedar Ln Unit 375",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Smoker Friendly"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "97209",
+            "city": "Portland",
+            "State": { "id": "OR", "name": "Oregon" },
+            "address1": "1902 Front Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Summit Pipehouse Co."
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0003-RET-ONLY",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "60622",
+        "city": "Chicago",
+        "State": { "id": "IL", "name": "Illinois" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "7-1",
+      "ViolationDate": { "mm": 7, "dd": 21, "yyyy": 2025, "nodate": 0 },
+      "description": "At Lakeview Vapor on Milwaukee Ave, there was a self-service rack of disposable e-cigarettes where customers could pick up devices without staff assistance. No age checks took place while several young customers browsed.",
+      "tobaccoBrand": "Lakeview Puff",
+      "violationMaterialIDs": [ "6", "7" ],
+      "State": { "id": "IL", "name": "Illinois" },
+      "productsubtype": "Disposable",
+      "violationTypeID": [ "1", "5", "8" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "60622",
+            "city": "Chicago",
+            "State": { "id": "IL", "name": "Illinois" },
+            "address1": "2145 N Milwaukee Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "https://www.lakeviewvapor.example",
+          "name": "Lakeview Vapor"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 6,
+    "guid": "SYN-0004-DIST-ONLY",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Nguyen",
+      "phoneNumber": "214-555-9932",
+      "SubmitterAddress": {
+        "zip": "75201",
+        "city": "Dallas",
+        "State": { "id": "TX", "name": "Texas" },
+        "address1": "3948 Elmwood Dr",
+        "address2": ""
+      },
+      "affiliation": "Public Health Volunteer",
+      "phoneExt": "",
+      "email": "lana.nguyen@example.com",
+      "fname": "Lana"
+    },
+    "Violation": {
+      "producttype": "3-0",
+      "ViolationDate": { "mm": 10, "dd": 24, "yyyy": 2025, "nodate": 0 },
+      "description": "MetroLeaf Distribution delivered roll-your-own tobacco cartons to several small retailers in Dallas. The outer boxes had no required health warnings and appeared to be a new brand not listed on the FDA authorization page.",
+      "tobaccoBrand": "MetroLeaf Classic",
+      "violationMaterialIDs": [],
+      "State": { "id": "TX", "name": "Texas" },
+      "productsubtype": "Regular",
+      "violationTypeID": [ "3", "5", "23" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "75204",
+            "city": "Dallas",
+            "State": { "id": "TX", "name": "Texas" },
+            "address1": "8720 Pineview Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "MetroLeaf Distribution"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0005-MFR-ONLY",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "11530",
+        "city": "Garden City",
+        "State": { "id": "NY", "name": "New York" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "7-1",
+      "ViolationDate": { "mm": 11, "dd": 1, "yyyy": 2025, "nodate": 0 },
+      "description": "ClearMist Labs advertised nicotine-free e-cigarettes on their website, but lab results posted on social media suggested the products actually contain nicotine and carried no required warning panels.",
+      "tobaccoBrand": "ClearMist Zero",
+      "violationMaterialIDs": [ "10" ],
+      "State": { "id": "NY", "name": "New York" },
+      "productsubtype": "Disposable",
+      "violationTypeID": [ "3", "23" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "14202",
+            "city": "Buffalo",
+            "State": { "id": "NY", "name": "New York" },
+            "address1": "941 Lake St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "https://www.clearmistlabs.example",
+          "name": "ClearMist Labs"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0006-ALL-THREE",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Brooks",
+      "phoneNumber": "716-555-2017",
+      "SubmitterAddress": {
+        "zip": "14210",
+        "city": "Buffalo",
+        "State": { "id": "NY", "name": "New York" },
+        "address1": "18 Delaware Pl",
+        "address2": ""
+      },
+      "affiliation": "Concerned Citizen",
+      "phoneExt": "",
+      "email": "mark.brooks@example.com",
+      "fname": "Mark"
+    },
+    "Violation": {
+      "producttype": "7-2",
+      "ViolationDate": { "mm": 9, "dd": 30, "yyyy": 2025, "nodate": 0 },
+      "description": "Harbor Collective sold disposable vapes from the Harbor Mist line. The glass case and online photos did not clearly show the required nicotine warning. Harbor Mist Holdings manufactures the product and a distributor called Harbor Channel Logistics was named on shipping labels.",
+      "tobaccoBrand": "Harbor Mist",
+      "violationMaterialIDs": [ "6", "10" ],
+      "State": { "id": "NY", "name": "New York" },
+      "productsubtype": "Disposable",
+      "violationTypeID": [ "3", "23" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "14210",
+            "city": "Buffalo",
+            "State": { "id": "NY", "name": "New York" },
+            "address1": "250 South Park Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Harbor Collective"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "14850",
+            "city": "Ithaca",
+            "State": { "id": "NY", "name": "New York" },
+            "address1": "900 Cascadilla St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Harbor Mist Holdings"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "14604",
+            "city": "Rochester",
+            "State": { "id": "NY", "name": "New York" },
+            "address1": "310 Riverfront Plaza",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Harbor Channel Logistics"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0007-RET-ONLY-MINORS",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Martin",
+      "phoneNumber": "704-555-0911",
+      "SubmitterAddress": {
+        "zip": "28202",
+        "city": "Charlotte",
+        "State": { "id": "NC", "name": "North Carolina" },
+        "address1": "900 Tryon St",
+        "address2": ""
+      },
+      "affiliation": "High School Teacher",
+      "phoneExt": "",
+      "email": "s.martin@example.edu",
+      "fname": "Sara"
+    },
+    "Violation": {
+      "producttype": "7-4",
+      "ViolationDate": { "mm": 9, "dd": 14, "yyyy": 2025, "nodate": 0 },
+      "description": "QuickCloud Smoke Shop near our school sold flavored vape pens labeled CloudBurst to several students in school hoodies without requesting ID.",
+      "tobaccoBrand": "CloudBurst",
+      "violationMaterialIDs": [ "6", "7" ],
+      "State": { "id": "NC", "name": "North Carolina" },
+      "productsubtype": "Fruit Flavors",
+      "violationTypeID": [ "1", "2" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "28204",
+            "city": "Charlotte",
+            "State": { "id": "NC", "name": "North Carolina" },
+            "address1": "2315 Central Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "QuickCloud Smoke Shop"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 6,
+    "guid": "SYN-0008-DIST-MFR",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Roberts",
+      "phoneNumber": "206-555-7721",
+      "SubmitterAddress": {
+        "zip": "98101",
+        "city": "Seattle",
+        "State": { "id": "WA", "name": "Washington" },
+        "address1": "350 Pike St",
+        "address2": ""
+      },
+      "affiliation": "Local Health Inspector",
+      "phoneExt": "",
+      "email": "r.roberts@healthdept.example",
+      "fname": "Rachel"
+    },
+    "Violation": {
+      "producttype": "10-0",
+      "ViolationDate": { "mm": 10, "dd": 5, "yyyy": 2025, "nodate": 0 },
+      "description": "Summit Cigar Co. manufactured Summit Vanilla cigar tobacco with promotional bundles. NorthWest Tobacco Distribution moved these products into retailers in Oregon and Washington without confirming their authorization status.",
+      "tobaccoBrand": "Summit Vanilla",
+      "violationMaterialIDs": [ "9", "10" ],
+      "State": { "id": "WA", "name": "Washington" },
+      "productsubtype": "Flavored",
+      "violationTypeID": [ "3", "4", "23" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "97209",
+            "city": "Portland",
+            "State": { "id": "OR", "name": "Oregon" },
+            "address1": "1902 Front Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Summit Cigar Co."
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "98101",
+            "city": "Seattle",
+            "State": { "id": "WA", "name": "Washington" },
+            "address1": "350 Pike St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "NorthWest Tobacco Distribution"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0009-RET-DIST-MINORS",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Campos",
+      "phoneNumber": "702-555-4411",
+      "SubmitterAddress": {
+        "zip": "89109",
+        "city": "Las Vegas",
+        "State": { "id": "NV", "name": "Nevada" },
+        "address1": "1200 Desert Inn Rd",
+        "address2": ""
+      },
+      "affiliation": "Community Volunteer",
+      "phoneExt": "",
+      "email": "l.campos@example.com",
+      "fname": "Luis"
+    },
+    "Violation": {
+      "producttype": "7-5",
+      "ViolationDate": { "mm": 6, "dd": 29, "yyyy": 2025, "nodate": 0 },
+      "description": "At Desert Vapor Mart, young tourists purchased electronic pipes branded Mirage Smoke without ID checks. Boxes behind the counter showed the name Mirage Distribution on shipping labels.",
+      "tobaccoBrand": "Mirage Smoke",
+      "violationMaterialIDs": [ "6" ],
+      "State": { "id": "NV", "name": "Nevada" },
+      "productsubtype": "Electronic Pipes",
+      "violationTypeID": [ "1", "5" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "89109",
+            "city": "Las Vegas",
+            "State": { "id": "NV", "name": "Nevada" },
+            "address1": "455 Strip Blvd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Desert Vapor Mart"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "89030",
+            "city": "North Las Vegas",
+            "State": { "id": "NV", "name": "Nevada" },
+            "address1": "2100 Industrial Cir",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Mirage Distribution"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 6,
+    "guid": "SYN-0010-MFR-ADVERT",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Shah",
+      "phoneNumber": "917-555-2019",
+      "SubmitterAddress": {
+        "zip": "10001",
+        "city": "New York",
+        "State": { "id": "NY", "name": "New York" },
+        "address1": "11 Penn Plaza",
+        "address2": ""
+      },
+      "affiliation": "Advertising Watchdog Group",
+      "phoneExt": "",
+      "email": "reports@adwatch.example",
+      "fname": "Priya"
+    },
+    "Violation": {
+      "producttype": "11-1",
+      "ViolationDate": { "mm": 5, "dd": 19, "yyyy": 2025, "nodate": 0 },
+      "description": "Nimbus Labs ran internet banner ads promising a free bottle of Nimbus Fruit Rush e-juice with online orders and did not display required ingredient disclosures or nicotine warnings.",
+      "tobaccoBrand": "Nimbus Fruit Rush",
+      "violationMaterialIDs": [ "10", "9" ],
+      "State": { "id": "NY", "name": "New York" },
+      "productsubtype": "Mixed Berry",
+      "violationTypeID": [ "3", "4", "23" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "30312",
+            "city": "Atlanta",
+            "State": { "id": "GA", "name": "Georgia" },
+            "address1": "1450 Peachtree Industrial Blvd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "https://www.nimbus-labs.example",
+          "name": "Nimbus Labs"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0011-RET-ROLL-YOUR-OWN",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Anderson",
+      "phoneNumber": "719-555-6630",
+      "SubmitterAddress": {
+        "zip": "80903",
+        "city": "Colorado Springs",
+        "State": { "id": "CO", "name": "Colorado" },
+        "address1": "145 Pine Knoll",
+        "address2": ""
+      },
+      "affiliation": "Military Spouse",
+      "phoneExt": "",
+      "email": "k.anderson@example.com",
+      "fname": "Kelly"
+    },
+    "Violation": {
+      "producttype": "3-0",
+      "ViolationDate": { "mm": 8, "dd": 2, "yyyy": 2025, "nodate": 0 },
+      "description": "At Pike's Peak Tobacco, pouches of roll-your-own tobacco branded WildTrail were stacked near candy. The cashier sold one to a boy in a high school jersey without checking ID.",
+      "tobaccoBrand": "WildTrail",
+      "violationMaterialIDs": [ "6", "7" ],
+      "State": { "id": "CO", "name": "Colorado" },
+      "productsubtype": "Regular",
+      "violationTypeID": [ "1", "8" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "80903",
+            "city": "Colorado Springs",
+            "State": { "id": "CO", "name": "Colorado" },
+            "address1": "915 Tejon St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Pike's Peak Tobacco"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0012-DIST-PIPE-TOBACCO",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "33602",
+        "city": "Tampa",
+        "State": { "id": "FL", "name": "Florida" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "6-0",
+      "ViolationDate": { "mm": 6, "dd": 10, "yyyy": 2025, "nodate": 0 },
+      "description": "Boxes at the rear of a cigar lounge showed a distributor called Gulf Coast Leaf shipping pipe tobacco tins without any visible warnings on the outer packaging.",
+      "tobaccoBrand": "Gulf Coast Leaf",
+      "violationMaterialIDs": [],
+      "State": { "id": "FL", "name": "Florida" },
+      "productsubtype": "Pipe Tobacco",
+      "violationTypeID": [ "3", "23" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "33605",
+            "city": "Tampa",
+            "State": { "id": "FL", "name": "Florida" },
+            "address1": "2200 Harbor Dr",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Gulf Coast Leaf Distributors"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 6,
+    "guid": "SYN-0013-MFR-SMOKELESS",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Patel",
+      "phoneNumber": "615-555-9044",
+      "SubmitterAddress": {
+        "zip": "37203",
+        "city": "Nashville",
+        "State": { "id": "TN", "name": "Tennessee" },
+        "address1": "400 Music Row",
+        "address2": ""
+      },
+      "affiliation": "Dentist",
+      "phoneExt": "",
+      "email": "r.patel@example.com",
+      "fname": "Rhea"
+    },
+    "Violation": {
+      "producttype": "2-0",
+      "ViolationDate": { "mm": 4, "dd": 25, "yyyy": 2025, "nodate": 0 },
+      "description": "A smokeless tobacco manufacturer called Southern Pouch Co. promoted unauthorized mint snuff on Instagram using coupon codes for free samples without showing correct warnings.",
+      "tobaccoBrand": "Southern Pouch Mint",
+      "violationMaterialIDs": [ "9", "10" ],
+      "State": { "id": "TN", "name": "Tennessee" },
+      "productsubtype": "Smokeless",
+      "violationTypeID": [ "3", "4", "23" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "37013",
+            "city": "Antioch",
+            "State": { "id": "TN", "name": "Tennessee" },
+            "address1": "101 Factory Ln",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "https://www.southernpouch.example",
+          "name": "Southern Pouch Co."
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0014-RET-HOOKAH",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Karim",
+      "phoneNumber": "313-555-7400",
+      "SubmitterAddress": {
+        "zip": "48201",
+        "city": "Detroit",
+        "State": { "id": "MI", "name": "Michigan" },
+        "address1": "55 Woodward Ave",
+        "address2": ""
+      },
+      "affiliation": "Concerned Neighbor",
+      "phoneExt": "",
+      "email": "ahmed.karim@example.com",
+      "fname": "Ahmed"
+    },
+    "Violation": {
+      "producttype": "12-0",
+      "ViolationDate": { "mm": 8, "dd": 30, "yyyy": 2025, "nodate": 0 },
+      "description": "At a lounge called Sahara Nights, hookah tobacco jars were set up at tables for self-service, and staff allowed two high-school age patrons to smoke without checking identification.",
+      "tobaccoBrand": "Sahara Nights",
+      "violationMaterialIDs": [ "6" ],
+      "State": { "id": "MI", "name": "Michigan" },
+      "productsubtype": "Hookah",
+      "violationTypeID": [ "1", "5" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "48201",
+            "city": "Detroit",
+            "State": { "id": "MI", "name": "Michigan" },
+            "address1": "1450 Cass Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Sahara Nights Lounge"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 6,
+    "guid": "SYN-0015-MIX-ALL-THREE-2",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Reed",
+      "phoneNumber": "303-555-8009",
+      "SubmitterAddress": {
+        "zip": "80203",
+        "city": "Denver",
+        "State": { "id": "CO", "name": "Colorado" },
+        "address1": "700 Lincoln St",
+        "address2": ""
+      },
+      "affiliation": "Public Health Student",
+      "phoneExt": "",
+      "email": "m.reed@example.com",
+      "fname": "Maya"
+    },
+    "Violation": {
+      "producttype": "7-3",
+      "ViolationDate": { "mm": 9, "dd": 6, "yyyy": 2025, "nodate": 0 },
+      "description": "A smoke shop named MileHigh Smokes carried e-cigars called Alpine Cigarz. Shipping boxes listed Alpine Vapor Works as the manufacturer and HighPass Wholesale as the distributor, but none of the packages included the full nicotine warning.",
+      "tobaccoBrand": "Alpine Cigarz",
+      "violationMaterialIDs": [ "6", "7" ],
+      "State": { "id": "CO", "name": "Colorado" },
+      "productsubtype": "E-Cigars",
+      "violationTypeID": [ "3", "23" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "80205",
+            "city": "Denver",
+            "State": { "id": "CO", "name": "Colorado" },
+            "address1": "2600 Welton St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "MileHigh Smokes"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "84104",
+            "city": "Salt Lake City",
+            "State": { "id": "UT", "name": "Utah" },
+            "address1": "5100 Industrial Pkwy",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Alpine Vapor Works"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "80916",
+            "city": "Colorado Springs",
+            "State": { "id": "CO", "name": "Colorado" },
+            "address1": "800 Commerce Ct",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "HighPass Wholesale"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0016-RET-NOTPROVIDED",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "19107",
+        "city": "Philadelphia",
+        "State": { "id": "PA", "name": "Pennsylvania" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "13-0",
+      "ViolationDate": { "mm": 7, "dd": 9, "yyyy": 2025, "nodate": 0 },
+      "description": "At a newsstand near the subway, the clerk sold a small single cigarillo for cash from an unmarked jar without any packaging or warnings.",
+      "tobaccoBrand": "Unknown",
+      "violationMaterialIDs": [],
+      "State": { "id": "PA", "name": "Pennsylvania" },
+      "productsubtype": "Single Cigarillo",
+      "violationTypeID": [ "6", "7" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "19107",
+            "city": "Philadelphia",
+            "State": { "id": "PA", "name": "Pennsylvania" },
+            "address1": "Market St Subway Entrance",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Market St Newsstand"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0017-DIST-ADV-ROLL",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Owens",
+      "phoneNumber": "907-555-1002",
+      "SubmitterAddress": {
+        "zip": "99501",
+        "city": "Anchorage",
+        "State": { "id": "AK", "name": "Alaska" },
+        "address1": "200 5th Ave",
+        "address2": ""
+      },
+      "affiliation": "State Employee",
+      "phoneExt": "",
+      "email": "k.owens@example.com",
+      "fname": "Kyle"
+    },
+    "Violation": {
+      "producttype": "3-0",
+      "ViolationDate": { "mm": 3, "dd": 18, "yyyy": 2025, "nodate": 0 },
+      "description": "Northern Leaf Distributing mailed glossy flyers to several rural stores promoting discounted roll-your-own tobacco that did not appear on the authorized product list.",
+      "tobaccoBrand": "Northern Leaf",
+      "violationMaterialIDs": [ "5" ],
+      "State": { "id": "AK", "name": "Alaska" },
+      "productsubtype": "Roll-Your-Own",
+      "violationTypeID": [ "3", "23" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "99501",
+            "city": "Anchorage",
+            "State": { "id": "AK", "name": "Alaska" },
+            "address1": "420 Port Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Northern Leaf Distributing"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 6,
+    "guid": "SYN-0018-MFR-EPIPE-FREE-SAMPLES",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Gonzalez",
+      "phoneNumber": "602-555-3377",
+      "SubmitterAddress": {
+        "zip": "85004",
+        "city": "Phoenix",
+        "State": { "id": "AZ", "name": "Arizona" },
+        "address1": "330 E Van Buren",
+        "address2": ""
+      },
+      "affiliation": "Event Attendee",
+      "phoneExt": "",
+      "email": "t.gonzalez@example.com",
+      "fname": "Tom"
+    },
+    "Violation": {
+      "producttype": "7-5",
+      "ViolationDate": { "mm": 2, "dd": 22, "yyyy": 2025, "nodate": 0 },
+      "description": "At a music festival booth, a company called Desert Ember gave out free electronic pipe devices to adults who signed up for a mailing list, without charging money or posting required warnings.",
+      "tobaccoBrand": "Desert Ember",
+      "violationMaterialIDs": [ "10", "9" ],
+      "State": { "id": "AZ", "name": "Arizona" },
+      "productsubtype": "Electronic Pipe",
+      "violationTypeID": [ "3", "4" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "85281",
+            "city": "Tempe",
+            "State": { "id": "AZ", "name": "Arizona" },
+            "address1": "200 Tech Park Dr",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Desert Ember Labs"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-0019-RET-VENDING",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "63101",
+        "city": "St. Louis",
+        "State": { "id": "MO", "name": "Missouri" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "1-0",
+      "ViolationDate": { "mm": 9, "dd": 1, "yyyy": 2025, "nodate": 0 },
+      "description": "A vending machine at a bar dispensed cigarette packs without a clerk present to check IDs.",
+      "tobaccoBrand": "Midwest Lights",
+      "violationMaterialIDs": [],
+      "State": { "id": "MO", "name": "Missouri" },
+      "productsubtype": "Cigarette",
+      "violationTypeID": [ "5" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "63101",
+            "city": "St. Louis",
+            "State": { "id": "MO", "name": "Missouri" },
+            "address1": "1200 Market St",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Riverfront Tavern"
+        }
+      ]
+    }
+  },
+
+  {
+    "methodOfSubmission": 6,
+    "guid": "SYN-0020-MFR-DIST-ROLL-ACCESS",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Foster",
+      "phoneNumber": "208-555-6622",
+      "SubmitterAddress": {
+        "zip": "83702",
+        "city": "Boise",
+        "State": { "id": "ID", "name": "Idaho" },
+        "address1": "500 Capitol Blvd",
+        "address2": ""
+      },
+      "affiliation": "Health Department Staff",
+      "phoneExt": "",
+      "email": "e.foster@example.gov",
+      "fname": "Erin"
+    },
+    "Violation": {
+      "producttype": "3-0",
+      "ViolationDate": { "mm": 5, "dd": 5, "yyyy": 2025, "nodate": 0 },
+      "description": "A manufacturer called Sawtooth Tobacco and distributor RidgeLine Supply set up self-service display bins of roll-your-own tobacco at several small groceries, giving direct customer access.",
+      "tobaccoBrand": "Sawtooth Blend",
+      "violationMaterialIDs": [ "6", "8" ],
+      "State": { "id": "ID", "name": "Idaho" },
+      "productsubtype": "Roll-Your-Own",
+      "violationTypeID": [ "3", "8" ],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "83704",
+            "city": "Boise",
+            "State": { "id": "ID", "name": "Idaho" },
+            "address1": "900 Industrial Way",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Sawtooth Tobacco Co."
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "83687",
+            "city": "Nampa",
+            "State": { "id": "ID", "name": "Idaho" },
+            "address1": "120 Distribution Ct",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "RidgeLine Supply"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-DIST-0001",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Lopez",
+      "phoneNumber": "804-555-1920",
+      "SubmitterAddress": {
+        "zip": "23220",
+        "city": "Richmond",
+        "State": { "id": "VA", "name": "Virginia" },
+        "address1": "1010 Pine St",
+        "address2": ""
+      },
+      "affiliation": "Concerned Customer",
+      "phoneExt": "",
+      "email": "j.lopez@example.com",
+      "fname": "Julia"
+    },
+    "Violation": {
+      "producttype": "3-0",
+      "ViolationDate": { "mm": 9, "dd": 29, "yyyy": 2025, "nodate": 0 },
+      "description": "BlueRiver Distributing shipped loose pipe tobacco to several neighborhood stores without the required health warning on the outer cartons and without confirming current authorization.",
+      "tobaccoBrand": "BlueRiver Pipe",
+      "violationMaterialIDs": [],
+      "State": { "id": "VA", "name": "Virginia" },
+      "productsubtype": "Regular",
+      "violationTypeID": ["3", "23"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "23224",
+            "city": "Richmond",
+            "State": { "id": "VA", "name": "Virginia" },
+            "address1": "4500 Commerce Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "BlueRiver Distributing"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-DIST-0002",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "30318",
+        "city": "Anonymous",
+        "State": { "id": "GA", "name": "Georgia" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "7-1",
+      "ViolationDate": { "mm": 10, "dd": 6, "yyyy": 2025, "nodate": 0 },
+      "description": "MetroSupply Distributors delivered disposable vapes labeled as candy flavors to gas stations in Atlanta without the required nicotine warning and without evidence of product authorization.",
+      "tobaccoBrand": "SweetCloud Bars",
+      "violationMaterialIDs": ["10"],
+      "State": { "id": "GA", "name": "Georgia" },
+      "productsubtype": "Disposable",
+      "violationTypeID": ["3", "5", "23"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "30340",
+            "city": "Doraville",
+            "State": { "id": "GA", "name": "Georgia" },
+            "address1": "2200 Logistics Pkwy",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "MetroSupply Distributors"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-DIST-0003",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Singh",
+      "phoneNumber": "505-555-7712",
+      "SubmitterAddress": {
+        "zip": "87106",
+        "city": "Albuquerque",
+        "State": { "id": "NM", "name": "New Mexico" },
+        "address1": "1777 Yale Blvd SE",
+        "address2": ""
+      },
+      "affiliation": "Health Volunteer",
+      "phoneExt": "",
+      "email": "nav.singh@example.org",
+      "fname": "Nav"
+    },
+    "Violation": {
+      "producttype": "5-0",
+      "ViolationDate": { "mm": 8, "dd": 20, "yyyy": 2025, "nodate": 0 },
+      "description": "HighDesert Wholesale distributed cigar multipacks that were missing health warnings on the outside bundle and promoted a buy-two-get-one offer to their retail customers.",
+      "tobaccoBrand": "HighDesert Specials",
+      "violationMaterialIDs": ["9", "10"],
+      "State": { "id": "NM", "name": "New Mexico" },
+      "productsubtype": "Flavored",
+      "violationTypeID": ["3", "4"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "87121",
+            "city": "Albuquerque",
+            "State": { "id": "NM", "name": "New Mexico" },
+            "address1": "980 Warehouse Loop",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "HighDesert Wholesale"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-DIST-0004",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Carson",
+      "phoneNumber": "414-555-8899",
+      "SubmitterAddress": {
+        "zip": "53204",
+        "city": "Milwaukee",
+        "State": { "id": "WI", "name": "Wisconsin" },
+        "address1": "920 Lakefront Dr",
+        "address2": ""
+      },
+      "affiliation": "Community Member",
+      "phoneExt": "",
+      "email": "a.carson@example.com",
+      "fname": "Alex"
+    },
+    "Violation": {
+      "producttype": "11-1",
+      "ViolationDate": { "mm": 9, "dd": 5, "yyyy": 2025, "nodate": 0 },
+      "description": "Lakeside Distribution supplied nicotine pouches in fruit flavors to smoke shops and the master cartons lacked any authorization information or required health warnings.",
+      "tobaccoBrand": "Lakeside Pouches",
+      "violationMaterialIDs": ["10"],
+      "State": { "id": "WI", "name": "Wisconsin" },
+      "productsubtype": "Nicotine Pouches",
+      "violationTypeID": ["3", "23"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "53219",
+            "city": "Milwaukee",
+            "State": { "id": "WI", "name": "Wisconsin" },
+            "address1": "2000 Harbor Way",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Lakeside Distribution"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-DIST-0005",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "76104",
+        "city": "Anonymous",
+        "State": { "id": "TX", "name": "Texas" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "1-0",
+      "ViolationDate": { "mm": 7, "dd": 30, "yyyy": 2025, "nodate": 0 },
+      "description": "Trinity Leaf Distribution delivered cartons of menthol cigarettes with no visible health warning to small retailers around Fort Worth and included bonus packs without any authorization details.",
+      "tobaccoBrand": "Trinity Menthol",
+      "violationMaterialIDs": ["9"],
+      "State": { "id": "TX", "name": "Texas" },
+      "productsubtype": "Menthol",
+      "violationTypeID": ["3", "4"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "76119",
+            "city": "Fort Worth",
+            "State": { "id": "TX", "name": "Texas" },
+            "address1": "505 Distribution Center Dr",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Trinity Leaf Distribution"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-MAN-0001",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Harris",
+      "phoneNumber": "415-555-6610",
+      "SubmitterAddress": {
+        "zip": "94110",
+        "city": "San Francisco",
+        "State": { "id": "CA", "name": "California" },
+        "address1": "580 Mission St",
+        "address2": ""
+      },
+      "affiliation": "Physician",
+      "phoneExt": "",
+      "email": "d.harris@clinic.org",
+      "fname": "Dana"
+    },
+    "Violation": {
+      "producttype": "7-1",
+      "ViolationDate": { "mm": 8, "dd": 8, "yyyy": 2025, "nodate": 0 },
+      "description": "Skyline Vapor Co. advertises disposable vapes online as nicotine-free while detailed product information suggests they contain nicotine and the web images do not show the required warning statement.",
+      "tobaccoBrand": "Skyline Zero",
+      "violationMaterialIDs": ["6", "10"],
+      "State": { "id": "CA", "name": "California" },
+      "productsubtype": "Disposable",
+      "violationTypeID": ["3", "6"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "94538",
+            "city": "Fremont",
+            "State": { "id": "CA", "name": "California" },
+            "address1": "400 Technology Ct",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "https://www.skylinevapor.example",
+          "name": "Skyline Vapor Co."
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-MAN-0002",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "85008",
+        "city": "Anonymous",
+        "State": { "id": "AZ", "name": "Arizona" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "5-0",
+      "ViolationDate": { "mm": 9, "dd": 2, "yyyy": 2025, "nodate": 0 },
+      "description": "Desert Crown Cigars manufactured vanilla cigars without printing the full health warning on the front and back of the pack and promoted a free lighter giveaway with each box on their website.",
+      "tobaccoBrand": "Desert Crown Vanilla",
+      "violationMaterialIDs": ["9", "10"],
+      "State": { "id": "AZ", "name": "Arizona" },
+      "productsubtype": "Flavored",
+      "violationTypeID": ["3", "4"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "85281",
+            "city": "Tempe",
+            "State": { "id": "AZ", "name": "Arizona" },
+            "address1": "3200 Cigar Way",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Desert Crown Cigars"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-MAN-0003",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Nguyen",
+      "phoneNumber": "612-555-3800",
+      "SubmitterAddress": {
+        "zip": "55408",
+        "city": "Minneapolis",
+        "State": { "id": "MN", "name": "Minnesota" },
+        "address1": "1220 Hennepin Ave",
+        "address2": ""
+      },
+      "affiliation": "Public Health Worker",
+      "phoneExt": "",
+      "email": "t.nguyen@example.org",
+      "fname": "Thao"
+    },
+    "Violation": {
+      "producttype": "11-1",
+      "ViolationDate": { "mm": 7, "dd": 19, "yyyy": 2025, "nodate": 0 },
+      "description": "NorthWind Labs manufactured nicotine lozenges in fruit flavors and their online packaging images do not show the required rotating warnings or any indication that the products are authorized.",
+      "tobaccoBrand": "NorthWind Lozenges",
+      "violationMaterialIDs": ["6", "10"],
+      "State": { "id": "MN", "name": "Minnesota" },
+      "productsubtype": "Oral Nicotine",
+      "violationTypeID": ["3", "6", "23"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "55101",
+            "city": "Saint Paul",
+            "State": { "id": "MN", "name": "Minnesota" },
+            "address1": "900 Innovation Dr",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "NorthWind Labs"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-MAN-0004",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Martinez",
+      "phoneNumber": "305-555-4720",
+      "SubmitterAddress": {
+        "zip": "33142",
+        "city": "Miami",
+        "State": { "id": "FL", "name": "Florida" },
+        "address1": "880 Coral Way",
+        "address2": ""
+      },
+      "affiliation": "School Nurse",
+      "phoneExt": "",
+      "email": "l.martinez@example.edu",
+      "fname": "Lena"
+    },
+    "Violation": {
+      "producttype": "7-1",
+      "ViolationDate": { "mm": 10, "dd": 1, "yyyy": 2025, "nodate": 0 },
+      "description": "BayBreeze Vapor manufactured brightly packaged disposable vapes with candy themes and the on-pack images posted online do not display any required nicotine warning label.",
+      "tobaccoBrand": "BayBreeze Pops",
+      "violationMaterialIDs": ["10"],
+      "State": { "id": "FL", "name": "Florida" },
+      "productsubtype": "Disposable",
+      "violationTypeID": ["3"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "33012",
+            "city": "Hialeah",
+            "State": { "id": "FL", "name": "Florida" },
+            "address1": "411 Vapor Park",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "BayBreeze Vapor"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-MAN-0005",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "63110",
+        "city": "Anonymous",
+        "State": { "id": "MO", "name": "Missouri" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "3-0",
+      "ViolationDate": { "mm": 9, "dd": 15, "yyyy": 2025, "nodate": 0 },
+      "description": "Gateway Leaf Co. produced roll-your-own tobacco bags without the required health warning occupying the mandated portion of the front panel and did not list any FDA authorization on the label.",
+      "tobaccoBrand": "Gateway Roll",
+      "violationMaterialIDs": ["3"],
+      "State": { "id": "MO", "name": "Missouri" },
+      "productsubtype": "Regular",
+      "violationTypeID": ["3", "23"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "63118",
+            "city": "St. Louis",
+            "State": { "id": "MO", "name": "Missouri" },
+            "address1": "700 Leaf Park",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Gateway Leaf Co."
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-RET-MAN-0001",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Brown",
+      "phoneNumber": "919-555-3388",
+      "SubmitterAddress": {
+        "zip": "27606",
+        "city": "Raleigh",
+        "State": { "id": "NC", "name": "North Carolina" },
+        "address1": "400 Oak Meadow Ln",
+        "address2": ""
+      },
+      "affiliation": "Parent",
+      "phoneExt": "",
+      "email": "k.brown@example.com",
+      "fname": "Kelly"
+    },
+    "Violation": {
+      "producttype": "7-1",
+      "ViolationDate": { "mm": 9, "dd": 10, "yyyy": 2025, "nodate": 0 },
+      "description": "At a shop called Triangle Vape Market, flavored disposable vapes from BrightMist Labs were on a counter near candy without the required warnings. BrightMist’s own website also shows these products without clear warnings.",
+      "tobaccoBrand": "BrightMist Freeze",
+      "violationMaterialIDs": ["6", "10"],
+      "State": { "id": "NC", "name": "North Carolina" },
+      "productsubtype": "Disposable",
+      "violationTypeID": ["3", "5"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "27603",
+            "city": "Raleigh",
+            "State": { "id": "NC", "name": "North Carolina" },
+            "address1": "2100 Lake Wheeler Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Triangle Vape Market"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "27560",
+            "city": "Morrisville",
+            "State": { "id": "NC", "name": "North Carolina" },
+            "address1": "150 BrightMist Blvd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "https://www.brightmist.example",
+          "name": "BrightMist Labs"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-RET-MAN-0002",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "44114",
+        "city": "Anonymous",
+        "State": { "id": "OH", "name": "Ohio" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "5-0",
+      "ViolationDate": { "mm": 8, "dd": 3, "yyyy": 2025, "nodate": 0 },
+      "description": "CityMart Convenience sold Sunrise Cherry cigars with no visible on-pack warning, and Sunrise Tobacco Co. markets the same cigars online with promotional imagery but no required health statements.",
+      "tobaccoBrand": "Sunrise Cherry",
+      "violationMaterialIDs": ["9", "10"],
+      "State": { "id": "OH", "name": "Ohio" },
+      "productsubtype": "Flavored",
+      "violationTypeID": ["3", "4"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "44109",
+            "city": "Cleveland",
+            "State": { "id": "OH", "name": "Ohio" },
+            "address1": "500 Denison Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "CityMart Convenience"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "44130",
+            "city": "Middleburg Heights",
+            "State": { "id": "OH", "name": "Ohio" },
+            "address1": "720 Sunrise Park Dr",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Sunrise Tobacco Co."
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-RET-MAN-0003",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Kim",
+      "phoneNumber": "971-555-2040",
+      "SubmitterAddress": {
+        "zip": "97206",
+        "city": "Portland",
+        "State": { "id": "OR", "name": "Oregon" },
+        "address1": "930 SE 52nd Ave",
+        "address2": ""
+      },
+      "affiliation": "Local Health Official",
+      "phoneExt": "",
+      "email": "h.kim@countyhealth.gov",
+      "fname": "Hannah"
+    },
+    "Violation": {
+      "producttype": "3-0",
+      "ViolationDate": { "mm": 7, "dd": 26, "yyyy": 2025, "nodate": 0 },
+      "description": "At Rose City Smoke Shop, bags of Cascade Roll roll-your-own tobacco from Cascade Leaf Co. were displayed without any health warning, and the manufacturer’s website only shows decorative images with no warning text.",
+      "tobaccoBrand": "Cascade Roll",
+      "violationMaterialIDs": ["3", "10"],
+      "State": { "id": "OR", "name": "Oregon" },
+      "productsubtype": "Regular",
+      "violationTypeID": ["3"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "97202",
+            "city": "Portland",
+            "State": { "id": "OR", "name": "Oregon" },
+            "address1": "4100 SE Powell Blvd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Rose City Smoke Shop"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "97035",
+            "city": "Lake Oswego",
+            "State": { "id": "OR", "name": "Oregon" },
+            "address1": "600 Cascade Leaf Way",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Cascade Leaf Co."
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-RET-MAN-0004",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Jackson",
+      "phoneNumber": "617-555-6412",
+      "SubmitterAddress": {
+        "zip": "02124",
+        "city": "Boston",
+        "State": { "id": "MA", "name": "Massachusetts" },
+        "address1": "150 Ashmont St",
+        "address2": ""
+      },
+      "affiliation": "Neighbor",
+      "phoneExt": "",
+      "email": "p.jackson@example.com",
+      "fname": "Pat"
+    },
+    "Violation": {
+      "producttype": "1-0",
+      "ViolationDate": { "mm": 10, "dd": 4, "yyyy": 2025, "nodate": 0 },
+      "description": "Dorchester Corner Store sold Harbor Lights menthol cigarettes where the pack warning was partially covered by a price sticker, and Harbor Lights Manufacturing promotes discount cartons online without showing required warnings.",
+      "tobaccoBrand": "Harbor Lights Menthol",
+      "violationMaterialIDs": ["6", "9"],
+      "State": { "id": "MA", "name": "Massachusetts" },
+      "productsubtype": "Menthol",
+      "violationTypeID": ["1", "3"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "02124",
+            "city": "Boston",
+            "State": { "id": "MA", "name": "Massachusetts" },
+            "address1": "700 Dorchester Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Dorchester Corner Store"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "01970",
+            "city": "Salem",
+            "State": { "id": "MA", "name": "Massachusetts" },
+            "address1": "50 Harbor Lights Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Harbor Lights Manufacturing"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-RET-MAN-0005",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "53208",
+        "city": "Anonymous",
+        "State": { "id": "WI", "name": "Wisconsin" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "5-0",
+      "ViolationDate": { "mm": 9, "dd": 18, "yyyy": 2025, "nodate": 0 },
+      "description": "At Maple Street Market, Lakeshore Honey cigars from Lakeshore Tobacco Co. were displayed with no visible warning label, and the manufacturer’s promotional flyers promised extra sticks in each bundle.",
+      "tobaccoBrand": "Lakeshore Honey",
+      "violationMaterialIDs": ["9"],
+      "State": { "id": "WI", "name": "Wisconsin" },
+      "productsubtype": "Flavored",
+      "violationTypeID": ["3", "4"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "53211",
+            "city": "Milwaukee",
+            "State": { "id": "WI", "name": "Wisconsin" },
+            "address1": "2200 N Prospect Ave",
+            "address2": ""
+          },
+          "violatorTypeIDs": 1,
+          "websiteURL": "",
+          "name": "Maple Street Market"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "53403",
+            "city": "Racine",
+            "State": { "id": "WI", "name": "Wisconsin" },
+            "address1": "900 Lakeshore Tobacco Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Lakeshore Tobacco Co."
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-DIST-MAN-0001",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Reed",
+      "phoneNumber": "504-555-2210",
+      "SubmitterAddress": {
+        "zip": "70119",
+        "city": "New Orleans",
+        "State": { "id": "LA", "name": "Louisiana" },
+        "address1": "430 Canal Blvd",
+        "address2": ""
+      },
+      "affiliation": "Community Advocate",
+      "phoneExt": "",
+      "email": "m.reed@example.org",
+      "fname": "Morgan"
+    },
+    "Violation": {
+      "producttype": "7-1",
+      "ViolationDate": { "mm": 8, "dd": 29, "yyyy": 2025, "nodate": 0 },
+      "description": "Gulf Breeze Labs manufactured tropical disposable vapes without proper warnings, and Crescent City Distribution moved the same products into corner stores around New Orleans without checking authorization.",
+      "tobaccoBrand": "Gulf Breeze Tropic",
+      "violationMaterialIDs": ["10"],
+      "State": { "id": "LA", "name": "Louisiana" },
+      "productsubtype": "Disposable",
+      "violationTypeID": ["3", "23"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "70123",
+            "city": "Harahan",
+            "State": { "id": "LA", "name": "Louisiana" },
+            "address1": "600 Crescent Warehouse Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Crescent City Distribution"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "70130",
+            "city": "New Orleans",
+            "State": { "id": "LA", "name": "Louisiana" },
+            "address1": "1500 Gulf Breeze Dr",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Gulf Breeze Labs"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-DIST-MAN-0002",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "60632",
+        "city": "Anonymous",
+        "State": { "id": "IL", "name": "Illinois" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "5-0",
+      "ViolationDate": { "mm": 9, "dd": 7, "yyyy": 2025, "nodate": 0 },
+      "description": "Midwest Leaf Co. produced honey cigars without a full warning, and SouthSide Tobacco Distribution promoted bulk shipments of the same cigars to small stores without any reference to authorization.",
+      "tobaccoBrand": "Midwest Honey Leaf",
+      "violationMaterialIDs": ["9"],
+      "State": { "id": "IL", "name": "Illinois" },
+      "productsubtype": "Flavored",
+      "violationTypeID": ["3", "4"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "60609",
+            "city": "Chicago",
+            "State": { "id": "IL", "name": "Illinois" },
+            "address1": "2700 SouthSide Way",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "SouthSide Tobacco Distribution"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "60411",
+            "city": "Chicago Heights",
+            "State": { "id": "IL", "name": "Illinois" },
+            "address1": "800 Midwest Leaf Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Midwest Leaf Co."
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-DIST-MAN-0003",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Patel",
+      "phoneNumber": "801-555-7332",
+      "SubmitterAddress": {
+        "zip": "84102",
+        "city": "Salt Lake City",
+        "State": { "id": "UT", "name": "Utah" },
+        "address1": "610 East 400 South",
+        "address2": ""
+      },
+      "affiliation": "Health Inspector",
+      "phoneExt": "",
+      "email": "s.patel@health.ut.gov",
+      "fname": "Samir"
+    },
+    "Violation": {
+      "producttype": "3-0",
+      "ViolationDate": { "mm": 7, "dd": 14, "yyyy": 2025, "nodate": 0 },
+      "description": "Mountain Ridge Tobacco manufactured roll-your-own tobacco bags missing warning panels and partnered with Wasatch Distribution to deliver them to retailers without verifying authorization.",
+      "tobaccoBrand": "Mountain Ridge RYO",
+      "violationMaterialIDs": ["3"],
+      "State": { "id": "UT", "name": "Utah" },
+      "productsubtype": "Regular",
+      "violationTypeID": ["3", "23"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "84047",
+            "city": "West Jordan",
+            "State": { "id": "UT", "name": "Utah" },
+            "address1": "400 Wasatch Logistics Dr",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Wasatch Distribution"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "84104",
+            "city": "Salt Lake City",
+            "State": { "id": "UT", "name": "Utah" },
+            "address1": "200 Mountain Ridge Way",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Mountain Ridge Tobacco"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-DIST-MAN-0004",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "0",
+      "allowContact": 1,
+      "notify": "1",
+      "lname": "Rivera",
+      "phoneNumber": "716-555-9080",
+      "SubmitterAddress": {
+        "zip": "14213",
+        "city": "Buffalo",
+        "State": { "id": "NY", "name": "New York" },
+        "address1": "50 Grant St",
+        "address2": ""
+      },
+      "affiliation": "Concerned Citizen",
+      "phoneExt": "",
+      "email": "j.rivera@example.com",
+      "fname": "Jorge"
+    },
+    "Violation": {
+      "producttype": "11-1",
+      "ViolationDate": { "mm": 10, "dd": 9, "yyyy": 2025, "nodate": 0 },
+      "description": "LakeEffect Labs produced nicotine pouches advertised as herbal, and Empire State Distribution moved them into stores in Buffalo even though packaging and online ads do not show the required nicotine warning.",
+      "tobaccoBrand": "LakeEffect Herb Mix",
+      "violationMaterialIDs": ["6", "10"],
+      "State": { "id": "NY", "name": "New York" },
+      "productsubtype": "Nicotine Pouches",
+      "violationTypeID": ["3", "6"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "14206",
+            "city": "Buffalo",
+            "State": { "id": "NY", "name": "New York" },
+            "address1": "900 Empire Distribution Rd",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Empire State Distribution"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "14606",
+            "city": "Rochester",
+            "State": { "id": "NY", "name": "New York" },
+            "address1": "120 LakeEffect Park",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "LakeEffect Labs"
+        }
+      ]
+    }
+  },
+  {
+    "methodOfSubmission": 4,
+    "guid": "SYN-DIST-MAN-0005",
+    "State": { "id": "", "name": "none" },
+    "Submitter": {
+      "anonymous": "1",
+      "allowContact": 0,
+      "notify": "0",
+      "lname": "Anonymous",
+      "phoneNumber": "",
+      "SubmitterAddress": {
+        "zip": "97201",
+        "city": "Anonymous",
+        "State": { "id": "OR", "name": "Oregon" },
+        "address1": "",
+        "address2": ""
+      },
+      "affiliation": "",
+      "phoneExt": "",
+      "email": "",
+      "fname": "Anonymous"
+    },
+    "Violation": {
+      "producttype": "5-0",
+      "ViolationDate": { "mm": 8, "dd": 11, "yyyy": 2025, "nodate": 0 },
+      "description": "Pacific Ember Co. manufactured cinnamon cigars without full warnings and partnered with Cascade Valley Distribution to move multi-pack bundles into small grocery stores with free-sample signage.",
+      "tobaccoBrand": "Pacific Ember Cinnamon",
+      "violationMaterialIDs": ["9"],
+      "State": { "id": "OR", "name": "Oregon" },
+      "productsubtype": "Flavored",
+      "violationTypeID": ["3", "4"],
+      "Violator": [
+        {
+          "ViolatorAddress": {
+            "zip": "97030",
+            "city": "Gresham",
+            "State": { "id": "OR", "name": "Oregon" },
+            "address1": "220 Cascade Valley Dr",
+            "address2": ""
+          },
+          "violatorTypeIDs": 2,
+          "websiteURL": "",
+          "name": "Cascade Valley Distribution"
+        },
+        {
+          "ViolatorAddress": {
+            "zip": "97210",
+            "city": "Portland",
+            "State": { "id": "OR", "name": "Oregon" },
+            "address1": "500 Pacific Ember Way",
+            "address2": ""
+          },
+          "violatorTypeIDs": 3,
+          "websiteURL": "",
+          "name": "Pacific Ember Co."
+        }
+      ]
+    }
+  }
+]
 }

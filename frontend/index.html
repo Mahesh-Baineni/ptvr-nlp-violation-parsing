@@ -5,52 +5,43 @@
   <title>PTVR Violation Case Creator</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; background-color: #f8f9fa; }
-    .container { max-width: 900px; margin: 0 auto; }
+    .container { max-width: 960px; margin: 0 auto; }
     h1 { text-align: center; color: #333; }
     .card {
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      background-color: #fff;
-      padding: 16px;
-      margin-top: 16px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border: 1px solid #ddd; border-radius: 10px; background-color: #fff;
+      padding: 16px; margin-top: 16px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     .badge {
-      display: inline-block;
-      padding: 4px 8px;
-      border-radius: 5px;
-      font-size: 12px;
-      font-weight: bold;
-      color: #000;
+      display: inline-block; padding: 4px 8px; border-radius: 5px;
+      font-size: 12px; font-weight: bold; color: #000;
     }
     .badge-review { background-color: #f8d7da; }
     .badge-ok { background-color: #d4edda; }
+    .metrics { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 6px; }
+    .metric-chip {
+      background: #eef2f7; border: 1px solid #dfe6ef; border-radius: 6px;
+      padding: 4px 8px; font-size: 12px;
+    }
     .cases { margin-top: 12px; }
     .case {
-      border-top: 1px solid #eee;
-      padding-top: 10px;
-      margin-top: 10px;
-      background-color: #fafafa;
-      border-radius: 8px;
+      border-top: 1px solid #eee; padding-top: 10px; margin-top: 10px;
+      background-color: #fafafa; border-radius: 8px;
     }
     .label { font-weight: bold; }
     button {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      padding: 8px 14px;
-      border-radius: 5px;
-      cursor: pointer;
+      background-color: #007bff; color: white; border: none; padding: 8px 14px;
+      border-radius: 5px; cursor: pointer;
     }
     button:hover { background-color: #0056b3; }
     input[type="file"] { margin-right: 8px; }
     #status { margin-top: 15px; font-weight: bold; }
+    .muted { color: #666; font-size: 12px; }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>PTVR Violation Case Creator</h1>
-    <p>Upload a JSON file with PTVR reports. The model will parse narratives, create multiple cases, and flag low-confidence ones for review.</p>
+    <p>Upload a JSON file with PTVR reports. The pipeline parses narratives, creates multiple cases, and flags low-confidence ones for review.</p>
 
     <form id="upload-form">
       <input type="file" id="file-input" accept=".json" required />
@@ -58,11 +49,60 @@
     </form>
 
     <div id="status"></div>
+
+    <!-- Learned thresholds legend -->
+    <div id="role-thresholds"></div>
+
     <div id="results"></div>
   </div>
 
   <script>
     const API_BASE = "http://127.0.0.1:8000";
+
+    function safeFix(num, digits = 3) {
+      const n = Number(num);
+      return Number.isFinite(n) ? n.toFixed(digits) : "—";
+    }
+
+    function truncate(text, maxLen = 220) {
+      if (!text) return "N/A";
+      const t = String(text).trim();
+      return t.length > maxLen ? t.slice(0, maxLen).trim() + "…" : t;
+    }
+
+    async function loadThresholdsLegend() {
+      try {
+        // Prefer /thresholds; fallback to /health
+        let resp = await fetch(`${API_BASE}/thresholds`);
+        let json = resp.ok ? await resp.json() : null;
+
+        if (!json || !json.role_thresholds) {
+          const r2 = await fetch(`${API_BASE}/health`);
+          json = r2.ok ? await r2.json() : null;
+          if (json && json.thresholds) {
+            json = { role_thresholds: json.thresholds };
+          }
+        }
+
+        if (!json || !json.role_thresholds) return;
+
+        const th = json.role_thresholds;
+        const el = document.getElementById("role-thresholds");
+        el.innerHTML = `
+          <div class="card">
+            <strong>Learned Role Thresholds</strong>
+            <div class="metrics" style="margin-top:6px;">
+              ${Object.entries(th).map(([k,v]) =>
+                `<span class="metric-chip">${k}: ${safeFix(v)}</span>`
+              ).join(" ")}
+            </div>
+            <div class="muted">Derived from validation precision–recall</div>
+          </div>
+        `;
+      } catch (_) { /* ignore */ }
+    }
+
+    loadThresholdsLegend();
 
     document.getElementById("upload-form").addEventListener("submit", async (e) => {
       e.preventDefault();
@@ -79,11 +119,7 @@
       resultsEl.innerHTML = "";
 
       try {
-        const res = await fetch(`${API_BASE}/predict_file`, {
-          method: "POST",
-          body: formData,
-        });
-
+        const res = await fetch(`${API_BASE}/predict_file`, { method: "POST", body: formData });
         if (!res.ok) {
           statusEl.textContent = "Error: " + res.statusText;
           return;
@@ -96,22 +132,30 @@
           const card = document.createElement("div");
           card.className = "card";
 
-          const badge = document.createElement("span");
-          badge.className = "badge " + (rep.flag_for_review ? "badge-review" : "badge-ok");
-          badge.textContent = rep.flag_for_review ? "Needs Human Review" : "Auto-Approved";
+          const headerBadge = document.createElement("span");
+          headerBadge.className = "badge " + (rep.flag_for_review ? "badge-review" : "badge-ok");
+          headerBadge.textContent = rep.flag_for_review ? "Needs Human Review" : "Auto-Approved";
+
+          const minC = safeFix(rep.min_confidence);
+          const avgC = safeFix(rep.avg_confidence);
+          const maxC = safeFix(rep.max_confidence);
 
           card.innerHTML = `
-            <div>
-              <strong>GUID:</strong> ${rep.guid}
+            <div><strong>GUID:</strong> ${rep.guid}</div>
+            <div>${headerBadge.outerHTML}</div>
+
+            <div class="metrics">
+              <span class="metric-chip"><span class="label">Min Confidence:</span> ${minC}</span>
+              <span class="metric-chip"><span class="label">Avg Confidence:</span> ${avgC}</span>
+              <span class="metric-chip"><span class="label">Max Confidence:</span> ${maxC}</span>
             </div>
-            <div>${badge.outerHTML}</div>
-            <div><span class="label">Max Confidence:</span> ${rep.max_confidence.toFixed(3)}</div>
-            <div>
+
+            <div style="margin-top:8px;">
               <span class="label">Submitter Address:</span>
-              ${rep.submitter_address.address1 || ""} ${rep.submitter_address.address2 || ""}, 
-              ${rep.submitter_address.city || ""}, 
-              ${(rep.submitter_address.State && rep.submitter_address.State.name) || ""} 
-              ${rep.submitter_address.zip || ""}
+              ${(rep.submitter_address.address1 || "")} ${(rep.submitter_address.address2 || "")},
+              ${(rep.submitter_address.city || "")},
+              ${((rep.submitter_address.State && rep.submitter_address.State.name) || "")}
+              ${(rep.submitter_address.zip || "")}
             </div>
           `;
 
@@ -119,22 +163,49 @@
           casesDiv.className = "cases";
           casesDiv.innerHTML = "<h4>Cases</h4>";
 
-          (rep.cases || []).forEach((c) => {
+          const cases = rep.cases || [];
+          if (!cases.length) {
+            const emptyDiv = document.createElement("div");
+            emptyDiv.className = "muted";
+            emptyDiv.textContent = "No cases were generated for this report.";
+            casesDiv.appendChild(emptyDiv);
+          }
+
+          cases.forEach((c) => {
             const cDiv = document.createElement("div");
             cDiv.className = "case";
+
+            const needsReview = !!(c.case_needs_review);  // <- new schema field
+            const caseBadge = document.createElement("span");
+            caseBadge.className = "badge " + (needsReview ? "badge-review" : "badge-ok");
+            caseBadge.textContent = needsReview ? "Needs Review" : "OK";
+
+            const thrText = (Number.isFinite(Number(c.threshold)) && Number(c.threshold) > 0)
+              ? safeFix(c.threshold) : "—";
+
             cDiv.innerHTML = `
-              <div><span class="label">Case ID:</span> ${c.case_id}</div>
+              <div style="display:flex; align-items:center; gap:8px;">
+                <span><span class="label">Case ID:</span> ${c.case_id}</span>
+                ${caseBadge.outerHTML}
+              </div>
+
               <div><span class="label">Violator Role:</span> ${c.violator_role}</div>
               <div><span class="label">Violator Name:</span> ${c.violator_name}</div>
+
               <div>
                 <span class="label">Violator Address:</span>
-                ${c.violator_address.address1 || ""} ${c.violator_address.address2 || ""}, 
-                ${c.violator_address.city || ""}, 
-                ${(c.violator_address.State && c.violator_address.State.name) || ""} 
-                ${c.violator_address.zip || ""}
+                ${(c.violator_address.address1 || "")} ${(c.violator_address.address2 || "")},
+                ${(c.violator_address.city || "")},
+                ${((c.violator_address.State && c.violator_address.State.name) || "")}
+                ${(c.violator_address.zip || "")}
               </div>
-              <div><span class="label">Violation Description:</span> ${c.violation_description || "N/A"}</div>
-              <div><span class="label">Confidence:</span> ${c.confidence.toFixed(3)}</div>
+
+              <div><span class="label">Violation Description:</span> ${truncate(c.violation_description, 220)}</div>
+
+              <div>
+                <span class="label">Confidence:</span> ${safeFix(c.confidence)}
+                &nbsp;—&nbsp;<span class="label">Threshold:</span> ${thrText}
+              </div>
             `;
             casesDiv.appendChild(cDiv);
           });

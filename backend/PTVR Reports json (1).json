@@ -1,0 +1,6341 @@
+{
+  "metadata": {
+    "total_reports": 76,
+    "distribution_plan": {
+      "single_violations": 9,
+      "double_violations": 37,
+      "triple_violations": 30,
+      "total": 76
+    },
+    "validation_stats": {
+      "total_attempts": 77,
+      "passed_first_try": 75,
+      "required_retry": 1,
+      "failed": 0
+    },
+    "violator_entity_distribution": {
+      "1": 18,
+      "2": 37,
+      "3": 20
+    }
+  },
+  "reports": [
+    {
+      "methodOfSubmission": 4,
+      "guid": "C46F46C4-A606-48C2-B558-DE3EBC6E2876",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Davis",
+        "phoneNumber": "202-881-9381",
+        "SubmitterAddress": {
+          "zip": "92101",
+          "city": "San Diego",
+          "State": {
+            "id": "CA",
+            "name": "California"
+          },
+          "address1": "7546 Elm Dr",
+          "address2": "Unit 350"
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "john.davis@gmail.com",
+        "fname": "John"
+      },
+      "Violation": {
+        "producttype": "6-0",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 11,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was in the store and witnessed Tobacco World selling Prince Albert pipe tobacco to a minor without asking for identification.",
+        "tobaccoBrand": "Prince Albert",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "1"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "90001",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "9896 Cedar Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.tobaccoworld.com",
+            "name": "Tobacco World"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "8B5ED452-B599-44A2-B047-1817FC8BA106",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Wilson",
+        "phoneNumber": "312-703-3123",
+        "SubmitterAddress": {
+          "zip": "78701",
+          "city": "Austin",
+          "State": {
+            "id": "TX",
+            "name": "Texas"
+          },
+          "address1": "279 Maple St",
+          "address2": ""
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "barbara.wilson@gmail.com",
+        "fname": "Barbara"
+      },
+      "Violation": {
+        "producttype": "6-0",
+        "ViolationDate": {
+          "mm": 4,
+          "dd": 2,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When I stopped in, I discovered that Smoker Friendly in Austin, Texas, offered Captain Black pipe tobacco in flavored varieties.",
+        "tobaccoBrand": "Captain Black",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "2"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "78702",
+              "city": "Austin",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "4576 Cedar Ln",
+              "address2": "Unit 375"
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Smoker Friendly"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "1B9ED267-C002-45DF-A163-F099312A5D7C",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "1",
+        "allowContact": 0,
+        "notify": "0",
+        "lname": "Anonymous",
+        "phoneNumber": "",
+        "SubmitterAddress": {
+          "zip": "23220",
+          "city": "Anonymous",
+          "State": {
+            "id": "VA",
+            "name": "Virginia"
+          },
+          "address1": "",
+          "address2": ""
+        },
+        "affiliation": "",
+        "phoneExt": "",
+        "email": "",
+        "fname": "Anonymous"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 1,
+          "dd": 12,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I dropped by and found that Kwik Trip had L&M cigarettes without proper warning labels shown on periodicals in Virginia Beach, Virginia.",
+        "tobaccoBrand": "L&M",
+        "violationMaterialIDs": [
+          "3"
+        ],
+        "State": {
+          "id": "VA",
+          "name": "Virginia"
+        },
+        "productsubtype": "Light",
+        "violationTypeID": [
+          "3"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "23452",
+              "city": "Virginia Beach",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "4505 Cedar Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Kwik Trip"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "7EAFC96A-5A39-4CD8-98E6-30292AE4400A",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Smith",
+        "phoneNumber": "510-594-8792",
+        "SubmitterAddress": {
+          "zip": "31401",
+          "city": "Savannah",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "7352 Maple Ave",
+          "address2": ""
+        },
+        "affiliation": "Healthcare Professional",
+        "phoneExt": "",
+        "email": "michael.smith@gmail.com",
+        "fname": "Michael"
+      },
+      "Violation": {
+        "producttype": "6-0",
+        "ViolationDate": {
+          "mm": 7,
+          "dd": 26,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was shopping when I saw Tinder Box distributing Captain Black pipe tobacco samples at no charge in Savannah, Georgia.",
+        "tobaccoBrand": "Captain Black",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "31404",
+              "city": "Savannah",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "1064 Cedar Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Tinder Box"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "1A389722-7237-459D-BBC3-7849C40608B0",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Lopez",
+        "phoneNumber": "404-716-3958",
+        "SubmitterAddress": {
+          "zip": "43202",
+          "city": "Columbus",
+          "State": {
+            "id": "OH",
+            "name": "Ohio"
+          },
+          "address1": "1365 Maple Ln",
+          "address2": ""
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "john.lopez@yahoo.com",
+        "fname": "John"
+      },
+      "Violation": {
+        "producttype": "10-0",
+        "ViolationDate": {
+          "mm": 9,
+          "dd": 15,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While checking out the store, I noticed Smoker's Outlet had a vending kiosk selling Peter Stokkebye cigar tobacco with no age verification.",
+        "tobaccoBrand": "Peter Stokkebye",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "OH",
+          "name": "Ohio"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "5"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "44102",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "6418 Maple Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.smoker'soutlet.com",
+            "name": "Smoker's Outlet"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "EFEF6DEB-768F-410A-B8DF-6D7908BF7932",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Williams",
+        "phoneNumber": "212-427-8735",
+        "SubmitterAddress": {
+          "zip": "33101",
+          "city": "Miami",
+          "State": {
+            "id": "FL",
+            "name": "Florida"
+          },
+          "address1": "3776 Cedar Dr",
+          "address2": ""
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "richard.williams@yahoo.com",
+        "fname": "Richard"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 3,
+          "dd": 26,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While at the store, I witnessed Speedway selling individual White Owl cigarettes in quantities less than the standard package in Tampa, Florida.",
+        "tobaccoBrand": "White Owl",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "FL",
+          "name": "Florida"
+        },
+        "productsubtype": "Silver",
+        "violationTypeID": [
+          "6"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "33602",
+              "city": "Tampa",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "6106 Maple Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.speedway.com",
+            "name": "Speedway"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "B0B944EF-F6CE-469F-B0B0-E5C303D2D399",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "1",
+        "allowContact": 0,
+        "notify": "0",
+        "lname": "Anonymous",
+        "phoneNumber": "",
+        "SubmitterAddress": {
+          "zip": "19102",
+          "city": "Anonymous",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "",
+          "address2": ""
+        },
+        "affiliation": "",
+        "phoneExt": "",
+        "email": "",
+        "fname": "Anonymous"
+      },
+      "Violation": {
+        "producttype": "7-4",
+        "ViolationDate": {
+          "mm": 8,
+          "dd": 5,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "During a recent visit, I discovered Kum & Go had Hyde vape pens displayed in a way that raised concerns in Philadelphia, Pennsylvania.",
+        "tobaccoBrand": "Hyde",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "PA",
+          "name": "Pennsylvania"
+        },
+        "productsubtype": "Edge",
+        "violationTypeID": [
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "19103",
+              "city": "Philadelphia",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "3005 Washington St",
+              "address2": "Suite 190"
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Kum & Go"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "7907E97D-CA02-491C-80A0-6BAE1BF18D00",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Johnson",
+        "phoneNumber": "310-425-3916",
+        "SubmitterAddress": {
+          "zip": "78702",
+          "city": "Austin",
+          "State": {
+            "id": "TX",
+            "name": "Texas"
+          },
+          "address1": "2899 Park Blvd",
+          "address2": ""
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "david.johnson@yahoo.com",
+        "fname": "David"
+      },
+      "Violation": {
+        "producttype": "6-0",
+        "ViolationDate": {
+          "mm": 3,
+          "dd": 22,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was in the area and observed JR Cigars placed Prince Albert pipe tobacco products in open displays without staff supervision in Austin, Texas.",
+        "tobaccoBrand": "Prince Albert",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "78702",
+              "city": "Austin",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "1430 Elm St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "JR Cigars"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "F235C68C-2CCD-43E1-AD02-5287C35750D9",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Martinez",
+        "phoneNumber": "310-705-9801",
+        "SubmitterAddress": {
+          "zip": "02109",
+          "city": "Boston",
+          "State": {
+            "id": "MA",
+            "name": "Massachusetts"
+          },
+          "address1": "7805 Park St",
+          "address2": ""
+        },
+        "affiliation": "Public Health Advocate",
+        "phoneExt": "",
+        "email": "jessica.martinez@yahoo.com",
+        "fname": "Jessica"
+      },
+      "Violation": {
+        "producttype": "7-3",
+        "ViolationDate": {
+          "mm": 8,
+          "dd": 18,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While looking around, I saw The Vape Store in Worcester, Massachusetts offering Mistic e-cigars without proper regulatory approval.",
+        "tobaccoBrand": "Mistic E-Cigar",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "MA",
+          "name": "Massachusetts"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "01601",
+              "city": "Worcester",
+              "State": {
+                "id": "MA",
+                "name": "Massachusetts"
+              },
+              "address1": "7582 Elm St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.thevapestore.com",
+            "name": "The Vape Store"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "357A0891-8722-4A69-9254-11DECAD45CB0",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Rodriguez",
+        "phoneNumber": "212-972-8726",
+        "SubmitterAddress": {
+          "zip": "92101",
+          "city": "San Diego",
+          "State": {
+            "id": "CA",
+            "name": "California"
+          },
+          "address1": "5037 Cedar Dr",
+          "address2": "Suite 43"
+        },
+        "affiliation": "Public Health Advocate",
+        "phoneExt": "",
+        "email": "richard.rodriguez@gmail.com",
+        "fname": "Richard"
+      },
+      "Violation": {
+        "producttype": "7-5",
+        "ViolationDate": {
+          "mm": 10,
+          "dd": 24,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "I went in to buy something and noticed Vapor Galleria sold ePipe 629 electronic pipes to someone who looked underage without checking ID and had flavored ePipe 629 electronic pipes available for sale in Worcester, Massachusetts.",
+        "tobaccoBrand": "ePipe 629",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "MA",
+          "name": "Massachusetts"
+        },
+        "productsubtype": "Classic",
+        "violationTypeID": [
+          "1",
+          "2"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "01602",
+              "city": "Worcester",
+              "State": {
+                "id": "MA",
+                "name": "Massachusetts"
+              },
+              "address1": "7067 Oak Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Vapor Galleria"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "6CFDEF98-CCD3-444A-8B37-A6FC3037B2DC",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Taylor",
+        "phoneNumber": "703-277-8969",
+        "SubmitterAddress": {
+          "zip": "33125",
+          "city": "Miami",
+          "State": {
+            "id": "FL",
+            "name": "Florida"
+          },
+          "address1": "3551 Park Blvd",
+          "address2": "Unit 105"
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "john.taylor@yahoo.com",
+        "fname": "John"
+      },
+      "Violation": {
+        "producttype": "7-1",
+        "ViolationDate": {
+          "mm": 1,
+          "dd": 1,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "During my shopping trip, I found that Maverik allowed the purchase of Juul e-cigarettes by someone appearing under 18. National Tobacco Company supplied Juul e-cigarettes with improper labels.",
+        "tobaccoBrand": "Juul",
+        "violationMaterialIDs": [
+          "4"
+        ],
+        "State": {
+          "id": "FL",
+          "name": "Florida"
+        },
+        "productsubtype": "Pod System",
+        "violationTypeID": [
+          "1",
+          "3"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "33602",
+              "city": "Tampa",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "6001 Washington Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.maverik.com",
+            "name": "Maverik"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "33125",
+              "city": "Miami",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "8313 Elm Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.nationaltobaccocompany.com",
+            "name": "National Tobacco Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "DDA0B9B7-DBD6-4E76-9A3C-0226BB19345C",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Johnson",
+        "phoneNumber": "312-990-1656",
+        "SubmitterAddress": {
+          "zip": "62701",
+          "city": "Springfield",
+          "State": {
+            "id": "IL",
+            "name": "Illinois"
+          },
+          "address1": "6365 Park St",
+          "address2": "Apt 495"
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "jessica.johnson@yahoo.com",
+        "fname": "Jessica"
+      },
+      "Violation": {
+        "producttype": "3-0",
+        "ViolationDate": {
+          "mm": 11,
+          "dd": 27,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "I went inside and observed Tobacco Road selling Bali Shag roll-your-own tobacco to a minor without checking ID, and handing out complimentary packs at the counter. B&B Distributors had dropped off the Bali Shag stock along with “try-me” sample sleeves and point-of-sale cards encouraging giveaways",
+        "tobaccoBrand": "Bali Shag",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "OH",
+          "name": "Ohio"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "1",
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "44101",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "2496 Oak Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.tobaccoroad.com",
+            "name": "Tobacco Road"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "44102",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "6503 Cedar Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.b&bdistributors.com",
+            "name": "B&B Distributors"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "C8FA8364-31B5-407B-899B-68CB323D6006",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Smith",
+        "phoneNumber": "202-968-6364",
+        "SubmitterAddress": {
+          "zip": "33603",
+          "city": "Tampa",
+          "State": {
+            "id": "FL",
+            "name": "Florida"
+          },
+          "address1": "5903 Maple Dr",
+          "address2": ""
+        },
+        "affiliation": "Public Health Advocate",
+        "phoneExt": "",
+        "email": "william.smith@gmail.com",
+        "fname": "William"
+      },
+      "Violation": {
+        "producttype": "10-0",
+        "ViolationDate": {
+          "mm": 12,
+          "dd": 10,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "When I was at the register, I noticed Cigar store sold Davidoff cigar tobacco to a minor without asking for identification and had a automated machine selling Davidoff cigar tobacco with no age verification in Tampa, Florida.",
+        "tobaccoBrand": "Davidoff",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "FL",
+          "name": "Florida"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "1",
+          "5"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "33603",
+              "city": "Tampa",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "4934 Maple Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Cigar store"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "80EF6F09-2E20-45B1-9079-5D95896B8CAD",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Thomas",
+        "phoneNumber": "713-553-5110",
+        "SubmitterAddress": {
+          "zip": "60601",
+          "city": "Chicago",
+          "State": {
+            "id": "IL",
+            "name": "Illinois"
+          },
+          "address1": "2488 Cedar Blvd",
+          "address2": ""
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "michael.thomas@yahoo.com",
+        "fname": "Michael"
+      },
+      "Violation": {
+        "producttype": "2-0",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 11,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was at the location when I noticed that employee at Exxon didn't verify age before selling Grizzly smokeless tobacco to a young customer and offered Grizzly smokeless tobacco in reduced quantities.",
+        "tobaccoBrand": "Grizzly",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "IL",
+          "name": "Illinois"
+        },
+        "productsubtype": "Wintergreen",
+        "violationTypeID": [
+          "1",
+          "6"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "60602",
+              "city": "Chicago",
+              "State": {
+                "id": "IL",
+                "name": "Illinois"
+              },
+              "address1": "5179 Elm St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Exxon"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "FB9182BC-CB59-42D0-8881-A47FDBB0E1D2",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Lopez",
+        "phoneNumber": "312-913-9741",
+        "SubmitterAddress": {
+          "zip": "30303",
+          "city": "Atlanta",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "8603 Main Ave",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "barbara.lopez@yahoo.com",
+        "fname": "Barbara"
+      },
+      "Violation": {
+        "producttype": "12-0",
+        "ViolationDate": {
+          "mm": 7,
+          "dd": 14,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When browsing, I witnessed Tobacco World in Atlanta, Georgia, selling Starbuzz hookah tobacco to someone who looked underage without checking ID and doing something with the Starbuzz hookah tobacco that didn't look right. Core-Mark International was involved by supplying the Starbuzz hookah tobacco without ensuring proper compliance.",
+        "tobaccoBrand": "Starbuzz",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "productsubtype": "Blue Mist",
+        "violationTypeID": [
+          "1",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "30305",
+              "city": "Atlanta",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "1120 Main Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Tobacco World"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "31401",
+              "city": "Savannah",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "8063 Maple Ave",
+              "address2": "Apt 70"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.coremarkinternational.com",
+            "name": "Core-Mark International"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "8F986BA8-FB4C-4E76-B885-D39194F09EFC",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Brown",
+        "phoneNumber": "415-536-1539",
+        "SubmitterAddress": {
+          "zip": "15202",
+          "city": "Pittsburgh",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "5845 Washington Ln",
+          "address2": ""
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "david.brown@gmail.com",
+        "fname": "David"
+      },
+      "Violation": {
+        "producttype": "5-0",
+        "ViolationDate": {
+          "mm": 2,
+          "dd": 26,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I visited recently and witnessed Pilot Flying J in Richmond, Virginia selling Black & Mild cigars to someone who looked underage without checking ID and placing Black & Mild cigars in open displays without staff supervision. Wholesale Express was supplying Black & Mild cigars without ensuring compliance with proper display regulations.",
+        "tobaccoBrand": "Black & Mild",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "VA",
+          "name": "Virginia"
+        },
+        "productsubtype": "Wine",
+        "violationTypeID": [
+          "1",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "23221",
+              "city": "Richmond",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "5567 Elm Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Pilot Flying J"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "23220",
+              "city": "Richmond",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "5343 Park Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.wholesaleexpress.com",
+            "name": "Wholesale Express"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "448EDC76-BE7E-41BF-91AB-B6FB2C8EA5F4",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Hernandez",
+        "phoneNumber": "213-469-8747",
+        "SubmitterAddress": {
+          "zip": "30305",
+          "city": "Atlanta",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "5543 Elm Blvd",
+          "address2": ""
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "richard.hernandez@gmail.com",
+        "fname": "Richard"
+      },
+      "Violation": {
+        "producttype": "7-1",
+        "ViolationDate": {
+          "mm": 8,
+          "dd": 2,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While checking out the store, I noticed Marathon sold Logic e-cigarettes to a young customer without verifying their age. Additionally, Core-Mark International distributed Logic e-cigarettes that aren't on the FDA's approved list.",
+        "tobaccoBrand": "Logic",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "1",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "31401",
+              "city": "Savannah",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "62 Cedar Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Marathon"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "31401",
+              "city": "Savannah",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "532 Cedar Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Core-Mark International"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "7A1F3D32-6413-4858-93AD-A6756F8E434F",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Garcia",
+        "phoneNumber": "713-751-3233",
+        "SubmitterAddress": {
+          "zip": "43202",
+          "city": "Columbus",
+          "State": {
+            "id": "OH",
+            "name": "Ohio"
+          },
+          "address1": "2821 Elm Ave",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "joseph.garcia@yahoo.com",
+        "fname": "Joseph"
+      },
+      "Violation": {
+        "producttype": "7-2",
+        "ViolationDate": {
+          "mm": 4,
+          "dd": 7,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When browsing, I witnessed Cloud Chasers offering Fantasia E-Hookah in flavored varieties. GSC Enterprises supplied the Fantasia E-Hookah  with improper labels.",
+        "tobaccoBrand": "Fantasia E-Hookah",
+        "violationMaterialIDs": [
+          "4"
+        ],
+        "State": {
+          "id": "OH",
+          "name": "Ohio"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "2",
+          "3"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "44101",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "4726 Washington Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Cloud Chasers"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "44102",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "5279 Elm Ave",
+              "address2": "Unit 31"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "GSC Enterprises"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "8710FEA4-8685-4043-B71E-8BBE96700A06",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Johnson",
+        "phoneNumber": "312-270-1401",
+        "SubmitterAddress": {
+          "zip": "10002",
+          "city": "New York",
+          "State": {
+            "id": "NY",
+            "name": "New York"
+          },
+          "address1": "4926 Elm St",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "barbara.johnson@gmail.com",
+        "fname": "Barbara"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 2,
+          "dd": 9,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While at the store, I witnessed Love's Travel Stops in New York, New York, had flavored Marlboro cigarettes available for sale and was giving away free Marlboro cigarettes samples. Krave Wholesale was supplying these flavoured Marlboro cigarettes.",
+        "tobaccoBrand": "Marlboro",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "productsubtype": "Menthol",
+        "violationTypeID": [
+          "2",
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "10002",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "7680 Oak Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Love's Travel Stops"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "10002",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "3765 Oak Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.kravewholesale.com",
+            "name": "Krave Wholesale"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "896BC2BF-26BE-461C-A6E4-59B0810B6DC5",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Thomas",
+        "phoneNumber": "415-810-5118",
+        "SubmitterAddress": {
+          "zip": "33101",
+          "city": "Miami",
+          "State": {
+            "id": "FL",
+            "name": "Florida"
+          },
+          "address1": "7471 Oak Ln",
+          "address2": ""
+        },
+        "affiliation": "Healthcare Professional",
+        "phoneExt": "",
+        "email": "jennifer.thomas@gmail.com",
+        "fname": "Jennifer"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 17,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When I walked in, I found Valero had flavored Marlboro cigarettes available for sale and operated an automated dispenser for Marlboro cigarettes without ID checks. National Tobacco Company installed the vending machine for Marlboro cigarettes without proper safeguards.",
+        "tobaccoBrand": "Marlboro",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "VA",
+          "name": "Virginia"
+        },
+        "productsubtype": "Menthol",
+        "violationTypeID": [
+          "2",
+          "5"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "23451",
+              "city": "Virginia Beach",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "6409 Park Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Valero"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "23220",
+              "city": "Richmond",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "4617 Oak Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.nationaltobaccocompany.com",
+            "name": "National Tobacco Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "3A07F57F-B33B-426E-B6CF-515455E2EBFC",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Martinez",
+        "phoneNumber": "617-999-8897",
+        "SubmitterAddress": {
+          "zip": "33602",
+          "city": "Tampa",
+          "State": {
+            "id": "FL",
+            "name": "Florida"
+          },
+          "address1": "2210 Park Dr",
+          "address2": ""
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "elizabeth.martinez@gmail.com",
+        "fname": "Elizabeth"
+      },
+      "Violation": {
+        "producttype": "7-4",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 22,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was passing by and noticed Speedway was selling flavored Puff Bar vape pens and selling individual Puff Bar vape pens to underage persons. I also noticed Wholesale Express was supplying these Puff Bar vape pens without the necessary compliance checks.",
+        "tobaccoBrand": "Puff Bar",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "FL",
+          "name": "Florida"
+        },
+        "productsubtype": "Plus",
+        "violationTypeID": [
+          "2",
+          "1"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "33602",
+              "city": "Tampa",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "7985 Maple Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.speedway.com",
+            "name": "Speedway"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "33101",
+              "city": "Miami",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "525 Washington Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Wholesale Express"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "21FA13E4-1EDA-4CE2-BC33-D5B6CFAFF8CB",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Hernandez",
+        "phoneNumber": "703-791-1107",
+        "SubmitterAddress": {
+          "zip": "31401",
+          "city": "Savannah",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "2460 Park Blvd",
+          "address2": ""
+        },
+        "affiliation": "Public Health Advocate",
+        "phoneExt": "",
+        "email": "robert.hernandez@yahoo.com",
+        "fname": "Robert"
+      },
+      "Violation": {
+        "producttype": "7-5",
+        "ViolationDate": {
+          "mm": 7,
+          "dd": 17,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When I was at the register, I noticed Puff Paradise offered ePipe 629 electronic pipes in flavored varieties and displayed ePipe 629 electronic pipes in a way that raised concerns.",
+        "tobaccoBrand": "ePipe 629",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "productsubtype": "Classic",
+        "violationTypeID": [
+          "2",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "30303",
+              "city": "Atlanta",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "514 Cedar Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.puffparadise.com",
+            "name": "Puff Paradise"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "7B3BADAF-E850-46FB-B456-B88978C18D6C",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Brown",
+        "phoneNumber": "713-262-4109",
+        "SubmitterAddress": {
+          "zip": "23452",
+          "city": "Virginia Beach",
+          "State": {
+            "id": "VA",
+            "name": "Virginia"
+          },
+          "address1": "6236 Washington St",
+          "address2": "Unit 497"
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "michael.brown@yahoo.com",
+        "fname": "Michael"
+      },
+      "Violation": {
+        "producttype": "7-3",
+        "ViolationDate": {
+          "mm": 4,
+          "dd": 15,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While browsing the store, I observed Cloud Chasers had flavored NJoy King e-cigars available for sale and placed NJoy King e-cigars in open displays without staff supervision. In addition, B&B Distributors were involved in distributing these NJoy King e-cigars in Virginia Beach, Virginia, without ensuring compliance with display regulations.",
+        "tobaccoBrand": "NJoy King",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "VA",
+          "name": "Virginia"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "2",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "23451",
+              "city": "Virginia Beach",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "1945 Maple Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.cloudchasers.com",
+            "name": "Cloud Chasers"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "23221",
+              "city": "Richmond",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "4999 Main Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "B&B Distributors"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "FD4392AA-3A75-4529-82A3-1E407218BF5F",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Garcia",
+        "phoneNumber": "310-713-4314",
+        "SubmitterAddress": {
+          "zip": "19102",
+          "city": "Philadelphia",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "568 Main Ln",
+          "address2": ""
+        },
+        "affiliation": "Public Health Advocate",
+        "phoneExt": "",
+        "email": "jessica.garcia@gmail.com",
+        "fname": "Jessica"
+      },
+      "Violation": {
+        "producttype": "11-1",
+        "ViolationDate": {
+          "mm": 6,
+          "dd": 20,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I stopped by and found Local Vape Shop in Pittsburgh, Pennsylvania selling flavored Naked 100 e-juices, which are not allowed. H.T. Hackney Co distributed these Naked 100 e-juices without them being on the FDA's approved list.",
+        "tobaccoBrand": "Naked 100",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "PA",
+          "name": "Pennsylvania"
+        },
+        "productsubtype": "Fruit",
+        "violationTypeID": [
+          "2",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "15201",
+              "city": "Pittsburgh",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "1195 Washington Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.localvapeshop.com",
+            "name": "Local Vape Shop"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "15201",
+              "city": "Pittsburgh",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "3767 Maple Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.hthackneyco.com",
+            "name": "H.T. Hackney Co"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "9DCE42E2-B0A3-4988-9B33-72A35C702853",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Jones",
+        "phoneNumber": "713-877-6503",
+        "SubmitterAddress": {
+          "zip": "02108",
+          "city": "Boston",
+          "State": {
+            "id": "MA",
+            "name": "Massachusetts"
+          },
+          "address1": "1739 Oak Dr",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "robert.jones@gmail.com",
+        "fname": "Robert"
+      },
+      "Violation": {
+        "producttype": "7-4",
+        "ViolationDate": {
+          "mm": 6,
+          "dd": 1,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While getting gas, I saw QuikTrip in Houston, Texas was giving away free Geek Bar vape pens samples. I also noticed that Quality Distributors supplied Geek Bar vape pens with improper labels.",
+        "tobaccoBrand": "Geek Bar",
+        "violationMaterialIDs": [
+          "9"
+        ],
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "productsubtype": "Pulse",
+        "violationTypeID": [
+          "3",
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "77003",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "2451 Oak Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "QuikTrip"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "78702",
+              "city": "Austin",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "4626 Oak Ln",
+              "address2": "Apt 381"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Quality Distributors"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "B140ACAF-E38C-41C9-B095-906FC4774A5B",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Rodriguez",
+        "phoneNumber": "212-607-5999",
+        "SubmitterAddress": {
+          "zip": "23452",
+          "city": "Virginia Beach",
+          "State": {
+            "id": "VA",
+            "name": "Virginia"
+          },
+          "address1": "4810 Park Ave",
+          "address2": ""
+        },
+        "affiliation": "Healthcare Professional",
+        "phoneExt": "",
+        "email": "richard.rodriguez@gmail.com",
+        "fname": "Richard"
+      },
+      "Violation": {
+        "producttype": "3-0",
+        "ViolationDate": {
+          "mm": 9,
+          "dd": 9,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When browsing, I witnessed JR Cigars had a automated machine selling Top roll-your-own tobacco with no age verification. H.T. Hackney Co supplied Top roll-your-own tobacco with improper labels and installed the vending machine for Top roll-your-own tobacco without proper safeguards.",
+        "tobaccoBrand": "Top",
+        "violationMaterialIDs": [
+          "7"
+        ],
+        "State": {
+          "id": "VA",
+          "name": "Virginia"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "3",
+          "5"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "23221",
+              "city": "Richmond",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "5124 Oak Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.jrcigars.com",
+            "name": "JR Cigars"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "23221",
+              "city": "Richmond",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "6704 Washington Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "H.T. Hackney Co"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "969F892F-7E39-49A7-90A2-8C6D098C0B46",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Johnson",
+        "phoneNumber": "415-812-3835",
+        "SubmitterAddress": {
+          "zip": "30305",
+          "city": "Atlanta",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "3364 Maple Blvd",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "barbara.johnson@gmail.com",
+        "fname": "Barbara"
+      },
+      "Violation": {
+        "producttype": "10-0",
+        "ViolationDate": {
+          "mm": 1,
+          "dd": 24,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I went to check and saw Twin Peaks Tobacco in Houston, Texas was selling Davidoff cigar tobacco without the required health warnings visible on posters.",
+        "tobaccoBrand": "Davidoff",
+        "violationMaterialIDs": [
+          "8"
+        ],
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "3"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "77002",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "305 Elm Ave",
+              "address2": "Apt 420"
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.twinpeakstobacco.com",
+            "name": "Twin Peaks Tobacco"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "F70F03DB-26AF-411E-AB35-FC4D42E69CAB",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Miller",
+        "phoneNumber": "703-412-6110",
+        "SubmitterAddress": {
+          "zip": "78702",
+          "city": "Austin",
+          "State": {
+            "id": "TX",
+            "name": "Texas"
+          },
+          "address1": "1204 Park St",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "patricia.miller@yahoo.com",
+        "fname": "Patricia"
+      },
+      "Violation": {
+        "producttype": "7-2",
+        "ViolationDate": {
+          "mm": 9,
+          "dd": 27,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I entered the establishment and found Vapor Hub engaging in questionable practices with Fantasia E-Hookah that seemed off. H.T. Hackney Co supplied the Fantasia E-Hookah with improper labels.",
+        "tobaccoBrand": "Fantasia E-Hookah",
+        "violationMaterialIDs": [
+          "4"
+        ],
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "3",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "78701",
+              "city": "Austin",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "2099 Washington Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Vapor Hub"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "78702",
+              "city": "Austin",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "8994 Elm Ln",
+              "address2": "Suite 47"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.hthackneyco.com",
+            "name": "H.T. Hackney Co"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "E477A4F3-9C36-4B35-A3F1-E59A81EC3170",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Martinez",
+        "phoneNumber": "404-936-3867",
+        "SubmitterAddress": {
+          "zip": "14201",
+          "city": "Buffalo",
+          "State": {
+            "id": "NY",
+            "name": "New York"
+          },
+          "address1": "524 Elm Blvd",
+          "address2": ""
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "joseph.martinez@gmail.com",
+        "fname": "Joseph"
+      },
+      "Violation": {
+        "producttype": "7-2",
+        "ViolationDate": {
+          "mm": 2,
+          "dd": 11,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I stopped in the other day and saw Vape Street in Buffalo, New York had Fantasia E-Hookah products in open displays without staff supervision. McLane Company supplied the Fantasia E-Hookah with improper labels.",
+        "tobaccoBrand": "Fantasia E-Hookah",
+        "violationMaterialIDs": [
+          "6"
+        ],
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "3",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "14202",
+              "city": "Buffalo",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "8243 Oak Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Vape Street"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "10002",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "7551 Washington Blvd",
+              "address2": "Suite 242"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.mclanecompany.com",
+            "name": "McLane Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "A6F9CE30-36FF-4B4B-8A60-7677B0E936BF",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Williams",
+        "phoneNumber": "310-901-6727",
+        "SubmitterAddress": {
+          "zip": "14201",
+          "city": "Buffalo",
+          "State": {
+            "id": "NY",
+            "name": "New York"
+          },
+          "address1": "8813 Maple Blvd",
+          "address2": ""
+        },
+        "affiliation": "Public Health Advocate",
+        "phoneExt": "",
+        "email": "susan.williams@yahoo.com",
+        "fname": "Susan"
+      },
+      "Violation": {
+        "producttype": "7-5",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 22,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "During my visit to the store, I saw Vape Street in Buffalo, New York, displaying ePipe 629 electronic pipes without the required health warnings on their price signage and carrying ePipe 629 electronic pipes that aren't approved.",
+        "tobaccoBrand": "ePipe 629",
+        "violationMaterialIDs": [
+          "7"
+        ],
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "productsubtype": "Classic",
+        "violationTypeID": [
+          "3",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "14201",
+              "city": "Buffalo",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "7695 Oak St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.vapestreet.com",
+            "name": "Vape Street"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "0DE6DB26-EC4D-41C4-8F1C-A7AA30ED5E17",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Rodriguez",
+        "phoneNumber": "617-391-4717",
+        "SubmitterAddress": {
+          "zip": "15201",
+          "city": "Pittsburgh",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "9351 Washington Ln",
+          "address2": ""
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "mary.rodriguez@yahoo.com",
+        "fname": "Mary"
+      },
+      "Violation": {
+        "producttype": "6-0",
+        "ViolationDate": {
+          "mm": 7,
+          "dd": 28,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I stopped in the other day and saw Premium Cigars International giving away free Prince Albert pipe tobacco samples and using an automated dispenser for Prince Albert pipe tobacco without ID checks. Imperial Trading Company installed the vending machine for Prince Albert pipe tobacco without proper safeguards.",
+        "tobaccoBrand": "Prince Albert",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "PA",
+          "name": "Pennsylvania"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "4",
+          "5"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "15201",
+              "city": "Pittsburgh",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "3068 Maple Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Premium Cigars International"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "19102",
+              "city": "Philadelphia",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "3829 Main Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Imperial Trading Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "E34FAB2C-C9E7-4442-BB64-BB9FC96A25C7",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Thomas",
+        "phoneNumber": "510-653-7401",
+        "SubmitterAddress": {
+          "zip": "78702",
+          "city": "Austin",
+          "State": {
+            "id": "TX",
+            "name": "Texas"
+          },
+          "address1": "1876 Cedar St",
+          "address2": ""
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "william.thomas@gmail.com",
+        "fname": "William"
+      },
+      "Violation": {
+        "producttype": "5-0",
+        "ViolationDate": {
+          "mm": 3,
+          "dd": 25,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "During my time there, I observed Turkey Hill offering complimentary Black & Mild cigars to customers and breaking apart Black & Mild cigars packages to sell smaller amounts. GSC Enterprises was involved in supplying the Black & Mild cigars that were improperly distributed.",
+        "tobaccoBrand": "Black & Mild",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Wine",
+        "violationTypeID": [
+          "4",
+          "6"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "92101",
+              "city": "San Diego",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "1081 Main Ave",
+              "address2": "Suite 278"
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.turkeyhill.com",
+            "name": "Turkey Hill"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "90001",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "491 Washington Ave",
+              "address2": "Unit 379"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "GSC Enterprises"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "C4D9E3F2-A1B5-4C8D-9E2F-3A4B5C6D7E8F",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Williams",
+        "phoneNumber": "415-678-9234",
+        "SubmitterAddress": {
+          "zip": "94102",
+          "city": "San Francisco",
+          "State": {
+            "id": "CA",
+            "name": "California"
+          },
+          "address1": "2847 Market St",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "jennifer.williams@gmail.com",
+        "fname": "Jennifer"
+      },
+      "Violation": {
+        "producttype": "1-0",
+        "ViolationDate": {
+          "mm": 10,
+          "dd": 28,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "At Quick Stop Market, I discovered they were selling flavored cigarettes in packages containing less than 20 units. The clerk showed me several packs of Newport menthol smokes that had only 10 cigarettes per pack, and they were clearly marketed as flavored products. I observed multiple customers purchasing these reduced-quantity flavored cigarette packs throughout my visit. Quick Stop Market receives their inventory from McLane Company, who have been distributing these non-compliant flavored cigarette products in smaller pack sizes. The manufacturer, Lorillard Tobacco Company, has been producing these flavored cigarettes in quantities less than the standard 20-pack requirement.",
+        "tobaccoBrand": "Newport",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Menthol",
+        "violationTypeID": [
+          "2",
+          "6"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "94102",
+              "city": "San Francisco",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "1523 Mission St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Quick Stop Market"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "94103",
+              "city": "San Francisco",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "8942 Industrial Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.mclanecompany.com",
+            "name": "McLane Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "961C5CD1-0778-4CDB-9345-56B14B8881A8",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Johnson",
+        "phoneNumber": "213-369-3223",
+        "SubmitterAddress": {
+          "zip": "14202",
+          "city": "Buffalo",
+          "State": {
+            "id": "NY",
+            "name": "New York"
+          },
+          "address1": "1104 Oak St",
+          "address2": "Unit 153"
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "patricia.johnson@yahoo.com",
+        "fname": "Patricia"
+      },
+      "Violation": {
+        "producttype": "5-0",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 27,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was passing by and noticed Exxon was giving away free Black & Mild cigars samples and had Black & Mild cigars displayed in a way that raised concerns. Core-Mark International was involved in distributing the Black & Mild cigars without ensuring compliance with regulations.",
+        "tobaccoBrand": "Black & Mild",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "productsubtype": "Wine",
+        "violationTypeID": [
+          "4",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "14202",
+              "city": "Buffalo",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "1539 Washington St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Exxon"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "10002",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "1127 Oak St",
+              "address2": "Apt 306"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.coremarkinternational.com",
+            "name": "Core-Mark International"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "020B90AA-FF4D-445F-800E-35927D5BAFDC",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "1",
+        "allowContact": 0,
+        "notify": "0",
+        "lname": "Anonymous",
+        "phoneNumber": "",
+        "SubmitterAddress": {
+          "zip": "02108",
+          "city": "Anonymous",
+          "State": {
+            "id": "MA",
+            "name": "Massachusetts"
+          },
+          "address1": "",
+          "address2": ""
+        },
+        "affiliation": "",
+        "phoneExt": "",
+        "email": "",
+        "fname": "Anonymous"
+      },
+      "Violation": {
+        "producttype": "7-3",
+        "ViolationDate": {
+          "mm": 12,
+          "dd": 24,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "When visiting the area, I found Vape Street distributed Mistic E-Cigar samples at no charge and kept Mistic E-Cigar in a self-service display where anyone could grab them. Core-Mark International failed to monitor the distribution practices at Vape Street effectively.",
+        "tobaccoBrand": "Mistic E-Cigar",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "MA",
+          "name": "Massachusetts"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "4",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "02109",
+              "city": "Boston",
+              "State": {
+                "id": "MA",
+                "name": "Massachusetts"
+              },
+              "address1": "3349 Park Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.vapestreet.com",
+            "name": "Vape Street"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "02109",
+              "city": "Boston",
+              "State": {
+                "id": "MA",
+                "name": "Massachusetts"
+              },
+              "address1": "9980 Maple Ave",
+              "address2": "Unit 117"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.coremarkinternational.com",
+            "name": "Core-Mark International"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "BD5E0B07-89D6-4B1A-8B3E-E64B7D9EEB59",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Thomas",
+        "phoneNumber": "213-235-1062",
+        "SubmitterAddress": {
+          "zip": "31401",
+          "city": "Savannah",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "3545 Elm St",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "mary.thomas@yahoo.com",
+        "fname": "Mary"
+      },
+      "Violation": {
+        "producttype": "7-6",
+        "ViolationDate": {
+          "mm": 10,
+          "dd": 21,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "I happened to stop by and found Local Vape Shop in Atlanta, Georgia offering complimentary VooPoo advanced refillable vaporizers to customers. Core-Mark International distributed VooPoo advanced refillable vaporizers that are not on the FDA's approved list.",
+        "tobaccoBrand": "VooPoo",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "productsubtype": "Drag",
+        "violationTypeID": [
+          "4",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "30305",
+              "city": "Atlanta",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "5383 Washington Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.localvapeshop.com",
+            "name": "Local Vape Shop"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "30303",
+              "city": "Atlanta",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "4123 Main Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Core-Mark International"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "DBBC7690-35CB-4C64-BB75-B4B0A792A01B",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Williams",
+        "phoneNumber": "415-629-5369",
+        "SubmitterAddress": {
+          "zip": "90001",
+          "city": "Los Angeles",
+          "State": {
+            "id": "CA",
+            "name": "California"
+          },
+          "address1": "8974 Oak Ln",
+          "address2": ""
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "susan.williams@gmail.com",
+        "fname": "Susan"
+      },
+      "Violation": {
+        "producttype": "3-0",
+        "ViolationDate": {
+          "mm": 11,
+          "dd": 22,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "During my regular visit, I saw that The Smoke Shop operated an automated dispenser for Bali Shag roll-your-own tobacco without ID checks and sold individual Bali Shag roll-your-own tobacco in quantities less than the standard package. Wholesale Express installed the vending machine for Bali Shag roll-your-own tobacco without proper safeguards.",
+        "tobaccoBrand": "Bali Shag",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "5",
+          "6"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "92101",
+              "city": "San Diego",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "6877 Main Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "The Smoke Shop"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "90001",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "2454 Park St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Wholesale Express"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "CEA32CBA-AB0E-45E5-88F8-4C30C2D03C61",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Anderson",
+        "phoneNumber": "312-965-9463",
+        "SubmitterAddress": {
+          "zip": "77002",
+          "city": "Houston",
+          "State": {
+            "id": "TX",
+            "name": "Texas"
+          },
+          "address1": "4259 Main Ln",
+          "address2": ""
+        },
+        "affiliation": "Healthcare Professional",
+        "phoneExt": "",
+        "email": "jennifer.anderson@yahoo.com",
+        "fname": "Jennifer"
+      },
+      "Violation": {
+        "producttype": "5-0",
+        "ViolationDate": {
+          "mm": 2,
+          "dd": 9,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When visiting the area, I found that Murphy USA had a vending machine selling White Owl cigars with no age verification and was doing something with White Owl cigars that didn't look right. Quality Distributors installed the vending machine for White Owl cigars without proper safeguards.",
+        "tobaccoBrand": "White Owl",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Silver",
+        "violationTypeID": [
+          "5",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "92101",
+              "city": "San Diego",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "3497 Washington Ln",
+              "address2": "Unit 176"
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.murphyusa.com",
+            "name": "Murphy USA"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "90001",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "3119 Cedar Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.qualitydistributors.com",
+            "name": "Quality Distributors"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "C49E665F-325C-4A8C-860E-D4FFFEAB1872",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Davis",
+        "phoneNumber": "415-948-8813",
+        "SubmitterAddress": {
+          "zip": "23220",
+          "city": "Richmond",
+          "State": {
+            "id": "VA",
+            "name": "Virginia"
+          },
+          "address1": "2394 Cedar Blvd",
+          "address2": ""
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "patricia.davis@gmail.com",
+        "fname": "Patricia"
+      },
+      "Violation": {
+        "producttype": "2-0",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 15,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While checking out the store, I noticed Circle K had a vending machine selling Red Man smokeless tobacco with no age verification and had Red Man smokeless tobacco sitting out where customers could help themselves.",
+        "tobaccoBrand": "Red Man",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "VA",
+          "name": "Virginia"
+        },
+        "productsubtype": "Original",
+        "violationTypeID": [
+          "5",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "23221",
+              "city": "Richmond",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "3057 Main Dr",
+              "address2": "Apt 387"
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.circlek.com",
+            "name": "Circle K"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "81E051DE-DF79-4B72-8A3E-5994A7D4984F",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Thomas",
+        "phoneNumber": "202-972-4099",
+        "SubmitterAddress": {
+          "zip": "15202",
+          "city": "Pittsburgh",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "8932 Elm Dr",
+          "address2": ""
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "john.thomas@yahoo.com",
+        "fname": "John"
+      },
+      "Violation": {
+        "producttype": "7-1",
+        "ViolationDate": {
+          "mm": 8,
+          "dd": 27,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While making a purchase, I saw Kum & Go operated an automated dispenser for Logic e-cigarettes without ID checks. Krave Wholesale installed the vending machine for Logic e-cigarettes without proper safeguards and distributed Logic e-cigarettes that's not in the FDA's approved list.",
+        "tobaccoBrand": "Logic",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "PA",
+          "name": "Pennsylvania"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "5",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "19103",
+              "city": "Philadelphia",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "1711 Park Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Kum & Go"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "19103",
+              "city": "Philadelphia",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "2347 Elm Ln",
+              "address2": "Unit 319"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.kravewholesale.com",
+            "name": "Krave Wholesale"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "AC93EF04-D1E8-4DA6-81C0-7AF44426F5A2",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Johnson",
+        "phoneNumber": "617-506-7950",
+        "SubmitterAddress": {
+          "zip": "02109",
+          "city": "Boston",
+          "State": {
+            "id": "MA",
+            "name": "Massachusetts"
+          },
+          "address1": "1536 Cedar Ave",
+          "address2": ""
+        },
+        "affiliation": "Public Health Advocate",
+        "phoneExt": "",
+        "email": "jennifer.johnson@yahoo.com",
+        "fname": "Jennifer"
+      },
+      "Violation": {
+        "producttype": "7-2",
+        "ViolationDate": {
+          "mm": 4,
+          "dd": 15,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I visited the store and noticed Local Vape Shop offered Fantasia E-Hookah in reduced quantities and was doing something with Fantasia E-Hookah that didn't look right. Imperial Trading Company supplied the Fantasia E-Hookah without ensuring proper compliance.",
+        "tobaccoBrand": "Fantasia E-Hookah",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "6",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "90011",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "6837 Cedar Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Local Vape Shop"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "90001",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "1143 Oak Blvd",
+              "address2": "Unit 429"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.imperialtradingcompany.com",
+            "name": "Imperial Trading Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "F8FDF822-D2DB-42FC-A973-59F1758CCD23",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Rodriguez",
+        "phoneNumber": "404-991-8237",
+        "SubmitterAddress": {
+          "zip": "10002",
+          "city": "New York",
+          "State": {
+            "id": "NY",
+            "name": "New York"
+          },
+          "address1": "4745 Park Dr",
+          "address2": ""
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "jennifer.rodriguez@gmail.com",
+        "fname": "Jennifer"
+      },
+      "Violation": {
+        "producttype": "6-0",
+        "ViolationDate": {
+          "mm": 8,
+          "dd": 23,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "During a recent visit, I discovered that Smoker's Outlet was breaking apart Captain Black pipe tobacco packages and kept Captain Black pipe tobacco in a self-service display where anyone could grab them. National Tobacco Company was responsible for distributing Captain Black pipe tobacco without ensuring compliance with display regulations.",
+        "tobaccoBrand": "Captain Black",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "14202",
+              "city": "Buffalo",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "1093 Oak St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Smoker's Outlet"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "14202",
+              "city": "Buffalo",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "3167 Elm Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "National Tobacco Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "42A40B2D-E1C4-48E8-923D-964EBEBCC607",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Rodriguez",
+        "phoneNumber": "310-832-3608",
+        "SubmitterAddress": {
+          "zip": "30303",
+          "city": "Atlanta",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "4684 Washington St",
+          "address2": ""
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "patricia.rodriguez@yahoo.com",
+        "fname": "Patricia"
+      },
+      "Violation": {
+        "producttype": "7-2",
+        "ViolationDate": {
+          "mm": 4,
+          "dd": 17,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was at the location when I noticed VaporFi was breaking apart Starbuzz E-Hose e-hookah packages and offered Starbuzz E-Hose e-hookah without proper regulatory approval.",
+        "tobaccoBrand": "Starbuzz E-Hose",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "30303",
+              "city": "Atlanta",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "7714 Cedar St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "VaporFi"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "DBF50FC3-47D7-44F9-AA56-FE5959014778",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Williams",
+        "phoneNumber": "510-212-1854",
+        "SubmitterAddress": {
+          "zip": "43201",
+          "city": "Columbus",
+          "State": {
+            "id": "OH",
+            "name": "Ohio"
+          },
+          "address1": "3906 Elm Ln",
+          "address2": ""
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "william.williams@yahoo.com",
+        "fname": "William"
+      },
+      "Violation": {
+        "producttype": "7-6",
+        "ViolationDate": {
+          "mm": 2,
+          "dd": 28,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I went to check and saw Voltage Vapin had SMOK Mod advanced refillable vaporizers sitting out where customers could help themselves in Columbus, Ohio. Wholesale Express was doing something with SMOK Mod advanced refillable vaporizers that didn't look right.",
+        "tobaccoBrand": "SMOK Mod",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "OH",
+          "name": "Ohio"
+        },
+        "productsubtype": "Alien",
+        "violationTypeID": [
+          "7",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "43202",
+              "city": "Columbus",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "4689 Main Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.voltagevapin.com",
+            "name": "Voltage Vapin"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "44102",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "7687 Elm Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Wholesale Express"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "8058CA42-3385-44E0-82B4-CA444401860E",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Garcia",
+        "phoneNumber": "212-674-3304",
+        "SubmitterAddress": {
+          "zip": "30303",
+          "city": "Atlanta",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "851 Main Blvd",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "mary.garcia@gmail.com",
+        "fname": "Mary"
+      },
+      "Violation": {
+        "producttype": "12-0",
+        "ViolationDate": {
+          "mm": 3,
+          "dd": 30,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was passing by and noticed Twin Peaks Tobacco in Boston, Massachusetts was doing something with Nakhla hookah tobacco that didn't look right; they carried Nakhla hookah tobacco products that aren't approved.",
+        "tobaccoBrand": "Nakhla",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "MA",
+          "name": "Massachusetts"
+        },
+        "productsubtype": "Ice",
+        "violationTypeID": [
+          "7",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "02109",
+              "city": "Boston",
+              "State": {
+                "id": "MA",
+                "name": "Massachusetts"
+              },
+              "address1": "6568 Park Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.twinpeakstobacco.com",
+            "name": "Twin Peaks Tobacco"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "BF6CF9CE-45C4-4B29-A0DF-1B0B94438958",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Martinez",
+        "phoneNumber": "213-932-1574",
+        "SubmitterAddress": {
+          "zip": "44102",
+          "city": "Cleveland",
+          "State": {
+            "id": "OH",
+            "name": "Ohio"
+          },
+          "address1": "8985 Elm Dr",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "david.martinez@yahoo.com",
+        "fname": "David"
+      },
+      "Violation": {
+        "producttype": "7-3",
+        "ViolationDate": {
+          "mm": 11,
+          "dd": 2,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "While in the neighborhood, I observed that Mad Vapes kept Mistic E-Cigar in a self-service display where anyone could grab them. Additionally, GSC Enterprises distributed Mistic E-Cigar that are not on the FDA's approved list.",
+        "tobaccoBrand": "Mistic E-Cigar",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "OH",
+          "name": "Ohio"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "8",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "44101",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "6800 Main Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.madvapes.com",
+            "name": "Mad Vapes"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "43202",
+              "city": "Columbus",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "6630 Maple Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "GSC Enterprises"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "D48F667F-33D9-4379-9C73-6398CB6FF4E3",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Garcia",
+        "phoneNumber": "510-866-1549",
+        "SubmitterAddress": {
+          "zip": "77003",
+          "city": "Houston",
+          "State": {
+            "id": "TX",
+            "name": "Texas"
+          },
+          "address1": "2382 Elm Dr",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "james.garcia@yahoo.com",
+        "fname": "James"
+      },
+      "Violation": {
+        "producttype": "2-0",
+        "ViolationDate": {
+          "mm": 1,
+          "dd": 6,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When I went to the location, I saw that Speedway offered Skoal smokeless tobacco in flavored varieties and had a vending machine selling Skoal smokeless tobacco with no age verification. H.T. Hackney Co installed the vending machine for Skoal smokeless tobacco without proper safeguards. U.S. Smokeless Tobacco Company provided Skoal smokeless tobacco samples for improper giveaways.",
+        "tobaccoBrand": "Skoal",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "productsubtype": "Mint",
+        "violationTypeID": [
+          "2",
+          "4",
+          "5"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "77002",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "14 Maple Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.speedway.com",
+            "name": "Speedway"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "77003",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "5356 Oak Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "H.T. Hackney Co"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "77003",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "3514 Washington Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "U.S. Smokeless Tobacco Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "73758B2D-F500-41B5-9DEE-95F3299E6372",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Davis",
+        "phoneNumber": "212-623-5198",
+        "SubmitterAddress": {
+          "zip": "10001",
+          "city": "New York",
+          "State": {
+            "id": "NY",
+            "name": "New York"
+          },
+          "address1": "1124 Maple Blvd",
+          "address2": "Apt 396"
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "barbara.davis@yahoo.com",
+        "fname": "Barbara"
+      },
+      "Violation": {
+        "producttype": "10-0",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 28,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When I was there last month, I observed Tobacco Road in Columbus, Ohio had a vending machine selling Peter Stokkebye cigar tobacco with no age verification, and kept Peter Stokkebye cigar tobacco in a self-service display where anyone could grab them. Core-Mark International installed the vending machine for Peter Stokkebye cigar tobacco without proper safeguards. Stokkebye Tobacco’s product was displayed in a way that raised concerns.",
+        "tobaccoBrand": "Peter Stokkebye",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "OH",
+          "name": "Ohio"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "5",
+          "7",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "43201",
+              "city": "Columbus",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "2214 Maple Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.tobaccoroad.com",
+            "name": "Tobacco Road"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "44101",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "7963 Park Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.coremarkinternational.com",
+            "name": "Core-Mark International"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "44101",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "473 Cedar Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "Stokkebye Tobacco"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "E9CB53F4-60F5-467F-9ED0-71C13A6E66B0",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "1",
+        "allowContact": 0,
+        "notify": "0",
+        "lname": "Anonymous",
+        "phoneNumber": "",
+        "SubmitterAddress": {
+          "zip": "30303",
+          "city": "Anonymous",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "",
+          "address2": ""
+        },
+        "affiliation": "",
+        "phoneExt": "",
+        "email": "",
+        "fname": "Anonymous"
+      },
+      "Violation": {
+        "producttype": "7-6",
+        "ViolationDate": {
+          "mm": 12,
+          "dd": 5,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "While making a purchase, I saw Cloud Chasers in Savannah, Georgia, selling SMOK Mod advanced refillable vaporizers to a minor without asking for identification, giving away free SMOK Mod advanced refillable vaporizers samples, and selling individual SMOK Mod advanced refillable vaporizers in quantities less than the standard package. H.T. Hackney Co was the supplier of the SMOK Mod advanced refillable vaporizers without ensuring compliance with age verification. Additionally, SMOK failed to provide adequate guidelines to prevent their SMOK Mod advanced refillable vaporizers from being distributed improperly.",
+        "tobaccoBrand": "SMOK Mod",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "productsubtype": "Alien",
+        "violationTypeID": [
+          "1",
+          "4",
+          "6"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "31401",
+              "city": "Savannah",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "3505 Park Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Cloud Chasers"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "31401",
+              "city": "Savannah",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "1805 Main Ln",
+              "address2": "Apt 499"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "H.T. Hackney Co"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "31404",
+              "city": "Savannah",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "4973 Washington Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "SMOK"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "6BD3457E-980B-440C-8A24-F65309279109",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Hernandez",
+        "phoneNumber": "703-363-8322",
+        "SubmitterAddress": {
+          "zip": "31401",
+          "city": "Savannah",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "150 Elm St",
+          "address2": "Apt 305"
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "jennifer.hernandez@gmail.com",
+        "fname": "Jennifer"
+      },
+      "Violation": {
+        "producttype": "3-0",
+        "ViolationDate": {
+          "mm": 12,
+          "dd": 7,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "I went inside and observed that Smoke 4 Less was offering complimentary Bali Shag roll-your-own tobacco to customers, which didn't look right. Daughters & Ryan made Bali Shag roll-your-own tobacco without adequate warning labels. Krave Wholesale supplied the Bali Shag roll-your-own tobacco involved in these violations.",
+        "tobaccoBrand": "Bali Shag",
+        "violationMaterialIDs": [
+          "1"
+        ],
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "3",
+          "4",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "30303",
+              "city": "Atlanta",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "3957 Elm Ln",
+              "address2": "Apt 67"
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.smoke4less.com",
+            "name": "Smoke 4 Less"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "30305",
+              "city": "Atlanta",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "4408 Maple Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.kravewholesale.com",
+            "name": "Krave Wholesale"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "31401",
+              "city": "Savannah",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "1102 Washington St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "https://www.daughters&ryan.com",
+            "name": "Daughters & Ryan"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "21E76D28-289C-46E9-9BD6-1E218EA07D2C",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Johnson",
+        "phoneNumber": "213-805-5004",
+        "SubmitterAddress": {
+          "zip": "19102",
+          "city": "Philadelphia",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "4592 Main Ln",
+          "address2": "Unit 316"
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "william.johnson@yahoo.com",
+        "fname": "William"
+      },
+      "Violation": {
+        "producttype": "11-1",
+        "ViolationDate": {
+          "mm": 2,
+          "dd": 1,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When I walked in, I found Cloud Chasers didn't verify age before selling Naked 100 e-juices to a young customer and had them in open displays without staff supervision. Core-Mark International supplied Naked 100 e-juices that were improperly displayed. Schwartz E-Liquid manufactured Naked 100 e-juices that were sold without verification in Philadelphia, Pennsylvania.",
+        "tobaccoBrand": "Naked 100",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "PA",
+          "name": "Pennsylvania"
+        },
+        "productsubtype": "Fruit",
+        "violationTypeID": [
+          "1",
+          "7",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "19103",
+              "city": "Philadelphia",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "3567 Elm Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Cloud Chasers"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "19103",
+              "city": "Philadelphia",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "7990 Main Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.coremarkinternational.com",
+            "name": "Core-Mark International"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "15201",
+              "city": "Pittsburgh",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "8901 Oak St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "https://www.schwartzeliquid.com",
+            "name": "Schwartz E-Liquid"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "537FBB7A-0147-40A4-9A0B-2CBE827FC412",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Anderson",
+        "phoneNumber": "415-989-8549",
+        "SubmitterAddress": {
+          "zip": "10001",
+          "city": "New York",
+          "State": {
+            "id": "NY",
+            "name": "New York"
+          },
+          "address1": "5996 Main Ln",
+          "address2": ""
+        },
+        "affiliation": "Public Health Advocate",
+        "phoneExt": "",
+        "email": "linda.anderson@gmail.com",
+        "fname": "Linda"
+      },
+      "Violation": {
+        "producttype": "2-0",
+        "ViolationDate": {
+          "mm": 3,
+          "dd": 28,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "During my errand, I witnessed Sheetz in New York, New York allowing the purchase of Copenhagen smokeless tobacco by someone who appeared under 18 and offering complimentary Copenhagen smokeless tobacco to customers. The U.S. Smokeless Tobacco Company made Copenhagen smokeless tobacco without adequate warning labels. Imperial Trading Company supplied the Copenhagen smokeless tobacco involved in this situation.",
+        "tobaccoBrand": "Copenhagen",
+        "violationMaterialIDs": [
+          "8"
+        ],
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "productsubtype": "Long Cut",
+        "violationTypeID": [
+          "1",
+          "3",
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "10002",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "7339 Elm St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.sheetz.com",
+            "name": "Sheetz"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "10002",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "6008 Oak Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Imperial Trading Company"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "10001",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "8190 Park St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "https://www.ussmokelesstobaccocompany.com",
+            "name": "U.S. Smokeless Tobacco Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "5924F3C7-5667-495F-8893-A2AB5FF0BD23",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Miller",
+        "phoneNumber": "617-331-9133",
+        "SubmitterAddress": {
+          "zip": "60601",
+          "city": "Chicago",
+          "State": {
+            "id": "IL",
+            "name": "Illinois"
+          },
+          "address1": "3002 Main Ln",
+          "address2": ""
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "james.miller@gmail.com",
+        "fname": "James"
+      },
+      "Violation": {
+        "producttype": "7-5",
+        "ViolationDate": {
+          "mm": 1,
+          "dd": 29,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When browsing, I witnessed Local Vape Shop in Springfield, Illinois, selling Kamry K1000 electronic pipes to someone who looked underage without checking ID, breaking apart Kamry K1000 electronic pipes packages to sell smaller amounts, and displaying Kamry K1000 electronic pipes where customers could help themselves. Additionally, H.T. Hackney Co was implicated as the supplier involved in this improper handling. Kamry, the manufacturer, failed to ensure their Kamry K1000 electronic pipes were distributed in compliance with age verification laws.",
+        "tobaccoBrand": "Kamry K1000",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "IL",
+          "name": "Illinois"
+        },
+        "productsubtype": "Plus",
+        "violationTypeID": [
+          "1",
+          "6",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "62702",
+              "city": "Springfield",
+              "State": {
+                "id": "IL",
+                "name": "Illinois"
+              },
+              "address1": "3845 Main St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Local Vape Shop"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "60601",
+              "city": "Chicago",
+              "State": {
+                "id": "IL",
+                "name": "Illinois"
+              },
+              "address1": "8686 Cedar St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "H.T. Hackney Co"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "60602",
+              "city": "Chicago",
+              "State": {
+                "id": "IL",
+                "name": "Illinois"
+              },
+              "address1": "3582 Park St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "Kamry"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "1A87902A-214C-4F8E-ABCE-0DE38CE80967",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Anderson",
+        "phoneNumber": "202-333-9273",
+        "SubmitterAddress": {
+          "zip": "19103",
+          "city": "Philadelphia",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "2821 Cedar Dr",
+          "address2": ""
+        },
+        "affiliation": "Community Member",
+        "phoneExt": "",
+        "email": "james.anderson@gmail.com",
+        "fname": "James"
+      },
+      "Violation": {
+        "producttype": "11-1",
+        "ViolationDate": {
+          "mm": 7,
+          "dd": 2,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "Upon entering, I saw Vape Street giving away free Jam Monster e-juices samples and displaying Jam Monster e-juices products openly without supervision. Krave Wholesale was supplying Jam Monster e-juices without proper oversight. Jam Monster e-juices were being mishandled by Vape Street in a way that didn't look right.",
+        "tobaccoBrand": "Jam Monster",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "productsubtype": "Strawberry",
+        "violationTypeID": [
+          "4",
+          "7",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "78701",
+              "city": "Austin",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "1571 Elm Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.vapestreet.com",
+            "name": "Vape Street"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "77003",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "8369 Elm Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Krave Wholesale"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "77002",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "2675 Cedar Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "Jam Monster"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "38D44C8C-20ED-4E0E-9DFB-B3CD49C4E4C8",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Johnson",
+        "phoneNumber": "404-948-2647",
+        "SubmitterAddress": {
+          "zip": "10001",
+          "city": "New York",
+          "State": {
+            "id": "NY",
+            "name": "New York"
+          },
+          "address1": "1157 Elm Ln",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "jennifer.johnson@gmail.com",
+        "fname": "Jennifer"
+      },
+      "Violation": {
+        "producttype": "3-0",
+        "ViolationDate": {
+          "mm": 10,
+          "dd": 3,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was passing by and noticed that Smoker Friendly had some questionable practices with Drum roll-your-own tobacco that seemed off. Imperial Tobacco provided Drum roll-your-own tobacco samples for improper giveaways and manufactured Drum roll-your-own tobacco without getting required approval. Additionally, National Tobacco Company was involved in some activities related to Drum roll-your-own tobacco that caught my attention.",
+        "tobaccoBrand": "Drum",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "productsubtype": "Mild",
+        "violationTypeID": [
+          "4",
+          "7",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "10001",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "3039 Cedar Ln",
+              "address2": "Suite 366"
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Smoker Friendly"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "10001",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "290 Elm Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.nationaltobaccocompany.com",
+            "name": "National Tobacco Company"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "10002",
+              "city": "New York",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "6510 Park Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "Imperial Tobacco"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "7BC1B734-824D-4ECB-8CF3-28DCCA2067FD",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Thomas",
+        "phoneNumber": "415-947-3918",
+        "SubmitterAddress": {
+          "zip": "78702",
+          "city": "Austin",
+          "State": {
+            "id": "TX",
+            "name": "Texas"
+          },
+          "address1": "7502 Cedar Ave",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "william.thomas@gmail.com",
+        "fname": "William"
+      },
+      "Violation": {
+        "producttype": "10-0",
+        "ViolationDate": {
+          "mm": 9,
+          "dd": 14,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When I walked in, I found Tobacco World in Austin, Texas didn't verify age before selling Davidoff cigar tobacco to a young customer and had flavored Davidoff cigar tobacco available for sale. Davidoff provided Davidoff cigar tobacco samples for improper giveaways. Eby-Brown Company was the distributor for these improperly handled Davidoff cigar tobacco products.",
+        "tobaccoBrand": "Davidoff",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "1",
+          "2",
+          "4"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "78701",
+              "city": "Austin",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "4302 Oak Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Tobacco World"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "77002",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "3299 Elm Blvd",
+              "address2": "Suite 26"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Eby-Brown Company"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "77003",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "9010 Park Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "https://www.davidoff.com",
+            "name": "Davidoff"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "4C21C244-719B-46C2-9DB4-2937DD17C674",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Jones",
+        "phoneNumber": "312-792-1265",
+        "SubmitterAddress": {
+          "zip": "33101",
+          "city": "Miami",
+          "State": {
+            "id": "FL",
+            "name": "Florida"
+          },
+          "address1": "1554 Oak Ln",
+          "address2": "Unit 57"
+        },
+        "affiliation": "Public Health Advocate",
+        "phoneExt": "",
+        "email": "william.jones@gmail.com",
+        "fname": "William"
+      },
+      "Violation": {
+        "producttype": "7-6",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 4,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I happened to be there and observed that Mad Vapes in Tampa, Florida, didn't verify age before selling SMOK Mod advanced refillable vaporizers to a young customer, operated an automated dispenser for SMOK Mod advanced refillable vaporizers without ID checks, and was breaking apart SMOK Mod advanced refillable vaporizers packages to sell smaller amounts. Imperial Trading Company installed the vending machine for SMOK Mod advanced refillable vaporizers without proper safeguards.",
+        "tobaccoBrand": "SMOK Mod",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "FL",
+          "name": "Florida"
+        },
+        "productsubtype": "Alien",
+        "violationTypeID": [
+          "1",
+          "5",
+          "6"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "33603",
+              "city": "Tampa",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "8553 Oak Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Mad Vapes"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "33101",
+              "city": "Miami",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "2509 Park Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Imperial Trading Company"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "33125",
+              "city": "Miami",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "7545 Oak Ln",
+              "address2": "Suite 182"
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "SMOK"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "1CACD519-9058-4714-85C4-DF84609749CF",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Garcia",
+        "phoneNumber": "617-720-6866",
+        "SubmitterAddress": {
+          "zip": "01601",
+          "city": "Worcester",
+          "State": {
+            "id": "MA",
+            "name": "Massachusetts"
+          },
+          "address1": "7812 Park Dr",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "robert.garcia@gmail.com",
+        "fname": "Robert"
+      },
+      "Violation": {
+        "producttype": "3-0",
+        "ViolationDate": {
+          "mm": 5,
+          "dd": 28,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was at the location when I noticed Premium Cigars International was selling individual Drum roll-your-own tobacco in quantities less than the standard package. Imperial Tobacco manufactured the Drum roll-your-own tobacco without adequate warning labels. GSC Enterprises was doing something with Drum roll-your-own tobacco that didn't look right.",
+        "tobaccoBrand": "Drum",
+        "violationMaterialIDs": [
+          "6"
+        ],
+        "State": {
+          "id": "MA",
+          "name": "Massachusetts"
+        },
+        "productsubtype": "Mild",
+        "violationTypeID": [
+          "3",
+          "6",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "01602",
+              "city": "Worcester",
+              "State": {
+                "id": "MA",
+                "name": "Massachusetts"
+              },
+              "address1": "7650 Elm Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Premium Cigars International"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "01601",
+              "city": "Worcester",
+              "State": {
+                "id": "MA",
+                "name": "Massachusetts"
+              },
+              "address1": "8932 Washington Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.gscenterprises.com",
+            "name": "GSC Enterprises"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "02108",
+              "city": "Boston",
+              "State": {
+                "id": "MA",
+                "name": "Massachusetts"
+              },
+              "address1": "6577 Elm Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "Imperial Tobacco"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "92DCF8D2-F53C-45AA-8C54-76287A67A6B6",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Johnson",
+        "phoneNumber": "404-263-9232",
+        "SubmitterAddress": {
+          "zip": "19103",
+          "city": "Philadelphia",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "4914 Washington Dr",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "joseph.johnson@yahoo.com",
+        "fname": "Joseph"
+      },
+      "Violation": {
+        "producttype": "6-0",
+        "ViolationDate": {
+          "mm": 10,
+          "dd": 7,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I stepped inside and noticed Knuckleheads was using a vending machine to sell Amphora pipe tobacco without age controls and in reduced quantities, along with other questionable practices. McLane Company installed the vending machine for Amphora pipe tobacco but failed to include proper safeguards. Lane Limited was involved as the supplier of Amphora pipe tobacco to this location in Miami, Florida.",
+        "tobaccoBrand": "Amphora",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "FL",
+          "name": "Florida"
+        },
+        "productsubtype": "Full Aroma",
+        "violationTypeID": [
+          "5",
+          "6",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "33125",
+              "city": "Miami",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "3266 Park Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.knuckleheads.com",
+            "name": "Knuckleheads"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "33101",
+              "city": "Miami",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "4039 Elm St",
+              "address2": "Suite 318"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "McLane Company"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "33125",
+              "city": "Miami",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "9901 Elm Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "Lane Limited"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "ADE5317E-AAF5-42F7-BF74-D2B0237B46BC",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Taylor",
+        "phoneNumber": "404-794-4566",
+        "SubmitterAddress": {
+          "zip": "90011",
+          "city": "Los Angeles",
+          "State": {
+            "id": "CA",
+            "name": "California"
+          },
+          "address1": "6441 Oak Blvd",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "jennifer.taylor@yahoo.com",
+        "fname": "Jennifer"
+      },
+      "Violation": {
+        "producttype": "7-5",
+        "ViolationDate": {
+          "mm": 2,
+          "dd": 16,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When browsing, I witnessed Vape Nation operating an automated dispenser for ePipe 629 electronic pipes without ID checks. H.T. Hackney Co installed the vending machine for ePipe 629 electronic pipes without proper safeguards and distributed ePipe 629 electronic pipes that are not on the FDA's approved list. Smok-E Mountain made ePipe 629 electronic pipes without adequate warning labels.",
+        "tobaccoBrand": "ePipe 629",
+        "violationMaterialIDs": [
+          "2"
+        ],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Classic",
+        "violationTypeID": [
+          "3",
+          "5",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "92102",
+              "city": "San Diego",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "3602 Main Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Vape Nation"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "90001",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "956 Washington Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "H.T. Hackney Co"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "92101",
+              "city": "San Diego",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "6599 Cedar Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "https://www.smokemountain.com",
+            "name": "Smok-E Mountain"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "9588070E-C98B-4CA7-B77B-189CCA837154",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "1",
+        "allowContact": 0,
+        "notify": "0",
+        "lname": "Anonymous",
+        "phoneNumber": "",
+        "SubmitterAddress": {
+          "zip": "44101",
+          "city": "Anonymous",
+          "State": {
+            "id": "OH",
+            "name": "Ohio"
+          },
+          "address1": "",
+          "address2": ""
+        },
+        "affiliation": "",
+        "phoneExt": "",
+        "email": "",
+        "fname": "Anonymous"
+      },
+      "Violation": {
+        "producttype": "3-0",
+        "ViolationDate": {
+          "mm": 10,
+          "dd": 28,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "I happened to stop by and found Tobacco World breaking apart Drum roll-your-own tobacco packages to sell smaller amounts, which raised concerns. Wholesale Express was distributing Drum roll-your-own tobacco without proper documentation. Imperial Tobacco manufactured Drum roll-your-own tobacco without getting the required approval.",
+        "tobaccoBrand": "Drum",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "OH",
+          "name": "Ohio"
+        },
+        "productsubtype": "Mild",
+        "violationTypeID": [
+          "6",
+          "7",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "43201",
+              "city": "Columbus",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "3733 Washington Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.tobaccoworld.com",
+            "name": "Tobacco World"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "43201",
+              "city": "Columbus",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "7428 Oak Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.wholesaleexpress.com",
+            "name": "Wholesale Express"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "44101",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "7408 Park Ln",
+              "address2": "Suite 33"
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "Imperial Tobacco"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "02236907-8B48-4C4E-806B-DC2D52CFBE82",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Brown",
+        "phoneNumber": "415-427-4680",
+        "SubmitterAddress": {
+          "zip": "15201",
+          "city": "Pittsburgh",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "4799 Cedar Dr",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "susan.brown@yahoo.com",
+        "fname": "Susan"
+      },
+      "Violation": {
+        "producttype": "7-5",
+        "ViolationDate": {
+          "mm": 11,
+          "dd": 15,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "I walked past and observed that Vape Street had a vending machine selling Kamry K1000 electronic pipes with no age verification and displayed Kamry K1000 electronic pipes in a concerning manner. GSC Enterprises installed the vending machine for Kamry K1000 electronic pipes without proper safeguards. Kamry manufactured the Kamry K1000 electronic pipes without getting required approval.",
+        "tobaccoBrand": "Kamry K1000",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "PA",
+          "name": "Pennsylvania"
+        },
+        "productsubtype": "Plus",
+        "violationTypeID": [
+          "5",
+          "7",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "19103",
+              "city": "Philadelphia",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "1178 Oak Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.vapestreet.com",
+            "name": "Vape Street"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "19103",
+              "city": "Philadelphia",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "8799 Elm Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.gscenterprises.com",
+            "name": "GSC Enterprises"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "15202",
+              "city": "Pittsburgh",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "8163 Washington Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "https://www.kamry.com",
+            "name": "Kamry"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "45078D08-DF92-4B33-A242-C47D90A49CDE",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Brown",
+        "phoneNumber": "312-347-6300",
+        "SubmitterAddress": {
+          "zip": "77003",
+          "city": "Houston",
+          "State": {
+            "id": "TX",
+            "name": "Texas"
+          },
+          "address1": "2157 Park Blvd",
+          "address2": "Suite 431"
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "joseph.brown@yahoo.com",
+        "fname": "Joseph"
+      },
+      "Violation": {
+        "producttype": "2-0",
+        "ViolationDate": {
+          "mm": 3,
+          "dd": 28,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "During my trip to the store, I saw that BP was selling flavored Skoal smokeless tobacco and operating an automated dispenser for Skoal smokeless tobacco without ID checks. B&B Distributors installed the vending machine for Skoal smokeless tobacco without proper safeguards and distributed Skoal smokeless tobacco that's not on the FDA's approved list. U.S. Smokeless Tobacco Company is responsible for manufacturing the Skoal smokeless tobacco that was not FDA-approved.",
+        "tobaccoBrand": "Skoal",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "productsubtype": "Mint",
+        "violationTypeID": [
+          "2",
+          "5",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "78702",
+              "city": "Austin",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "3792 Oak Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "BP"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "77003",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "3570 Cedar St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.b&bdistributors.com",
+            "name": "B&B Distributors"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "77002",
+              "city": "Houston",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "9385 Cedar Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "U.S. Smokeless Tobacco Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "11EB5B1E-CB23-412B-A847-FEA1CD1F956A",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Hernandez",
+        "phoneNumber": "202-824-6960",
+        "SubmitterAddress": {
+          "zip": "23221",
+          "city": "Richmond",
+          "State": {
+            "id": "VA",
+            "name": "Virginia"
+          },
+          "address1": "7021 Washington Blvd",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "elizabeth.hernandez@gmail.com",
+        "fname": "Elizabeth"
+      },
+      "Violation": {
+        "producttype": "5-0",
+        "ViolationDate": {
+          "mm": 2,
+          "dd": 4,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "During checkout, I noticed that Love's Travel Stops in Virginia Beach, Virginia, was selling flavored Backwoods cigars and had them displayed in a concerning manner. Eby-Brown Company distributed these Backwoods cigars without ensuring compliance with regulations. ITG Brands manufactured the Backwoods cigars without adequate warning labels.",
+        "tobaccoBrand": "Backwoods",
+        "violationMaterialIDs": [
+          "3"
+        ],
+        "State": {
+          "id": "VA",
+          "name": "Virginia"
+        },
+        "productsubtype": "Honey",
+        "violationTypeID": [
+          "2",
+          "3",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "23452",
+              "city": "Virginia Beach",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "7288 Cedar Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Love's Travel Stops"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "23451",
+              "city": "Virginia Beach",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "1550 Cedar Blvd",
+              "address2": "Apt 123"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Eby-Brown Company"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "23220",
+              "city": "Richmond",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "6902 Maple Ave",
+              "address2": "Apt 21"
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "https://www.itgbrands.com",
+            "name": "ITG Brands"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "D80C7BDD-58AE-420F-9503-81D00258BB3D",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Anderson",
+        "phoneNumber": "212-289-2799",
+        "SubmitterAddress": {
+          "zip": "92102",
+          "city": "San Diego",
+          "State": {
+            "id": "CA",
+            "name": "California"
+          },
+          "address1": "6079 Main Blvd",
+          "address2": "Unit 220"
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "patricia.anderson@yahoo.com",
+        "fname": "Patricia"
+      },
+      "Violation": {
+        "producttype": "3-0",
+        "ViolationDate": {
+          "mm": 6,
+          "dd": 16,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While looking around, I saw Smoker's Outlet was selling flavored Top roll-your-own tobacco in a way that raised concerns. GSC Enterprises distributed Top roll-your-own tobacco that's not on the FDA's approved list. Imperial Tobacco was linked to the distribution of the unapproved Top roll-your-own tobacco in Los Angeles, California.",
+        "tobaccoBrand": "Top",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "2",
+          "7",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "90011",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "5421 Main Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Smoker's Outlet"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "90001",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "1599 Oak Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.gscenterprises.com",
+            "name": "GSC Enterprises"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "90011",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "6935 Washington Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "https://www.imperialtobacco.com",
+            "name": "Imperial Tobacco"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "9D3765EF-D343-4978-9AB1-7072EAD8503B",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Jones",
+        "phoneNumber": "510-704-2929",
+        "SubmitterAddress": {
+          "zip": "31401",
+          "city": "Savannah",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "889 Park St",
+          "address2": ""
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "david.jones@yahoo.com",
+        "fname": "David"
+      },
+      "Violation": {
+        "producttype": "12-0",
+        "ViolationDate": {
+          "mm": 11,
+          "dd": 25,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "I went to the shop and observed Cigar City offering Nakhla hookah tobacco in flavored varieties. B&B Distributors were distributing Nakhla hookah tobacco that's not on the FDA's approved list. Nakhla provided Nakhla hookah tobacco samples for improper giveaways.",
+        "tobaccoBrand": "Nakhla",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "productsubtype": "Ice",
+        "violationTypeID": [
+          "2",
+          "4",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "31404",
+              "city": "Savannah",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "9795 Washington St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Cigar City"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "30303",
+              "city": "Atlanta",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "9096 Cedar Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "B&B Distributors"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "31401",
+              "city": "Savannah",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "949 Park St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 3,
+            "websiteURL": "",
+            "name": "Nakhla"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "B265AB85-A2FD-43D9-AAA0-24D6EB18FC37",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Davis",
+        "phoneNumber": "212-562-7918",
+        "SubmitterAddress": {
+          "zip": "92101",
+          "city": "San Diego",
+          "State": {
+            "id": "CA",
+            "name": "California"
+          },
+          "address1": "6786 Main St",
+          "address2": ""
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "david.davis@yahoo.com",
+        "fname": "David"
+      },
+      "Violation": {
+        "producttype": "7-1",
+        "ViolationDate": {
+          "mm": 9,
+          "dd": 24,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was in the store and witnessed Murphy USA giving away free Logic e-cigarettes samples and offering Logic e-cigarettes in reduced quantities. National Tobacco Company distributed Logic e-cigarettes that are not on the FDA's approved list.",
+        "tobaccoBrand": "Logic",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "CA",
+          "name": "California"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "4",
+          "6",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "90011",
+              "city": "Los Angeles",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "6920 Park Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Murphy USA"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "92102",
+              "city": "San Diego",
+              "State": {
+                "id": "CA",
+                "name": "California"
+              },
+              "address1": "1283 Elm St",
+              "address2": "Suite 456"
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.nationaltobaccocompany.com",
+            "name": "National Tobacco Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "FF6EC6B2-9321-4B7F-A0F5-C421537D52C6",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Anderson",
+        "phoneNumber": "310-884-5406",
+        "SubmitterAddress": {
+          "zip": "31401",
+          "city": "Savannah",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "7776 Park Dr",
+          "address2": ""
+        },
+        "affiliation": "Concerned Citizen",
+        "phoneExt": "",
+        "email": "jessica.anderson@gmail.com",
+        "fname": "Jessica"
+      },
+      "Violation": {
+        "producttype": "7-1",
+        "ViolationDate": {
+          "mm": 2,
+          "dd": 26,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When I went to the location, I saw Murphy USA sold blu e-cigarettes to a minor without asking for identification. B&B Distributors supplied blu e-cigarettes with improper labels and distributed blu e-cigarettes that's not in the FDA's approved list.",
+        "tobaccoBrand": "blu",
+        "violationMaterialIDs": [
+          "4"
+        ],
+        "State": {
+          "id": "OH",
+          "name": "Ohio"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "1",
+          "3",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "44102",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "1863 Elm Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.murphyusa.com",
+            "name": "Murphy USA"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "43202",
+              "city": "Columbus",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "8037 Main St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "B&B Distributors"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "282FC32A-DAFA-4381-840B-E3C676008FA3",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Garcia",
+        "phoneNumber": "404-894-3594",
+        "SubmitterAddress": {
+          "zip": "77003",
+          "city": "Houston",
+          "State": {
+            "id": "TX",
+            "name": "Texas"
+          },
+          "address1": "7481 Cedar Blvd",
+          "address2": ""
+        },
+        "affiliation": "Public Health Advocate",
+        "phoneExt": "",
+        "email": "linda.garcia@gmail.com",
+        "fname": "Linda"
+      },
+      "Violation": {
+        "producttype": "7-2",
+        "ViolationDate": {
+          "mm": 2,
+          "dd": 26,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While getting gas, I saw Mad Vapes had Fantasia E-Hookah sitting out where customers could help themselves. I also learned that Krave Wholesale supplied the Fantasia E-Hookah with improper labels and distributed it without being on the FDA's approved list.",
+        "tobaccoBrand": "Fantasia E-Hookah",
+        "violationMaterialIDs": [
+          "9"
+        ],
+        "State": {
+          "id": "TX",
+          "name": "Texas"
+        },
+        "productsubtype": "Disposable",
+        "violationTypeID": [
+          "3",
+          "8",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "78702",
+              "city": "Austin",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "5844 Main St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.madvapes.com",
+            "name": "Mad Vapes"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "78701",
+              "city": "Austin",
+              "State": {
+                "id": "TX",
+                "name": "Texas"
+              },
+              "address1": "2282 Washington Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.kravewholesale.com",
+            "name": "Krave Wholesale"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "39C6180F-8002-4580-A67A-8225AD865DE4",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Rodriguez",
+        "phoneNumber": "310-643-6940",
+        "SubmitterAddress": {
+          "zip": "19103",
+          "city": "Philadelphia",
+          "State": {
+            "id": "PA",
+            "name": "Pennsylvania"
+          },
+          "address1": "5971 Maple Dr",
+          "address2": ""
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "david.rodriguez@gmail.com",
+        "fname": "David"
+      },
+      "Violation": {
+        "producttype": "11-1",
+        "ViolationDate": {
+          "mm": 1,
+          "dd": 28,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "Upon entering, I saw The Vape Store sell Vapetasia e-juices to someone who looked underage without checking ID and had Vapetasia e-juices products in open displays without staff supervision. Wholesale Express distributed Vapetasia e-juices that are not on the FDA's approved list.",
+        "tobaccoBrand": "Vapetasia",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "FL",
+          "name": "Florida"
+        },
+        "productsubtype": "Killer Kustard",
+        "violationTypeID": [
+          "1",
+          "8",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "33125",
+              "city": "Miami",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "484 Park Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "The Vape Store"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "33602",
+              "city": "Tampa",
+              "State": {
+                "id": "FL",
+                "name": "Florida"
+              },
+              "address1": "3791 Park Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Wholesale Express"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "CD811FA3-5FC7-460A-95D4-BA6436BF2366",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "1",
+        "allowContact": 0,
+        "notify": "0",
+        "lname": "Anonymous",
+        "phoneNumber": "",
+        "SubmitterAddress": {
+          "zip": "44101",
+          "city": "Anonymous",
+          "State": {
+            "id": "OH",
+            "name": "Ohio"
+          },
+          "address1": "",
+          "address2": ""
+        },
+        "affiliation": "",
+        "phoneExt": "",
+        "email": "",
+        "fname": "Anonymous"
+      },
+      "Violation": {
+        "producttype": "6-0",
+        "ViolationDate": {
+          "mm": 8,
+          "dd": 15,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "While at the store, I witnessed Cigar City selling Captain Black pipe tobacco to a minor without asking for identification and having a vending machine selling Captain Black pipe tobacco with no age verification. Krave Wholesale supplied Captain Black pipe tobacco with improper labels and installed the vending machine for Captain Black pipe tobacco without proper safeguards.",
+        "tobaccoBrand": "Captain Black",
+        "violationMaterialIDs": [
+          "11"
+        ],
+        "State": {
+          "id": "OH",
+          "name": "Ohio"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "1",
+          "3",
+          "5"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "44102",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "9573 Main Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Cigar City"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "44101",
+              "city": "Cleveland",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "2425 Elm Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.kravewholesale.com",
+            "name": "Krave Wholesale"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "456EC3BB-FA1F-4905-9149-63B8A8B9DC39",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Thomas",
+        "phoneNumber": "310-802-9662",
+        "SubmitterAddress": {
+          "zip": "01601",
+          "city": "Worcester",
+          "State": {
+            "id": "MA",
+            "name": "Massachusetts"
+          },
+          "address1": "2413 Maple St",
+          "address2": ""
+        },
+        "affiliation": "Healthcare Professional",
+        "phoneExt": "",
+        "email": "susan.thomas@yahoo.com",
+        "fname": "Susan"
+      },
+      "Violation": {
+        "producttype": "12-0",
+        "ViolationDate": {
+          "mm": 4,
+          "dd": 16,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When I was there last month, I observed Twin Peaks Tobacco in Columbus, Ohio, didn't verify age before selling Nakhla hookah tobacco to a young customer, offered Nakhla hookah tobacco in flavored varieties, and had it displayed in a concerning manner. I also noticed Wholesale Express was supplying Nakhla hookah tobacco without ensuring compliance with age verification policies.",
+        "tobaccoBrand": "Nakhla",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "OH",
+          "name": "Ohio"
+        },
+        "productsubtype": "Ice",
+        "violationTypeID": [
+          "1",
+          "2",
+          "7"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "43201",
+              "city": "Columbus",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "4418 Oak Dr",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.twinpeakstobacco.com",
+            "name": "Twin Peaks Tobacco"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "43201",
+              "city": "Columbus",
+              "State": {
+                "id": "OH",
+                "name": "Ohio"
+              },
+              "address1": "4515 Main St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.wholesaleexpress.com",
+            "name": "Wholesale Express"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "66531C11-BA91-426F-AACB-4A0E34EFAAAE",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Miller",
+        "phoneNumber": "213-431-2579",
+        "SubmitterAddress": {
+          "zip": "31404",
+          "city": "Savannah",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "7453 Cedar Blvd",
+          "address2": "Unit 202"
+        },
+        "affiliation": "Healthcare Professional",
+        "phoneExt": "",
+        "email": "jessica.miller@gmail.com",
+        "fname": "Jessica"
+      },
+      "Violation": {
+        "producttype": "12-0",
+        "ViolationDate": {
+          "mm": 7,
+          "dd": 23,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "When I walked in, I found Cigarettes Cheaper had flavored Al Fakher hookah tobacco available for sale and was distributing Al Fakher hookah tobacco samples at no charge, with the product sitting out where customers could help themselves. H.T. Hackney Co was supplying Al Fakher hookah tobacco to the store without proper authorization.",
+        "tobaccoBrand": "Al Fakher",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "NY",
+          "name": "New York"
+        },
+        "productsubtype": "Double Apple",
+        "violationTypeID": [
+          "2",
+          "4",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "14201",
+              "city": "Buffalo",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "7219 Maple Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Cigarettes Cheaper"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "14201",
+              "city": "Buffalo",
+              "State": {
+                "id": "NY",
+                "name": "New York"
+              },
+              "address1": "7627 Washington Blvd",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.hthackneyco.com",
+            "name": "H.T. Hackney Co"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 5,
+      "guid": "97971F82-5B15-4D42-91C0-9659A7DCD233",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Rodriguez",
+        "phoneNumber": "212-340-6368",
+        "SubmitterAddress": {
+          "zip": "92102",
+          "city": "San Diego",
+          "State": {
+            "id": "CA",
+            "name": "California"
+          },
+          "address1": "4043 Oak Ln",
+          "address2": ""
+        },
+        "affiliation": "Parent",
+        "phoneExt": "",
+        "email": "joseph.rodriguez@yahoo.com",
+        "fname": "Joseph"
+      },
+      "Violation": {
+        "producttype": "3-0",
+        "ViolationDate": {
+          "mm": 10,
+          "dd": 13,
+          "yyyy": 2024,
+          "nodate": 0
+        },
+        "description": "I happened to be there and observed that The Smoke Shop had flavored Top roll-your-own tobacco available for sale and a vending machine selling Top roll-your-own tobacco with no age verification. Imperial Trading Company supplied Top roll-your-own tobacco with improper labels and installed the vending machine for Top roll-your-own tobacco without proper safeguards.",
+        "tobaccoBrand": "Top",
+        "violationMaterialIDs": [
+          "5"
+        ],
+        "State": {
+          "id": "PA",
+          "name": "Pennsylvania"
+        },
+        "productsubtype": "Regular",
+        "violationTypeID": [
+          "2",
+          "3",
+          "5"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "19103",
+              "city": "Philadelphia",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "4699 Park St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "The Smoke Shop"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "19102",
+              "city": "Philadelphia",
+              "State": {
+                "id": "PA",
+                "name": "Pennsylvania"
+              },
+              "address1": "8009 Cedar Ln",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "https://www.imperialtradingcompany.com",
+            "name": "Imperial Trading Company"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 6,
+      "guid": "03726736-A8B0-4C09-9317-6F44CF73FE11",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Wilson",
+        "phoneNumber": "703-299-9334",
+        "SubmitterAddress": {
+          "zip": "30305",
+          "city": "Atlanta",
+          "State": {
+            "id": "GA",
+            "name": "Georgia"
+          },
+          "address1": "171 Cedar St",
+          "address2": ""
+        },
+        "affiliation": "Teacher",
+        "phoneExt": "",
+        "email": "mary.wilson@yahoo.com",
+        "fname": "Mary"
+      },
+      "Violation": {
+        "producttype": "7-5",
+        "ViolationDate": {
+          "mm": 7,
+          "dd": 22,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I visited the place and found Vape Street sold ePipe 629 electronic pipes to someone who looked underage without checking ID, was selling flavored ePipe 629 electronic pipes, and kept ePipe 629 electronic pipes in a self-service display where anyone could grab them. Core-Mark International supplied the ePipe 629 electronic pipes that were involved in these violations.",
+        "tobaccoBrand": "ePipe 629",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "GA",
+          "name": "Georgia"
+        },
+        "productsubtype": "Classic",
+        "violationTypeID": [
+          "1",
+          "2",
+          "8"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "30305",
+              "city": "Atlanta",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "3495 Cedar Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "https://www.vapestreet.com",
+            "name": "Vape Street"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "30303",
+              "city": "Atlanta",
+              "State": {
+                "id": "GA",
+                "name": "Georgia"
+              },
+              "address1": "2418 Cedar St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Core-Mark International"
+          }
+        ]
+      }
+    },
+    {
+      "methodOfSubmission": 4,
+      "guid": "94B757AD-77ED-46E8-B328-BAE9EFA3400D",
+      "State": {
+        "id": "",
+        "name": "none"
+      },
+      "Submitter": {
+        "anonymous": "0",
+        "allowContact": 1,
+        "notify": "1",
+        "lname": "Jones",
+        "phoneNumber": "510-274-3863",
+        "SubmitterAddress": {
+          "zip": "23452",
+          "city": "Virginia Beach",
+          "State": {
+            "id": "VA",
+            "name": "Virginia"
+          },
+          "address1": "9065 Elm Ave",
+          "address2": "Unit 480"
+        },
+        "affiliation": "Youth Advocate",
+        "phoneExt": "",
+        "email": "jessica.jones@gmail.com",
+        "fname": "Jessica"
+      },
+      "Violation": {
+        "producttype": "12-0",
+        "ViolationDate": {
+          "mm": 4,
+          "dd": 16,
+          "yyyy": 2025,
+          "nodate": 0
+        },
+        "description": "I was there yesterday and saw Cigar City giving away free Fumari hookah tobacco samples and had Fumari hookah tobacco sitting out where customers could help themselves. Krave Wholesale distributed Fumari hookah tobacco that's not on the FDA's approved list.",
+        "tobaccoBrand": "Fumari",
+        "violationMaterialIDs": [],
+        "State": {
+          "id": "VA",
+          "name": "Virginia"
+        },
+        "productsubtype": "White Gummi Bear",
+        "violationTypeID": [
+          "4",
+          "8",
+          "23"
+        ],
+        "Violator": [
+          {
+            "ViolatorAddress": {
+              "zip": "23220",
+              "city": "Richmond",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "6535 Maple Ave",
+              "address2": ""
+            },
+            "violatorTypeIDs": 1,
+            "websiteURL": "",
+            "name": "Cigar City"
+          },
+          {
+            "ViolatorAddress": {
+              "zip": "23221",
+              "city": "Richmond",
+              "State": {
+                "id": "VA",
+                "name": "Virginia"
+              },
+              "address1": "3554 Elm St",
+              "address2": ""
+            },
+            "violatorTypeIDs": 2,
+            "websiteURL": "",
+            "name": "Krave Wholesale"
+          }
+        ]
+      }
+    }
+  ]
+}
+
